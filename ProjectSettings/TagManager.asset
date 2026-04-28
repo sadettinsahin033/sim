@@ -9,6 +9,7 @@ TagManager:
   - Blocks
   - Esquina
   - IaCar
+  - RCCP_Vehicle
   layers:
   - Default
   - TransparentFX
