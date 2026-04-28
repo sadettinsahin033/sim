@@ -1,0 +1,67 @@
+Version 1.0.11 (current):
+- Fixed new Unity versions problem with Map Editor.
+- Updated "New algorithm", now it works correctly and can be used for optimization.
+- Other minor fixes and improvements.
+- Fixed support of the 2k/4k displays with Unity Ui scaling for Map Editor.
+
+Version 1.0.10 - Mar 3, 2022:
+- Fixed Always on Map icon mode for World space and different scaled canvases.
+
+Version 1.0.9 - Feb 14, 2022:
+- Refactored code, fields names was unified and changed to the C# conventions. If you have references from your code to the Navigator, you'll need to update them, otherwise this update will cause errors.
+- Added icons staying on map corner when its position out of map bounds. Can be used for some missions etc.
+
+Version 1.0.8 - May 14, 2021:
+- Added Custom Move mode in Map Editor (in preview). It should improve navigator setup workflow.
+- Some variables moved from code constants to the asset Settings. It is only for advanced settings.
+- Added possibility to enable navigator mode "shown by default" in asset Settings. Previously it can be hidden by default (except the demo scene).
+- Added SetNavigatorPlayer method to the Map class - now you can change following target of the navigator.
+- Minor improvements for the Settings window.
+- Some code refactoring and improvements.
+
+Version 1.0.7 - Dec 29, 2020:
+- Added Settings window (for easy way to find and edit asset settings Storage file).
+- Added support to edit Navigator position on the screen without code - now you just need the placeholder on UI.
+- Improved map editor: now points can be edited without enabled Unity gizmos - we use custom solution.
+- New path calculation algorithm is supported now in early preview mode. You can enable it from asset settings. It works much faster, but in this version correct work is not guaranteed - we recommend still use classic algorithm until new one out of preview version.
+- Fixed graphics pool problem.
+- Better UX for Map component - now it more intuitive. 
+- Updated the asset documentation - better formatting, more new info.
+
+Version 1.0.6 - Sep 21, 2020:
+- Added Map Analyzer tool to speed up search of problem places in your map.
+- Map snapshot maker improved and optimized.
+
+Version 1.0.5 - Jul 31, 2020:
+- Added graphics pools for ui objects to optimize asset work.
+- Better navigation map editor functionality implemented. Now you have Points Select Mode, which will make selection of map points very much easier than with Unity selection. 
+- Code fixes for specific situations etc.
+- Some other code enhancements and optimizations.
+
+Version 1.0.4 - Mar 26, 2020:
+- Improved ObjectToDrawOnMap class.
+- Documentation now contains new partition about adding your icons on map.
+- Code of Navigator a little improved and we fixed some small bugs.
+- Added new documentation comments in code.
+- Now you can not only add new icons on map, but also remove it when you want. Useful for mission icons etc.
+- Other improvements.
+
+Version 1.0.3 - Aug 26, 2019:
+- Added weights for path points.
+- Some code improvements and fixes.
+- Stripped unused code.
+
+Version 1.0.2 - Jan 17, 2019:
+- Improved guide - added important partition about Navigator Player.
+- Some code improvements.
+- NavigatorPlayer class moved to InsaneSystems.RoadNavigator namespace. So if you're have "missing script" problem, just readd it to player object.
+- Fix: SetTargetPoint of Navigator component now should work right from Start method of any script.
+
+Version 1.0.1 - Dec 20, 2018:
+- Fixed possibility to change zoom when map is closed.
+- Improved example map settings.
+- Added several targets on example map for allow you test it better.
+- Better example level design for preview.
+
+Version 1.0.0 - Dec 10, 2018:
+- Initial release.
