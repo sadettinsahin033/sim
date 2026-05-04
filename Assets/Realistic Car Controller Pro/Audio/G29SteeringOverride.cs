@@ -47,6 +47,23 @@ public class G29SteeringOverride : MonoBehaviour
     public bool calibrateOnStart = true;
     public float centerOffset = 0f;
 
+    [Header("Wheel Button Bindings")]
+    public string leftIndicatorButton = "button10";
+    public string rightIndicatorButton = "button11";
+    public string hazardButton = "button12";
+
+    public string gearDriveButton = "button13";
+    public string gearNeutralButton = "button14";
+    public string gearReverseButton = "button15";
+
+    public string lowBeamButton = "button16";
+    public string highBeamButton = "button17";
+    public string engineStartStopButton = "button18";
+    [Header("Handbrake")]
+    public string handbrakeControl = "button5";
+    [Range(0f, 1f)] public float handbrakePower = 1f;
+    public float handbrakeOutput;
+
     private RCCP_Inputs inputs = new RCCP_Inputs();
 
     void Start()
@@ -141,12 +158,80 @@ public class G29SteeringOverride : MonoBehaviour
             out brakeOutput
         );
 
-        inputs.handbrakeInput = 0f;
+        inputs.handbrakeInput = ReadHandbrake();
+        handbrakeOutput = inputs.handbrakeInput;
         inputs.clutchInput = 0f;
 
         inputs.steerInput = steer;
 
         rccpInput.OverrideInputs(inputs);
+
+        HandleWheelButtons();
+    }
+
+    void HandleWheelButtons()
+    {
+        if (rccpInput == null || rccpInput.CarController == null)
+            return;
+
+        var car = rccpInput.CarController;
+
+        if (WasPressed(leftIndicatorButton) && car.Lights)
+        {
+            car.Lights.indicatorsLeft = !car.Lights.indicatorsLeft;
+            car.Lights.indicatorsRight = false;
+            car.Lights.indicatorsAll = false;
+        }
+
+        if (WasPressed(rightIndicatorButton) && car.Lights)
+        {
+            car.Lights.indicatorsRight = !car.Lights.indicatorsRight;
+            car.Lights.indicatorsLeft = false;
+            car.Lights.indicatorsAll = false;
+        }
+
+        if (WasPressed(hazardButton) && car.Lights)
+        {
+            car.Lights.indicatorsAll = !car.Lights.indicatorsAll;
+            car.Lights.indicatorsLeft = false;
+            car.Lights.indicatorsRight = false;
+        }
+
+        if (WasPressed(lowBeamButton) && car.Lights)
+            car.Lights.lowBeamHeadlights = !car.Lights.lowBeamHeadlights;
+
+        if (WasPressed(highBeamButton) && car.Lights)
+            car.Lights.highBeamHeadlights = !car.Lights.highBeamHeadlights;
+
+        if (WasPressed(engineStartStopButton) && car.Engine)
+        {
+            if (!car.Engine.engineRunning)
+                car.Engine.StartEngine();
+            else
+                car.Engine.StopEngine();
+        }
+
+        if (WasPressed(gearReverseButton) && car.Gearbox)
+            car.Gearbox.ShiftReverse();
+
+        if (WasPressed(gearNeutralButton) && car.Gearbox)
+            car.Gearbox.ShiftToN();
+
+        if (WasPressed(gearDriveButton) && car.Gearbox)
+            car.Gearbox.ShiftToGear(0);
+    }
+
+    bool WasPressed(string controlName)
+    {
+        if (wheel == null || string.IsNullOrEmpty(controlName))
+            return false;
+
+        InputControl control = wheel[controlName];
+
+        if (control is ButtonControl button)
+            return button.wasPressedThisFrame;
+
+        return false;
     }
 
     float ReadRawSteering()
@@ -200,6 +285,22 @@ public class G29SteeringOverride : MonoBehaviour
 
             return outputValue;
         }
+
+
+        return 0f;
+    }
+    float ReadHandbrake()
+    {
+        if (wheel == null || string.IsNullOrEmpty(handbrakeControl))
+            return 0f;
+
+        InputControl control = wheel[handbrakeControl];
+
+        if (control is ButtonControl button)
+            return button.isPressed ? handbrakePower : 0f;
+
+        if (control is AxisControl axis)
+            return Mathf.Clamp01(axis.ReadValue() * handbrakePower);
 
         return 0f;
     }
