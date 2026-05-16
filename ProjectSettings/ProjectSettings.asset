@@ -45,7 +45,7 @@ PlayerSettings:
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 0
+  m_StereoRenderingPath: 2
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
   m_SpriteBatchMaxVertexCount: 65535
@@ -82,7 +82,7 @@ PlayerSettings:
   androidApplicationEntry: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -144,7 +144,8 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: d7b2473de451ef244962a45df14fe960, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   xboxOneDisableKinectGpuReservation: 1
@@ -174,9 +175,9 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 25
-  AndroidTargetSdkVersion: 0
-  AndroidPreferredInstallLocation: 1
+  AndroidMinSdkVersion: 32
+  AndroidTargetSdkVersion: 34
+  AndroidPreferredInstallLocation: 0
   AndroidPreferredDataLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -265,7 +266,7 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 2
   AndroidAllowedArchitectures: -1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -522,7 +523,10 @@ PlayerSettings:
       m_Height: 720
       m_Kind: 1
       m_SubKind: 
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -534,7 +538,7 @@ PlayerSettings:
     m_APIs: 150000000b000000
     m_Automatic: 0
   - m_BuildTarget: WindowsStandaloneSupport
-    m_APIs: 0200000012000000
+    m_APIs: 02000000
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
@@ -830,24 +834,24 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: BCG_RCCP;BCG_URP;RCCP_DEMO
-    EmbeddedLinux: BCG_RCCP;BCG_URP;RCCP_DEMO
-    GameCoreScarlett: BCG_RCCP;BCG_URP;RCCP_DEMO
-    GameCoreXboxOne: BCG_RCCP;BCG_URP;RCCP_DEMO
-    Kepler: BCG_RCCP;BCG_URP;RCCP_DEMO
-    LinuxHeadlessSimulation: BCG_RCCP;BCG_URP;RCCP_DEMO
-    Nintendo Switch: BCG_RCCP;BCG_URP;RCCP_DEMO
-    Nintendo Switch 2: BCG_RCCP;BCG_URP;RCCP_DEMO
-    PS4: BCG_RCCP;BCG_URP;RCCP_DEMO
-    PS5: BCG_RCCP;BCG_URP;RCCP_DEMO
-    QNX: BCG_RCCP;BCG_URP;RCCP_DEMO
-    Standalone: BCG_RCCP;BCG_URP;RCCP_DEMO
-    VisionOS: BCG_RCCP;BCG_URP;RCCP_DEMO
-    WebGL: BCG_RCCP;BCG_URP;RCCP_DEMO
-    Windows Store Apps: BCG_RCCP;BCG_URP;RCCP_DEMO
-    XboxOne: BCG_RCCP;BCG_URP;RCCP_DEMO
-    iPhone: BCG_RCCP;BCG_URP;RCCP_DEMO
-    tvOS: BCG_RCCP;BCG_URP;RCCP_DEMO
+    Android: BCG_RCCP;BCG_URP;RCCP_DEMO;OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;BCG_RTRC
+    EmbeddedLinux: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    GameCoreScarlett: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    GameCoreXboxOne: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    Kepler: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    LinuxHeadlessSimulation: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    Nintendo Switch: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    Nintendo Switch 2: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    PS4: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    PS5: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    QNX: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    Standalone: BCG_RCCP;BCG_URP;RCCP_DEMO;OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;BCG_RTRC
+    VisionOS: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    WebGL: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    Windows Store Apps: BCG_RCCP;BCG_URP;RCCP_DEMO;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;BCG_RTRC
+    XboxOne: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    iPhone: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
+    tvOS: BCG_RCCP;BCG_URP;RCCP_DEMO;BCG_RTRC
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -965,7 +969,7 @@ PlayerSettings:
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: sim 2026-04-23_18-01-12
-  organizationId: sadettinsahin033
+  organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

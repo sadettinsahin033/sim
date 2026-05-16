@@ -92,7 +92,7 @@ public class G29SteeringOverride : MonoBehaviour
 
         if (wheel == null)
         {
-            Debug.LogError("[G29Override] G29 bulunamadý!");
+            Debug.LogError("[G29Override] G29 bulunamad !");
             return;
         }
 

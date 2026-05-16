@@ -1,7 +1,6 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -73,3 +72,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- KENDİ EKLEDİĞİMİZ KURALLAR ---
+# Github dosya boyutu sınırına takılmamak için arşiv dosyalarını yok say
+*.zip
+*.rar

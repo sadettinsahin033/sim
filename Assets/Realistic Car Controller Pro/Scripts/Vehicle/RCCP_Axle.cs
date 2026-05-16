@@ -16,7 +16,8 @@ using System.Collections.Generic;
 /// Manages steering, braking, traction, and wheel-related processes for two connected wheels.
 /// </summary>
 [AddComponentMenu("BoneCracker Games/Realistic Car Controller Pro/Drivetrain/RCCP Axle")]
-public class RCCP_Axle : RCCP_Component {
+public class RCCP_Axle : RCCP_Component
+{
 
 #if UNITY_EDITOR
     public bool autoAlignWheelColliders = true;
@@ -159,7 +160,8 @@ public class RCCP_Axle : RCCP_Component {
     /// </summary>
     public float producedHandbrakeTorqueNM = 0f;
 
-    private void Update() {
+    private void Update()
+    {
 
         Inputs();
         CheckGrounded();
@@ -169,7 +171,8 @@ public class RCCP_Axle : RCCP_Component {
     /// <summary>
     /// Receives input values from the CarController each frame.
     /// </summary>
-    private void Inputs() {
+    private void Inputs()
+    {
 
         throttleInput = CarController.throttleInput_P;
         steerInput = CarController.steerInput_P;
@@ -181,7 +184,8 @@ public class RCCP_Axle : RCCP_Component {
     /// <summary>
     /// Determines whether either wheel on this axle is currently grounded.
     /// </summary>
-    private void CheckGrounded() {
+    private void CheckGrounded()
+    {
 
         if (!leftWheelCollider || !rightWheelCollider)
             return;
@@ -194,7 +198,8 @@ public class RCCP_Axle : RCCP_Component {
 
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
 
         // Ensures both wheel colliders know which axle they belong to.
         if (leftWheelCollider)
@@ -217,7 +222,8 @@ public class RCCP_Axle : RCCP_Component {
     /// <summary>
     /// Applies anti-roll force to counteract body roll between left and right wheels on this axle.
     /// </summary>
-    private void AntiRollBars() {
+    private void AntiRollBars()
+    {
 
         if (!leftWheelCollider || !rightWheelCollider)
             return;
@@ -245,7 +251,8 @@ public class RCCP_Axle : RCCP_Component {
         float calculatedForce = (travel_L - travel_R) * antirollForce;
 
         // Apply forces at each wheel's position to reduce body roll.
-        if (leftWheelCollider.WheelCollider.enabled && rightWheelCollider.WheelCollider.enabled) {
+        if (leftWheelCollider.WheelCollider.enabled && rightWheelCollider.WheelCollider.enabled)
+        {
 
             if (grounded_L)
                 CarController.Rigid.AddForceAtPosition(leftWheelCollider.transform.up * -calculatedForce, leftWheelCollider.transform.position);
@@ -261,7 +268,8 @@ public class RCCP_Axle : RCCP_Component {
     /// </summary>
     /// <param name="left">Left wheel motor torque (Nm)</param>
     /// <param name="right">Right wheel motor torque (Nm)</param>
-    public void ReceiveOutput(float left, float right) {
+    public void ReceiveOutput(float left, float right)
+    {
 
         producedMotorTorqueNM_Left = left;
         producedMotorTorqueNM_Right = right;
@@ -271,7 +279,10 @@ public class RCCP_Axle : RCCP_Component {
     /// <summary>
     /// Applies motor torque, steer angle, brake torque, and handbrake torque to the wheel colliders.
     /// </summary>
-    private void Output() {
+    [Header("Wheel Steering Ratio")]
+    [Range(0.1f, 1f)] public float wheelSteeringRatio = 0.33f;
+    private void Output()
+    {
 
         // Apply multipliers to the torque/brake values.
         producedMotorTorqueNM_Left *= powerMultiplier;
@@ -279,8 +290,10 @@ public class RCCP_Axle : RCCP_Component {
         producedBrakeTorqueNM *= brakeMultiplier;
         producedHandbrakeTorqueNM *= handbrakeMultiplier;
 
+
         // Applies motor torque if this axle is powered.
-        if (isPower) {
+        if (isPower)
+        {
 
             if (leftWheelCollider)
                 leftWheelCollider.AddMotorTorque(producedMotorTorqueNM_Left);
@@ -291,18 +304,49 @@ public class RCCP_Axle : RCCP_Component {
         }
 
         // Applies steering if this axle can steer.
-        if (isSteer) {
+        // Applies steering if this axle can steer.
+        // Applies steering if this axle can steer.
+        // Applies steering if this axle can steer.
+        // Applies steering if this axle can steer.
+        // Applies steering if this axle can steer.
+        if (isSteer)
+        {
+
+            float normalizedSteer = Mathf.Clamp(steerAngle / maxSteerAngle, -1f, 1f);
+
+            // Küçük deðerleri yok sayar.
+            float deadZone = 0.08f;
+
+            float absSteer = Mathf.Abs(normalizedSteer);
+            float sign = Mathf.Sign(normalizedSteer);
+
+            float processedSteer = 0f;
+
+            if (absSteer > deadZone)
+            {
+
+                // Deadzone sonrasý tekrar 0-1 aralýðýna yayar.
+                float remapped = Mathf.InverseLerp(deadZone, 1f, absSteer);
+
+                // 1'den büyük deðer: merkezde daha az döner, sona doðru max açýya ulaþýr.
+                float curvePower = 2.5f;
+
+                processedSteer = sign * Mathf.Pow(remapped, curvePower);
+
+            }
+
+            float finalSteer = processedSteer * maxSteerAngle * steerMultiplier;
 
             if (leftWheelCollider)
-                leftWheelCollider.ApplySteering(steerAngle * steerMultiplier);
+                leftWheelCollider.ApplySteering(finalSteer);
 
             if (rightWheelCollider)
-                rightWheelCollider.ApplySteering(steerAngle * steerMultiplier);
+                rightWheelCollider.ApplySteering(finalSteer);
 
         }
-
         // Applies brake torque if this axle can brake.
-        if (isBrake) {
+        if (isBrake)
+        {
 
             // Park gear in automatic DNRP sets the brake torque to full.
             if (CarController.Gearbox &&
@@ -319,7 +363,8 @@ public class RCCP_Axle : RCCP_Component {
         }
 
         // Applies handbrake torque if this axle can handbrake and handbrake input is sufficient.
-        if (isHandbrake && handbrakeInput >= .2f) {
+        if (isHandbrake && handbrakeInput >= .2f)
+        {
 
             // Park gear in automatic DNRP sets the handbrake torque to full.
             if (CarController.Gearbox &&
@@ -340,7 +385,8 @@ public class RCCP_Axle : RCCP_Component {
     /// <summary>
     /// Resets axle-related variables to default.
     /// </summary>
-    public void Reload() {
+    public void Reload()
+    {
 
         throttleInput = 0f;
         brakeInput = 0f;
@@ -355,7 +401,8 @@ public class RCCP_Axle : RCCP_Component {
 
     }
 
-    private void Reset() {
+    private void Reset()
+    {
 
         // Destroys any existing WheelColliders to recreate fresh ones.
         RCCP_WheelCollider[] oldWheelColliders = gameObject.GetComponentsInChildren<RCCP_WheelCollider>(true);

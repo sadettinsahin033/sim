@@ -24,9 +24,9 @@ TagManager:
   - RCCP_DetachablePart
   - RCCP_Prop
   - RCCP_Obstacle
-  - 
-  - 
-  - 
+  - RTC_TrafficVehicle
+  - RTC_TrafficLight
+  - RTC_Ground
   - 
   - 
   - 
