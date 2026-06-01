@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3183a0532a4f1874f9f31b0956380fd8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Editor/Bridges/PedestrianEditorBridgeRegistry.cs
+  uploadId: 924464

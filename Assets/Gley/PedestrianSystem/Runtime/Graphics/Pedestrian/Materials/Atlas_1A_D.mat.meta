@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 079ba77c5281db84991463330b349228
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Graphics/Pedestrian/Materials/Atlas_1A_D.mat
+  uploadId: 924464

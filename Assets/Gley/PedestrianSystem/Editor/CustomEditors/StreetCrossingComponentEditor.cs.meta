@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a495980ba95e3cb4ab8593422d02ef27
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Editor/CustomEditors/StreetCrossingComponentEditor.cs
+  uploadId: 924464

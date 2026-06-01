@@ -1,0 +1,21 @@
+{
+    "name": "com.gley.pedestriansystem",
+    "version": "1.5.6",
+    "displayName": "Pedestrian System",
+    "description": "Create a realistic and vibrant urban environment with a customizable Pedestrian System. Assign pedestrian types, set priority waypoints, and manage dynamic obstacle avoidance.",
+    "unity": "2021.3",
+    "documentationUrl": "https://gley.gitbook.io/mobile-pedestrian-system",
+    "changelogUrl": "https://gley.gitbook.io/mobile-pedestrian-system/releases",
+    "author": {
+        "name": "Gley Games",
+        "email": "gleygames@hotmail.com",
+        "url": "https://gleygames.com"
+    },
+    "samples": [
+        {
+            "displayName": "Pedestrian Example",
+            "description": "A scene with working pedestrians.",
+            "path": "Samples~"
+        }
+    ]
+}

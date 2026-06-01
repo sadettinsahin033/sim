@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5322727787cd80b4ea02bb8a565ede3a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Editor/EditorDrawer/PedestrianConnectionEditorData.cs
+  uploadId: 924464

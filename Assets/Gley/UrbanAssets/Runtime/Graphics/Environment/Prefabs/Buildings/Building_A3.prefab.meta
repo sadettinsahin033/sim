@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee34d1f599fe0b54ca48c7c00606afca
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Graphics/Environment/Prefabs/Buildings/Building_A3.prefab
+  uploadId: 924464

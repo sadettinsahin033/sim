@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0cb0fc667d3b4ef4b80d54607d381db8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Editor/CustomEditors/CustomEditorMethods.cs
+  uploadId: 924464

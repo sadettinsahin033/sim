@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af5becc184319f24c940ffd039dce308
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Graphics/Pedestrian/Prefabs/TestPedestrian-RagDoll.prefab
+  uploadId: 924464

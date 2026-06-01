@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1e64d2ff7a8791542b010c5a4e65cc95
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Scripts/Behaviours/HasCollided.cs
+  uploadId: 924464

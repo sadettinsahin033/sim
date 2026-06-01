@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b0b48c8ed94f9a845a16007dd252f23b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Editor/EditorDrawer/LaneEditorData.cs
+  uploadId: 924464

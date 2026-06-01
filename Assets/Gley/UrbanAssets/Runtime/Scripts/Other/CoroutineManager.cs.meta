@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b35ddeb306351534c9ccb09998856f2f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Scripts/Other/CoroutineManager.cs
+  uploadId: 924464

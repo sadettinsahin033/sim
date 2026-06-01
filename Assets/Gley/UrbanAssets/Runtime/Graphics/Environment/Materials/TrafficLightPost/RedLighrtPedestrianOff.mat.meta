@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 836bed4431f525e45b4913507e2dfda8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Graphics/Environment/Materials/TrafficLightPost/RedLighrtPedestrianOff.mat
+  uploadId: 924464

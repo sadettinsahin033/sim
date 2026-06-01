@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cb52bf5a37eb17f4999b470407d2e567
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Graphics/Pedestrian/Prefabs/TestPedestrian.prefab
+  uploadId: 924464

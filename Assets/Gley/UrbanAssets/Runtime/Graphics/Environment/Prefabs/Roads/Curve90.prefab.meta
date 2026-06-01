@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c211655d73c36aa4f8e744dec5b3a9f8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Graphics/Environment/Prefabs/Roads/Curve90.prefab
+  uploadId: 924464

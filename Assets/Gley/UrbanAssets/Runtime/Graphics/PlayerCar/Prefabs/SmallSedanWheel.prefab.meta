@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 75ec5bb894a469549b67825367bfd185
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Graphics/PlayerCar/Prefabs/SmallSedanWheel.prefab
+  uploadId: 924464

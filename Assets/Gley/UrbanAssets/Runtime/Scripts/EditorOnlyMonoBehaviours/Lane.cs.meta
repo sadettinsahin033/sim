@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6281fe6bad0b3764f8e218f5a3b25634
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Scripts/EditorOnlyMonoBehaviours/Lane.cs
+  uploadId: 924464

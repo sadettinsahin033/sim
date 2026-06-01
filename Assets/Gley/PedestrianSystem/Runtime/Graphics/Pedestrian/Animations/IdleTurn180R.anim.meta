@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0071a0d68f2bd914486b170b8ac2ed7f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Graphics/Pedestrian/Animations/IdleTurn180R.anim
+  uploadId: 924464

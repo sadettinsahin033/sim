@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 392f2ee575d86a243ab8cfa72d2ef452
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Editor/WindowsSetup/SettingsWindowData.cs
+  uploadId: 924464

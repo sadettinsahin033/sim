@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 576affcbd1777104e83f66c8d65fe9b4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Samples/PedestrianPool.asset
+  uploadId: 924464

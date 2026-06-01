@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c5c56fa1136a22643aea8264c13b8e4e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Graphics/PlayerCar/Meshes/Materials/CAT_Small_Sedan_Lights_MAT.mat
+  uploadId: 924464
