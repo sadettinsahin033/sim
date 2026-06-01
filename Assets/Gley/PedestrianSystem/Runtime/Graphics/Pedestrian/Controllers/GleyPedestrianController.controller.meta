@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: befd63180804c2f4580d586f33ee64f9
+timeCreated: 1516474884
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Graphics/Pedestrian/Controllers/GleyPedestrianController.controller
+  uploadId: 924464

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f440870b609587442b52bbb3e7082f9b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Samples/PedestrianExample.unity
+  uploadId: 924464

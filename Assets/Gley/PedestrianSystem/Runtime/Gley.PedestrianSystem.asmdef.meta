@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bf4d279a683a6c846bd3b087af20b90f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Gley.PedestrianSystem.asmdef
+  uploadId: 924464

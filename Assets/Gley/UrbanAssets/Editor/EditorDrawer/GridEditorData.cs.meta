@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 38744e1820d068e4ca0ec057eaedc108
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Editor/EditorDrawer/GridEditorData.cs
+  uploadId: 924464

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b8e1b8279485124a8a24bc6ed3c11f7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/License.md
+  uploadId: 924464

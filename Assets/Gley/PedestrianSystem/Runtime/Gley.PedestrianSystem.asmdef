@@ -1,0 +1,18 @@
+{
+    "name": "Gley.PedestrianSystem",
+    "rootNamespace": "Gley.PedestrianSystem",
+    "references": [
+        "Gley.UrbanSystem",
+        "Unity.Mathematics",
+        "Gley.PedestrianSystem.User"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

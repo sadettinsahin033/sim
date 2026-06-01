@@ -14,10 +14,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - yol
   - Water
   - UI
-  - 
+  - player
   - 
   - RCCP_Vehicle
   - RCCP_WheelCollider

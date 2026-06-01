@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b95e1ecb792e3e946bc46bbdc7d3e8eb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/PedestrianSystem/Runtime/Scripts/Behaviours/TimeRun.cs
+  uploadId: 924464

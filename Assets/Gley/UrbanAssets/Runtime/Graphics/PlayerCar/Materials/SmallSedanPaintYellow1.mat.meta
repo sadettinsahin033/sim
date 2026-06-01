@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4769175574b38a74c90638275c130a75
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203706
+  packageName: Mobile Pedestrian System
+  packageVersion: 1.5.6
+  assetPath: Assets/Gley/UrbanAssets/Runtime/Graphics/PlayerCar/Materials/SmallSedanPaintYellow1.mat
+  uploadId: 924464
