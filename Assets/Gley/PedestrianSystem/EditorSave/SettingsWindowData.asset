@@ -40,7 +40,7 @@ MonoBehaviour:
     - {r: 1, g: 1, b: 1, a: 1}
     Active: 01
   PathFindingRoutes:
-    Id: ffffffff
+    Id: 00000000
     RoutesColor:
     - {r: 1, g: 1, b: 1, a: 1}
     Active: 01
@@ -52,7 +52,7 @@ MonoBehaviour:
   ShowConnections: 0
   ShowPriority: 0
   ShowVehicles: 0
-  ViewOtherRoads: 0
+  ViewOtherRoads: 1
   ViewRoadLanes: 1
   ViewRoadWaypoints: 1
   ViewLabels: 0
