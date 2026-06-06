@@ -10,6 +10,7 @@ TagManager:
   - Esquina
   - IaCar
   - RCCP_Vehicle
+  - TrafficLight
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Water
   - UI
   - player
-  - 
+  - objeler
   - RCCP_Vehicle
   - RCCP_WheelCollider
   - RCCP_DetachablePart
@@ -27,7 +28,7 @@ TagManager:
   - RTC_TrafficVehicle
   - RTC_TrafficLight
   - RTC_Ground
-  - 
+  - npcler
   - 
   - 
   - 

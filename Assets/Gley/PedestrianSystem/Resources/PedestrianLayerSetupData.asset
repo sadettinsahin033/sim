@@ -18,13 +18,13 @@ MonoBehaviour:
     m_Bits: 8
   PedestrianLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 65536
   BuildingsLayers:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 128
   ObstaclesLayers:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 128
   PlayerLayers:
     serializedVersion: 2
     m_Bits: 64

@@ -55,7 +55,7 @@ MonoBehaviour:
   ViewOtherRoads: 1
   ViewRoadLanes: 1
   ViewRoadWaypoints: 1
-  ViewLabels: 0
+  ViewLabels: 1
   PathFindingEnabled: 0
   WaypointDistance: 2
   LaneWidth: 2.5

@@ -49,5 +49,6 @@ namespace Gley.PedestrianSystem
 
             API.Initialize(_player, _nrOfPedestrians, _pedestrianPool, options);
         }
+     
     }
 }
