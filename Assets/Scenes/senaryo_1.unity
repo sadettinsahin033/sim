@@ -2274,7 +2274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9453938}
   - component: {fileID: 9453939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (86)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -3626,7 +3626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16754934}
   - component: {fileID: 16754935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (348)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -5269,7 +5269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 25430684}
   - component: {fileID: 25430683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (218)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -9289,7 +9289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 42557728}
   - component: {fileID: 42557729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (26)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -10144,7 +10144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 46783490}
   - component: {fileID: 46783489}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (346)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -13302,7 +13302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61808802}
   - component: {fileID: 61808801}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (334)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -17655,7 +17655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87822829}
   - component: {fileID: 87822828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (322)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -19437,7 +19437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99225970}
   - component: {fileID: 99225969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (282)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -20833,7 +20833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105298148}
   - component: {fileID: 105298147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (213)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -22442,7 +22442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 115260067}
   - component: {fileID: 115260066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (158)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -22584,7 +22584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 117864622}
   - component: {fileID: 117864621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (208)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -24298,7 +24298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125544570}
   - component: {fileID: 125544571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (120)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -24695,7 +24695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 127497448}
   - component: {fileID: 127497449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (41)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -26337,7 +26337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136325670}
   - component: {fileID: 136325671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (59)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -26563,7 +26563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137354495}
   - component: {fileID: 137354494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (324)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -28211,7 +28211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 146879761}
   - component: {fileID: 146879762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (9)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -30082,7 +30082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156560312}
   - component: {fileID: 156560311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (160)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -30134,7 +30134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156846834}
   - component: {fileID: 156846833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (319)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -32111,7 +32111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169416194}
   - component: {fileID: 169416193}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (285)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -33193,7 +33193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176071252}
   - component: {fileID: 176071253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (65)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -33488,7 +33488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 177395399}
   - component: {fileID: 177395398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (179)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -35271,7 +35271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187995166}
   - component: {fileID: 187995167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (71)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -35414,7 +35414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 188757652}
   - component: {fileID: 188757651}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (196)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -35779,7 +35779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 192690379}
   - component: {fileID: 192690378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (267)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -36283,7 +36283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194125349}
   - component: {fileID: 194125348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (264)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -37962,7 +37962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 205816767}
   - component: {fileID: 205816768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (112)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -40323,7 +40323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217604298}
   - component: {fileID: 217604299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (69)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -40554,7 +40554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218439846}
   - component: {fileID: 218439845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (272)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -41463,7 +41463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227711422}
   - component: {fileID: 227711421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (203)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -41605,7 +41605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228946797}
   - component: {fileID: 228946798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (123)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -43009,7 +43009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 237018806}
   - component: {fileID: 237018807}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (108)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -43601,7 +43601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240700607}
   - component: {fileID: 240700606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (303)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -43829,7 +43829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 241750474}
   - component: {fileID: 241750475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (23)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -44475,7 +44475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244524678}
   - component: {fileID: 244524677}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (249)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -44730,7 +44730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 245882589}
   - component: {fileID: 245882590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (103)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -45108,7 +45108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 247989215}
   - component: {fileID: 247989214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (288)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -46087,7 +46087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256241999}
   - component: {fileID: 256242000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (40)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -48249,7 +48249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 266671317}
   - component: {fileID: 266671318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (1)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -48519,7 +48519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 268721285}
   - component: {fileID: 268721284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (268)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -48888,7 +48888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269128760}
   - component: {fileID: 269128759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (230)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -49040,7 +49040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269904377}
   - component: {fileID: 269904376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (224)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -49782,7 +49782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277640156}
   - component: {fileID: 277640155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (247)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -50799,7 +50799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286306135}
   - component: {fileID: 286306136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (25)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -50851,7 +50851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286456083}
   - component: {fileID: 286456082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (188)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -51203,7 +51203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287812265}
   - component: {fileID: 287812266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (121)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -52081,7 +52081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 291291432}
   - component: {fileID: 291291431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (201)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -52919,7 +52919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296653758}
   - component: {fileID: 296653759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (126)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -55792,7 +55792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312087757}
   - component: {fileID: 312087758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (127)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -55968,7 +55968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313356313}
   - component: {fileID: 313356314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (125)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -56020,7 +56020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313391487}
   - component: {fileID: 313391486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (329)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -61696,7 +61696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338683613}
   - component: {fileID: 338683612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (330)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -61838,7 +61838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339530979}
   - component: {fileID: 339530978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (156)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -63306,7 +63306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 346439388}
   - component: {fileID: 346439387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (296)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -66986,7 +66986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363322114}
   - component: {fileID: 363322115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (7)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -67224,7 +67224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365330316}
   - component: {fileID: 365330315}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (332)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -67338,7 +67338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 366938757}
   - component: {fileID: 366938758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (80)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -71041,7 +71041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 386299953}
   - component: {fileID: 386299954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (143)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -72361,7 +72361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393928596}
   - component: {fileID: 393928595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (227)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -72656,7 +72656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 395255387}
   - component: {fileID: 395255388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (53)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -73268,7 +73268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398891682}
   - component: {fileID: 398891683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (95)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -73410,7 +73410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400435012}
   - component: {fileID: 400435013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (74)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -77429,7 +77429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 424472294}
   - component: {fileID: 424472293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (280)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -78153,7 +78153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 428047409}
   - component: {fileID: 428047408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (339)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -80617,7 +80617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 444121732}
   - component: {fileID: 444121733}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (46)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -81168,7 +81168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 446902929}
   - component: {fileID: 446902930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (130)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -81492,7 +81492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450289441}
   - component: {fileID: 450289442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (67)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -81544,7 +81544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450293743}
   - component: {fileID: 450293744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (37)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -83000,7 +83000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 461158453}
   - component: {fileID: 461158454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (115)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -83185,7 +83185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463122774}
   - component: {fileID: 463122773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (320)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -83486,7 +83486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 465199948}
   - component: {fileID: 465199947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (294)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -83908,7 +83908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 467696565}
   - component: {fileID: 467696566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (33)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -85087,7 +85087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475646161}
   - component: {fileID: 475646160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (234)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -85139,7 +85139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476187348}
   - component: {fileID: 476187347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (273)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -85573,7 +85573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 478182875}
   - component: {fileID: 478182874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (342)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -86501,7 +86501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485783349}
   - component: {fileID: 485783348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (347)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -87307,7 +87307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 488190061}
   - component: {fileID: 488190060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (325)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -88350,7 +88350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494123420}
   - component: {fileID: 494123419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (311)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -88740,7 +88740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 496622075}
   - component: {fileID: 496622074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (278)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -89074,7 +89074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 498599133}
   - component: {fileID: 498599132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (345)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -89655,7 +89655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 505337450}
   - component: {fileID: 505337449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (307)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -89971,7 +89971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 509614180}
   - component: {fileID: 509614179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (343)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -91756,7 +91756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518376386}
   - component: {fileID: 518376387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (2)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -94307,7 +94307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532176450}
   - component: {fileID: 532176449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (279)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -97496,7 +97496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549989621}
   - component: {fileID: 549989622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (73)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -98212,7 +98212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 557433737}
   - component: {fileID: 557433736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (206)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -99957,7 +99957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568563178}
   - component: {fileID: 568563179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (119)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -100869,7 +100869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 574290653}
   - component: {fileID: 574290652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (182)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -101352,7 +101352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577582341}
   - component: {fileID: 577582342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (49)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -102464,7 +102464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586303691}
   - component: {fileID: 586303692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (102)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -105196,7 +105196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 601178251}
   - component: {fileID: 601178252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (110)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -105248,7 +105248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602052725}
   - component: {fileID: 602052726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (77)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -106220,7 +106220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606820910}
   - component: {fileID: 606820909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (338)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -107296,7 +107296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 611628671}
   - component: {fileID: 611628670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (313)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -109257,7 +109257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623526858}
   - component: {fileID: 623526857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (169)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -109309,7 +109309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 624066832}
   - component: {fileID: 624066833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (147)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -109487,7 +109487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625189942}
   - component: {fileID: 625189941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (237)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -109691,7 +109691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625571982}
   - component: {fileID: 625571981}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (184)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -110644,7 +110644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 631617051}
   - component: {fileID: 631617050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (301)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -111216,7 +111216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635476108}
   - component: {fileID: 635476107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (185)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -111671,7 +111671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638397890}
   - component: {fileID: 638397891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (116)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -111835,7 +111835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638435080}
   - component: {fileID: 638435081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (144)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -112050,7 +112050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641268712}
   - component: {fileID: 641268711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (284)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -113276,7 +113276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647654425}
   - component: {fileID: 647654426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (148)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -115691,7 +115691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651272355}
   - component: {fileID: 651272356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (109)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -116036,7 +116036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654273786}
   - component: {fileID: 654273787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (27)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -117368,7 +117368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659580579}
   - component: {fileID: 659580578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (235)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -118801,7 +118801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668872933}
   - component: {fileID: 668872934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (19)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -125407,7 +125407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704821408}
   - component: {fileID: 704821407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (204)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -127224,7 +127224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 713370912}
   - component: {fileID: 713370911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (161)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -128382,7 +128382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 719475864}
   - component: {fileID: 719475863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (190)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -131577,7 +131577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 733308110}
   - component: {fileID: 733308109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (257)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -131868,7 +131868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735033011}
   - component: {fileID: 735033012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (47)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -133702,7 +133702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741585229}
   - component: {fileID: 741585228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (245)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -134022,7 +134022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 742344708}
   - component: {fileID: 742344709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (131)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -135024,7 +135024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 749260721}
   - component: {fileID: 749260720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (298)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -135168,7 +135168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750030828}
   - component: {fileID: 750030829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (97)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -135442,7 +135442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 752601440}
   - component: {fileID: 752601439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (292)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -136474,7 +136474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 757421734}
   - component: {fileID: 757421735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (16)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -137045,7 +137045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759396101}
   - component: {fileID: 759396100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (263)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -138586,7 +138586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 769223272}
   - component: {fileID: 769223273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (133)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -143841,7 +143841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792828967}
   - component: {fileID: 792828966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (256)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -145863,7 +145863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 809302643}
   - component: {fileID: 809302644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (84)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -145915,7 +145915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 809553234}
   - component: {fileID: 809553235}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (134)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -146119,7 +146119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 811048004}
   - component: {fileID: 811048003}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (262)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -146834,7 +146834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 815208307}
   - component: {fileID: 815208306}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (189)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -147498,7 +147498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819849586}
   - component: {fileID: 819849585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (327)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -147928,7 +147928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 822646014}
   - component: {fileID: 822646013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (265)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -151501,7 +151501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841317596}
   - component: {fileID: 841317597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (141)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -151997,7 +151997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 845351203}
   - component: {fileID: 845351204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (79)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -152387,7 +152387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 847754834}
   - component: {fileID: 847754833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (172)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -155973,7 +155973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 864659475}
   - component: {fileID: 864659476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (39)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -158708,7 +158708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 878287886}
   - component: {fileID: 878287885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (251)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -158912,7 +158912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879650146}
   - component: {fileID: 879650147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (154)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -159118,7 +159118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880825693}
   - component: {fileID: 880825692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (228)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -162463,7 +162463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904737277}
   - component: {fileID: 904737278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (68)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -162717,7 +162717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905544768}
   - component: {fileID: 905544767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (210)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -164937,7 +164937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918998516}
   - component: {fileID: 918998515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (181)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -165191,7 +165191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 920931098}
   - component: {fileID: 920931099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (34)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -167666,6 +167666,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934484686}
   m_Mesh: {fileID: 4300000, guid: eb964c0d005136241b85edcb55def8ea, type: 3}
+--- !u!4 &934931521 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422705026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &936392430
 GameObject:
   m_ObjectHideFlags: 0
@@ -167740,7 +167746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937414000}
   - component: {fileID: 937414001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (56)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -168449,7 +168455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942287867}
   - component: {fileID: 942287866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (220)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -169198,7 +169204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948850024}
   - component: {fileID: 948850023}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (258)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -170992,7 +170998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 956297575}
   - component: {fileID: 956297574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (207)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -171231,7 +171237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 957354006}
   - component: {fileID: 957354005}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (318)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -172553,7 +172559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963916604}
   - component: {fileID: 963916603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (171)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -173148,7 +173154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969611675}
   - component: {fileID: 969611674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (255)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -173576,7 +173582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970507511}
   - component: {fileID: 970507510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (226)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -174318,7 +174324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976279565}
   - component: {fileID: 976279566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (43)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -174636,7 +174642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 980287031}
   - component: {fileID: 980287030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (177)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -175227,7 +175233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985244284}
   - component: {fileID: 985244285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (36)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -178326,7 +178332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002296590}
   - component: {fileID: 1002296591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (150)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -178505,7 +178511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002549379}
   - component: {fileID: 1002549380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (61)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -179398,7 +179404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1008023247}
   - component: {fileID: 1008023246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (321)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -181356,7 +181362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1017452970}
   - component: {fileID: 1017452969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (178)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -183721,7 +183727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035053845}
   - component: {fileID: 1035053844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (266)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -184777,7 +184783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042786484}
   - component: {fileID: 1042786485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (55)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -185772,7 +185778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048720553}
   - component: {fileID: 1048720552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (183)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -186354,7 +186360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1052098077}
   - component: {fileID: 1052098076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (312)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -188417,7 +188423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067147735}
   - component: {fileID: 1067147734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (248)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -188469,7 +188475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067194930}
   - component: {fileID: 1067194931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (88)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -188903,7 +188909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1071088539}
   - component: {fileID: 1071088538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (271)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -189697,7 +189703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076510441}
   - component: {fileID: 1076510442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (17)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -191724,7 +191730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087308129}
   - component: {fileID: 1087308130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (132)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -192587,7 +192593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1093242086}
   - component: {fileID: 1093242087}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (14)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -193751,7 +193757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099580506}
   - component: {fileID: 1099580505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (254)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -197128,7 +197134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122469825}
   - component: {fileID: 1122469826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (81)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -198299,7 +198305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126767152}
   - component: {fileID: 1126767151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (168)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -204323,7 +204329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1130945848}
   - component: {fileID: 1130945849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (113)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -204506,7 +204512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132551193}
   - component: {fileID: 1132551192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (300)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -205290,7 +205296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135776387}
   - component: {fileID: 1135776388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (138)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -207072,7 +207078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145047154}
   - component: {fileID: 1145047153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (221)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -207420,7 +207426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146285666}
   - component: {fileID: 1146285667}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (62)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -207805,7 +207811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1150174215}
   - component: {fileID: 1150174216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (35)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -207857,7 +207863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152594698}
   - component: {fileID: 1152594699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (128)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -208264,7 +208270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154656811}
   - component: {fileID: 1154656812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (114)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -210744,7 +210750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1170511821}
   - component: {fileID: 1170511820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (173)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -211040,7 +211046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171225612}
   - component: {fileID: 1171225613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (66)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -211092,7 +211098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171572621}
   - component: {fileID: 1171572622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (107)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -212681,7 +212687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1181861240}
   - component: {fileID: 1181861239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (323)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -212882,7 +212888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1183269440}
   - component: {fileID: 1183269439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (217)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -213150,7 +213156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185987936}
   - component: {fileID: 1185987935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (198)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -213441,7 +213447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186851522}
   - component: {fileID: 1186851521}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (212)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -214081,7 +214087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1189286820}
   - component: {fileID: 1189286819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (328)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -216328,7 +216334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201171726}
   - component: {fileID: 1201171725}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (253)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -216380,7 +216386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201723523}
   - component: {fileID: 1201723524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (22)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -216719,7 +216725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1203254660}
   - component: {fileID: 1203254659}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (250)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -217126,7 +217132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1205864709}
   - component: {fileID: 1205864708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (243)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -217268,7 +217274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206929543}
   - component: {fileID: 1206929542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (304)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -218398,7 +218404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1212338506}
   - component: {fileID: 1212338507}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (90)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -219989,7 +219995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223964607}
   - component: {fileID: 1223964608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (3)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -222139,7 +222145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240338899}
   - component: {fileID: 1240338900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (8)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -224964,7 +224970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252099386}
   - component: {fileID: 1252099387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (92)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -227693,7 +227699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264982857}
   - component: {fileID: 1264982856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (331)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -229263,7 +229269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277406484}
   - component: {fileID: 1277406483}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (289)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -230181,7 +230187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284247213}
   - component: {fileID: 1284247214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (106)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -230921,7 +230927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1287212784}
   - component: {fileID: 1287212783}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (174)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -233453,7 +233459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300205376}
   - component: {fileID: 1300205377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (50)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -235483,7 +235489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308900775}
   - component: {fileID: 1308900776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (76)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -235625,7 +235631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1309498355}
   - component: {fileID: 1309498356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (30)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -236452,7 +236458,7 @@ PrefabInstance:
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 182.9
+      value: 181.43
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
@@ -237052,6 +237058,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 934931521}
     - targetCorrespondingSourceObject: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       insertIndex: -1
@@ -240249,7 +240259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327157431}
   - component: {fileID: 1327157430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (302)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -240908,7 +240918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1330568263}
   - component: {fileID: 1330568264}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (72)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -241298,7 +241308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1331376704}
   - component: {fileID: 1331376705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (124)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -241920,7 +241930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1333389590}
   - component: {fileID: 1333389589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (236)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -242582,7 +242592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338637135}
   - component: {fileID: 1338637134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (163)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -242856,7 +242866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1340947230}
   - component: {fileID: 1340947229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (305)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -243194,7 +243204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1342474449}
   - component: {fileID: 1342474448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (193)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -243462,7 +243472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345447954}
   - component: {fileID: 1345447955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (118)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -244473,7 +244483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1350124241}
   - component: {fileID: 1350124240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (186)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -245447,7 +245457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353238173}
   - component: {fileID: 1353238172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (252)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -245505,7 +245515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353836327}
   - component: {fileID: 1353836326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (199)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -245882,7 +245892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1357199191}
   - component: {fileID: 1357199192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (13)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -246974,7 +246984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364025324}
   - component: {fileID: 1364025323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (231)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -249021,7 +249031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375076830}
   - component: {fileID: 1375076831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (45)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -249862,7 +249872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1380308000}
   - component: {fileID: 1380307999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (202)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -251409,7 +251419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387828730}
   - component: {fileID: 1387828729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (195)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -253571,7 +253581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398715712}
   - component: {fileID: 1398715713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (21)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -253687,7 +253697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1401086916}
   - component: {fileID: 1401086917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (145)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -253955,7 +253965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1403910114}
   - component: {fileID: 1403910115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (24)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -254538,7 +254548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1406077647}
   - component: {fileID: 1406077646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (239)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -254717,7 +254727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1409186027}
   - component: {fileID: 1409186026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (240)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -256135,7 +256145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414289826}
   - component: {fileID: 1414289825}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (175)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -257696,6 +257706,108 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422565444}
   m_Mesh: {fileID: 4300000, guid: 6536410121d96e94d9fc81dabcdc326e, type: 3}
+--- !u!1001 &1422705026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1592428044}
+    m_Modifications:
+    - target: {fileID: 521555726832732642, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_Name
+      value: XROriginCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732642, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732642, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.764
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555726832732652, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555727181035329, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 521555727555064247, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357224825897510387, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867837857643176114, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 521555727555064247, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1491722151}
+  m_SourcePrefab: {fileID: 100100000, guid: f9f107e8ecae49048bda9d4fd7e1d1ec, type: 3}
 --- !u!1 &1423040525
 GameObject:
   m_ObjectHideFlags: 0
@@ -257706,7 +257818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423040527}
   - component: {fileID: 1423040526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (225)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -258095,7 +258207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425686788}
   - component: {fileID: 1425686787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (276)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -259279,7 +259391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434932114}
   - component: {fileID: 1434932113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (270)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -261168,7 +261280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447039026}
   - component: {fileID: 1447039027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (64)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -261794,7 +261906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453627282}
   - component: {fileID: 1453627283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (38)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -261908,7 +262020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453892701}
   - component: {fileID: 1453892702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (29)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -262472,7 +262584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458292014}
   - component: {fileID: 1458292013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (306)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -262615,7 +262727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458523207}
   - component: {fileID: 1458523206}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (281)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -263321,7 +263433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1461974179}
   - component: {fileID: 1461974180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (100)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -263593,7 +263705,7 @@ Transform:
   m_GameObject: {fileID: 1463046579}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.352, y: 0.405, z: -0.159}
+  m_LocalPosition: {x: -0.352, y: 0.236, z: -0.088}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -263895,7 +264007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465034161}
   - component: {fileID: 1465034162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (28)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -264114,7 +264226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466159142}
   - component: {fileID: 1466159141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (246)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -264412,7 +264524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467138962}
   - component: {fileID: 1467138963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (12)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -265372,7 +265484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472372421}
   - component: {fileID: 1472372420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (166)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -265424,7 +265536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472606623}
   - component: {fileID: 1472606624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (98)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -265476,7 +265588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1473316071}
   - component: {fileID: 1473316070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (167)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -266354,7 +266466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478504487}
   - component: {fileID: 1478504486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (192)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -266877,7 +266989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480783319}
   - component: {fileID: 1480783318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (277)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -268667,7 +268779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1488346317}
   - component: {fileID: 1488346316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (233)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -269038,6 +269150,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491401832}
   m_Mesh: {fileID: 4300000, guid: 378f97cc4d494714383ed1930508aee5, type: 3}
+--- !u!1 &1491722145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 521555727555064247, guid: f9f107e8ecae49048bda9d4fd7e1d1ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422705026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1491722151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491722145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1492180547
 GameObject:
   m_ObjectHideFlags: 0
@@ -269419,7 +269581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1492981205}
   - component: {fileID: 1492981204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (283)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -270463,7 +270625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1501397343}
   - component: {fileID: 1501397342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (162)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -271920,7 +272082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508412481}
   - component: {fileID: 1508412480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (259)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -274223,7 +274385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516825996}
   - component: {fileID: 1516825997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (137)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -274365,7 +274527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517768405}
   - component: {fileID: 1517768404}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (344)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -274532,7 +274694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1520795453}
   - component: {fileID: 1520795454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (31)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -274621,7 +274783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1521697046}
   - component: {fileID: 1521697045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (209)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -274916,7 +275078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523560201}
   - component: {fileID: 1523560200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (200)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -275547,7 +275709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526299925}
   - component: {fileID: 1526299926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (5)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -278054,7 +278216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536277188}
   - component: {fileID: 1536277189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (6)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -278728,7 +278890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540553895}
   - component: {fileID: 1540553896}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (58)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -279113,7 +279275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542394192}
   - component: {fileID: 1542394191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (308)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -279457,7 +279619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542864977}
   - component: {fileID: 1542864976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (176)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -280661,7 +280823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551335288}
   - component: {fileID: 1551335287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (215)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -280918,7 +281080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1553361903}
   - component: {fileID: 1553361904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (82)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -282053,7 +282215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561543741}
   - component: {fileID: 1561543742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (51)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -282902,7 +283064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564855708}
   - component: {fileID: 1564855709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (78)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -283662,7 +283824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1568159973}
   - component: {fileID: 1568159974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (139)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -284306,7 +284468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1570773259}
   - component: {fileID: 1570773258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (205)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -285482,7 +285644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578054296}
   - component: {fileID: 1578054297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (83)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -286042,7 +286204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1583660465}
   - component: {fileID: 1583660466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (101)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -286157,7 +286319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1584536946}
   - component: {fileID: 1584536947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (52)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -286209,7 +286371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585217676}
   - component: {fileID: 1585217675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (191)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -286324,7 +286486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585847154}
   - component: {fileID: 1585847155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (87)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -287708,7 +287870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593095435}
   - component: {fileID: 1593095434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (336)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -287823,7 +287985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593564021}
   - component: {fileID: 1593564020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (337)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -289521,7 +289683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1605236644}
   - component: {fileID: 1605236643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (286)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -296347,7 +296509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634639963}
   - component: {fileID: 1634639962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (164)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -298066,7 +298228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644203193}
   - component: {fileID: 1644203192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (165)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -298118,7 +298280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644474769}
   - component: {fileID: 1644474768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (341)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -299738,7 +299900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654968045}
   - component: {fileID: 1654968044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (340)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -300189,7 +300351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1657006130}
   - component: {fileID: 1657006129}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (291)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -301987,7 +302149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670323170}
   - component: {fileID: 1670323169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (180)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -302039,7 +302201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671464729}
   - component: {fileID: 1671464730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (4)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -304462,7 +304624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685780540}
   - component: {fileID: 1685780541}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (96)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -304514,7 +304676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1686374238}
   - component: {fileID: 1686374239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (75)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -305509,7 +305671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690320976}
   - component: {fileID: 1690320975}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (297)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -307047,7 +307209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1697716922}
   - component: {fileID: 1697716921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (222)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -307317,7 +307479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700443236}
   - component: {fileID: 1700443235}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (315)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -307369,7 +307531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701150271}
   - component: {fileID: 1701150270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (314)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -309151,7 +309313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1709081869}
   - component: {fileID: 1709081868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (269)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -309513,7 +309675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711307028}
   - component: {fileID: 1711307029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (42)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -310260,7 +310422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719375958}
   - component: {fileID: 1719375959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (18)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -311204,7 +311366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724222055}
   - component: {fileID: 1724222054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (295)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -311520,7 +311682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725822250}
   - component: {fileID: 1725822249}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (170)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -311963,7 +312125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726961941}
   - component: {fileID: 1726961940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (219)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -312112,7 +312274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1727332095}
   - component: {fileID: 1727332094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (299)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -312704,7 +312866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731294648}
   - component: {fileID: 1731294649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (135)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -312756,7 +312918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1732415909}
   - component: {fileID: 1732415910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (99)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -313434,7 +313596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735619376}
   - component: {fileID: 1735619377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (105)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -313577,7 +313739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735985192}
   - component: {fileID: 1735985191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (244)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -314580,7 +314742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741808151}
   - component: {fileID: 1741808150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (232)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -316014,7 +316176,7 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -316990,7 +317152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1754978936}
   - component: {fileID: 1754978937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -317678,7 +317840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1759316576}
   - component: {fileID: 1759316575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (333)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -317856,7 +318018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1760766495}
   - component: {fileID: 1760766496}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (122)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -317908,7 +318070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761222847}
   - component: {fileID: 1761222846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (194)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -318085,7 +318247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1762729311}
   - component: {fileID: 1762729312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (91)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -323344,7 +323506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1797526696}
   - component: {fileID: 1797526695}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (241)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -326574,7 +326736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813813532}
   - component: {fileID: 1813813533}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (44)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -326825,7 +326987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815756206}
   - component: {fileID: 1815756207}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (48)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -326877,7 +327039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815984330}
   - component: {fileID: 1815984331}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (32)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -327272,7 +327434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817378600}
   - component: {fileID: 1817378599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (242)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -329299,7 +329461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1830884095}
   - component: {fileID: 1830884096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (57)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -329926,7 +330088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1834417748}
   - component: {fileID: 1834417749}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (60)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -331196,7 +331358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840024643}
   - component: {fileID: 1840024644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (104)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -331312,7 +331474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840664072}
   - component: {fileID: 1840664073}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (70)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -331490,7 +331652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843535747}
   - component: {fileID: 1843535746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (155)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -331855,7 +332017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846127432}
   - component: {fileID: 1846127433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (149)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -332483,13 +332645,69 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1073572777}
     m_Modifications:
+    - target: {fileID: 1078748727531646, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119496001361992, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150811285624068, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227970693377876, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290112594164672, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421391592215704, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440267488521758, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686548889156506, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1702394528788622, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737790164049144, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1774752494246434, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
       propertyPath: m_Name
       value: MapCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 1774752494246434, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1774752494246434, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813018558041210, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848823946701060, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998278275311544, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114001364334757514, guid: aeaf541e7b78f2148a6b64cf964b4c9d,
         type: 3}
@@ -336280,7 +336498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1862933072}
   - component: {fileID: 1862933071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (229)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -336730,7 +336948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1865295925}
   - component: {fileID: 1865295926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (85)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -338299,7 +338517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1875780107}
   - component: {fileID: 1875780106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (287)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -338952,7 +339170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1878020683}
   - component: {fileID: 1878020684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (20)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -341064,7 +341282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886534938}
   - component: {fileID: 1886534939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (146)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -342360,7 +342578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893621695}
   - component: {fileID: 1893621694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (275)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -344087,7 +344305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1902638062}
   - component: {fileID: 1902638063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (10)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -346716,7 +346934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1911161607}
   - component: {fileID: 1911161608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (94)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -346860,7 +347078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913075483}
   - component: {fileID: 1913075484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (111)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -347546,7 +347764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1917468479}
   - component: {fileID: 1917468478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (211)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -349375,7 +349593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1927042078}
   - component: {fileID: 1927042079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (54)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -353225,7 +353443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939263775}
   - component: {fileID: 1939263774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (274)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -356481,7 +356699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1961107638}
   - component: {fileID: 1961107639}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (153)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -357376,7 +357594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966437844}
   - component: {fileID: 1966437843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (216)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -359260,7 +359478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974897876}
   - component: {fileID: 1974897875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (310)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -360581,7 +360799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1980537782}
   - component: {fileID: 1980537781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (316)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -362805,7 +363023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1996297533}
   - component: {fileID: 1996297534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (142)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -363055,7 +363273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1997414373}
   - component: {fileID: 1997414372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (238)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -363197,7 +363415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998059936}
   - component: {fileID: 1998059937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (152)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -364032,7 +364250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2001341528}
   - component: {fileID: 2001341527}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (317)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -367428,7 +367646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026883436}
   - component: {fileID: 2026883435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (326)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -367786,7 +368004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2028519347}
   - component: {fileID: 2028519346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (335)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -368566,7 +368784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030760142}
   - component: {fileID: 2030760141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (223)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -368952,7 +369170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032730376}
   - component: {fileID: 2032730377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (93)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -370272,7 +370490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040203296}
   - component: {fileID: 2040203297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (140)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -371013,7 +371231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043859072}
   - component: {fileID: 2043859073}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (89)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -372485,7 +372703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2051271175}
   - component: {fileID: 2051271176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (63)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -372914,7 +373132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2053866389}
   - component: {fileID: 2053866388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (260)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -373056,7 +373274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2054687512}
   - component: {fileID: 2054687511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (261)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -373813,7 +374031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064833834}
   - component: {fileID: 2064833835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (136)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -373927,7 +374145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2065370425}
   - component: {fileID: 2065370424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (157)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -374465,7 +374683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2067641326}
   - component: {fileID: 2067641325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (159)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -375721,7 +375939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074745590}
   - component: {fileID: 2074745591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (15)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -377064,7 +377282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080588757}
   - component: {fileID: 2080588756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (290)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -378536,7 +378754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2087680598}
   - component: {fileID: 2087680599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (117)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -379077,7 +379295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2091128377}
   - component: {fileID: 2091128378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (11)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -379394,7 +379612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092950167}
   - component: {fileID: 2092950168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (151)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -379601,7 +379819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094000626}
   - component: {fileID: 2094000627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (129)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -380667,7 +380885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101459692}
   - component: {fileID: 2101459691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (293)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -381206,7 +381424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105337078}
   - component: {fileID: 2105337077}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (309)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -387244,7 +387462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138141549}
   - component: {fileID: 2138141548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (187)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -387296,7 +387514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138478023}
   - component: {fileID: 2138478022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (197)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -388292,7 +388510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145850466}
   - component: {fileID: 2145850465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (214)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
