@@ -68,6 +68,15 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private Vector3 frontWheelSteerAxis = Vector3.right;
     [SerializeField] private bool invertFrontWheelSteerVisual = true;
 
+    [Header("Visual Rotate Around Own Center")]
+    [Tooltip("Açık olursa görsel objeler pivot yerine kendi Renderer center noktasına göre döner.")]
+    [SerializeField] private bool rotateVisualsAroundRendererCenter = true;
+
+    [Tooltip("Scene view'da görsel center noktalarını çizdirir.")]
+    [SerializeField] private bool drawVisualCenters = true;
+
+    [SerializeField] private float visualCenterGizmoSize = 0.08f;
+
     [Header("Visual Rotation Corrections")]
     [SerializeField] private Vector3 handlebarLocalRotationOffset = Vector3.zero;
     [SerializeField] private Vector3 frontWheelSteerLocalRotationOffset = Vector3.zero;
@@ -127,6 +136,9 @@ public class ArduinoMotorController : MonoBehaviour
             rb.centerOfMass = centerOfMassOffset;
             rb.interpolation = RigidbodyInterpolation.Interpolate;
             rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+
+            // VR kamera child iken gövde X/Z devrilmesin diye yeterli.
+            // Ekstra MoveRotation ile stabilize etmek kamera titremesi yapabiliyor.
             rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
         }
 
@@ -171,7 +183,13 @@ public class ArduinoMotorController : MonoBehaviour
         ApplyBrake();
         ApplyGroundStabilization();
         LimitHorizontalSpeed();
-        StabilizeBodyRotation();
+
+        // BUNU KALDIRDIK:
+        // StabilizeBodyRotation();
+        //
+        // Sebep:
+        // ApplySteering zaten rb.MoveRotation yapıyor.
+        // Aynı FixedUpdate içinde ikinci kez rotation basmak VR kamera child iken jitter yapabilir.
     }
 
     private void LateUpdate()
@@ -467,6 +485,7 @@ public class ArduinoMotorController : MonoBehaviour
         }
 
         float gripAmount = Mathf.Clamp01(lateralGrip * Time.fixedDeltaTime);
+
         Vector3 correctedSidewaysVelocity = Vector3.Lerp(
             horizontalVelocity - forwardVelocity,
             sidewaysVelocity,
@@ -575,19 +594,6 @@ public class ArduinoMotorController : MonoBehaviour
         );
     }
 
-    private void StabilizeBodyRotation()
-    {
-        float currentY = rb.rotation.eulerAngles.y;
-
-        rb.MoveRotation(Quaternion.Euler(0f, currentY, 0f));
-
-        rb.angularVelocity = new Vector3(
-            0f,
-            rb.angularVelocity.y,
-            0f
-        );
-    }
-
     private void UpdateVisualSteering()
     {
         float targetAngle = steerInput * visualSteerAngle;
@@ -600,12 +606,14 @@ public class ArduinoMotorController : MonoBehaviour
 
         if (handlebarVisual != null)
         {
-            handlebarVisual.localRotation =
+            Quaternion targetLocalRotation =
                 handlebarBaseRotation *
                 Quaternion.AngleAxis(
                     currentVisualSteerAngle,
                     handlebarSteerAxis.normalized
                 );
+
+            SetLocalRotationKeepingVisualCenter(handlebarVisual, targetLocalRotation);
         }
 
         if (frontWheelSteerRoot != null)
@@ -614,12 +622,14 @@ public class ArduinoMotorController : MonoBehaviour
                 ? -currentVisualSteerAngle
                 : currentVisualSteerAngle;
 
-            frontWheelSteerRoot.localRotation =
+            Quaternion targetLocalRotation =
                 frontWheelSteerBaseRotation *
                 Quaternion.AngleAxis(
                     frontWheelAngle,
                     frontWheelSteerAxis.normalized
                 );
+
+            SetLocalRotationKeepingVisualCenter(frontWheelSteerRoot, targetLocalRotation);
         }
     }
 
@@ -645,23 +655,75 @@ public class ArduinoMotorController : MonoBehaviour
 
         if (frontWheelSpinPivot != null)
         {
-            frontWheelSpinPivot.localRotation =
+            Quaternion targetLocalRotation =
                 frontWheelSpinBaseRotation *
                 Quaternion.AngleAxis(
                     frontWheelSpinAngle,
                     frontWheelSpinAxis.normalized
                 );
+
+            SetLocalRotationKeepingVisualCenter(frontWheelSpinPivot, targetLocalRotation);
         }
 
         if (rearWheelSpinPivot != null)
         {
-            rearWheelSpinPivot.localRotation =
+            Quaternion targetLocalRotation =
                 rearWheelSpinBaseRotation *
                 Quaternion.AngleAxis(
                     rearWheelSpinAngle,
                     rearWheelSpinAxis.normalized
                 );
+
+            SetLocalRotationKeepingVisualCenter(rearWheelSpinPivot, targetLocalRotation);
         }
+    }
+
+    private void SetLocalRotationKeepingVisualCenter(Transform target, Quaternion targetLocalRotation)
+    {
+        if (target == null)
+            return;
+
+        if (!rotateVisualsAroundRendererCenter)
+        {
+            target.localRotation = targetLocalRotation;
+            return;
+        }
+
+        Vector3 center = GetRendererCenter(target);
+
+        Quaternion oldWorldRotation = target.rotation;
+        Vector3 oldWorldPosition = target.position;
+
+        Vector3 worldOffsetFromCenter = oldWorldPosition - center;
+        Vector3 localOffsetFromCenter = Quaternion.Inverse(oldWorldRotation) * worldOffsetFromCenter;
+
+        Quaternion targetWorldRotation;
+
+        if (target.parent != null)
+            targetWorldRotation = target.parent.rotation * targetLocalRotation;
+        else
+            targetWorldRotation = targetLocalRotation;
+
+        Vector3 newWorldPosition = center + targetWorldRotation * localOffsetFromCenter;
+
+        target.SetPositionAndRotation(newWorldPosition, targetWorldRotation);
+    }
+
+    private Vector3 GetRendererCenter(Transform target)
+    {
+        Renderer[] renderers = target.GetComponentsInChildren<Renderer>();
+
+        if (renderers == null || renderers.Length == 0)
+            return target.position;
+
+        Bounds bounds = renderers[0].bounds;
+
+        for (int i = 1; i < renderers.Length; i++)
+        {
+            bounds.Encapsulate(renderers[i].bounds);
+        }
+
+        return bounds.center;
     }
 
     private void ForceTargetLocalXRotation()
@@ -728,10 +790,29 @@ public class ArduinoMotorController : MonoBehaviour
 
         Gizmos.color = Color.blue;
 
-        Vector3 moveDirection = Application.isPlaying
+        Vector3 moveDirection = Application.isPlaying && rb != null
             ? GetMoveDirection()
             : transform.TransformDirection(movementLocalAxis.normalized);
 
         Gizmos.DrawLine(transform.position, transform.position + moveDirection.normalized * 2f);
+
+        if (!drawVisualCenters)
+            return;
+
+        Gizmos.color = Color.red;
+
+        DrawVisualCenterGizmo(handlebarVisual);
+        DrawVisualCenterGizmo(frontWheelSteerRoot);
+        DrawVisualCenterGizmo(frontWheelSpinPivot);
+        DrawVisualCenterGizmo(rearWheelSpinPivot);
+    }
+
+    private void DrawVisualCenterGizmo(Transform target)
+    {
+        if (target == null)
+            return;
+
+        Vector3 center = GetRendererCenter(target);
+        Gizmos.DrawWireSphere(center, visualCenterGizmoSize);
     }
 }
