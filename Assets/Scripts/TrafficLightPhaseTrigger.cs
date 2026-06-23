@@ -53,7 +53,7 @@ public class TrafficLightPhaseTrigger : MonoBehaviour
         {
             if (debugLogs)
             {
-                Debug.Log("[TrafficLightPhaseTrigger] Trigger'a giren obje seçilen araç deðil: " + other.name);
+                //Debug.Log("[TrafficLightPhaseTrigger] Trigger'a giren obje seçilen araç deðil: " + other.name);
             }
 
             return;
