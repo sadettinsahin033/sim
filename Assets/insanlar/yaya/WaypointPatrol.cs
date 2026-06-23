@@ -30,7 +30,6 @@ public class WaypointPatrol : MonoBehaviour
         if (hareketBasladi && yolNoktalari.Length > 0)
         {
             // EĞER son hedef değiştirmenin üzerinden en az 1 saniye geçmediyse mesafe ölçme!
-            // Bu satır karakterin kendi etrafında saçmalamasını engeller.
             if (Time.time < hedefDegistirmeZamani) return;
 
             Vector3 karakterPozisyonu = new Vector3(transform.position.x, 0, transform.position.z);
@@ -38,10 +37,18 @@ public class WaypointPatrol : MonoBehaviour
 
             float hedefeOlanMesafe = Vector3.Distance(karakterPozisyonu, hedefPozisyonu);
 
-            // Hedefe 1 metre kala sıradaki noktaya geç
+            // Hedefe 1 metre kala kontrol et
             if (hedefeOlanMesafe < 1.0f)
             {
-                SonrakiNoktayaGit();
+                // [KİLİT KONTROL]: Eğer şu an yürüdüğümüz nokta listedeki SON noktaysa...
+                if (hedefNoktaIndeksi == yolNoktalari.Length - 1)
+                {
+                    HareketiTamamenDurdur();
+                }
+                else
+                {
+                    SonrakiNoktayaGit();
+                }
             }
         }
     }
@@ -65,10 +72,22 @@ public class WaypointPatrol : MonoBehaviour
     {
         if (yolNoktalari.Length == 0) return;
 
-        hedefNoktaIndeksi = (hedefNoktaIndeksi + 1) % yolNoktalari.Length;
+        // Orijinal koddaki '%' (mod alma) işareti kaldırıldı, sadece bir sonraki indekse geçiyor
+        hedefNoktaIndeksi++;
         agent.SetDestination(yolNoktalari[hedefNoktaIndeksi].position);
 
         // YENİ HEDEF ATANDI: Karakterin saçmalamaması için hedef kontrolünü 1 saniye dondur!
         hedefDegistirmeZamani = Time.time + 1.0f;
+    }
+
+    // SON NOKTADA KARAKTERİ ÇAKAN VE IDLE'A GEÇİREN YENİ FONKSİYON
+    void HareketiTamamenDurdur()
+    {
+        hareketBasladi = false;   // Update içindeki mesafe ölçüm döngüsünü tamamen kapatır
+        agent.isStopped = true;    // NavMesh motorunu fiziksel olarak durdurur
+        agent.velocity = Vector3.zero; // Karakterin hızını sıfırlar, olduğu yere çiviler (kaymayı önler)
+
+        // Animator'a durma emri gönderir (Animator'da bu Trigger'ı tanımlamayı unutma)
+        animator.SetTrigger("StopMoving");
     }
 }
