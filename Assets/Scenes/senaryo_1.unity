@@ -2274,7 +2274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9453938}
   - component: {fileID: 9453939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (86)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -3626,7 +3626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16754934}
   - component: {fileID: 16754935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (348)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -5269,7 +5269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 25430684}
   - component: {fileID: 25430683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (218)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -9227,7 +9227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 42557728}
   - component: {fileID: 42557729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (26)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -10082,7 +10082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 46783490}
   - component: {fileID: 46783489}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (346)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -13240,7 +13240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61808802}
   - component: {fileID: 61808801}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (334)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -14431,6 +14431,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70033258}
   m_Mesh: {fileID: 4300004, guid: c2b1bafd07e77b74db1ed4246cf7b10e, type: 3}
+--- !u!1 &70253025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 70253026}
+  - component: {fileID: 70253028}
+  - component: {fileID: 70253027}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &70253026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70253025}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.9, y: -5, z: 1.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &70253027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70253025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &70253028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70253025}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &71108633
 GameObject:
   m_ObjectHideFlags: 0
@@ -16676,6 +16743,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83030269}
   m_Mesh: {fileID: 4300006, guid: c2b1bafd07e77b74db1ed4246cf7b10e, type: 3}
+--- !u!1 &83681390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83681391}
+  - component: {fileID: 83681393}
+  - component: {fileID: 83681392}
+  m_Layer: 0
+  m_Name: 1 (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83681391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83681390}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5761983, z: -0, w: 0.81731}
+  m_LocalPosition: {x: 5.3799896, y: -5, z: -8.189987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 70.367, z: 0}
+--- !u!114 &83681392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83681390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &83681393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83681390}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &83932957
 GameObject:
   m_ObjectHideFlags: 0
@@ -17475,7 +17609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87822829}
   - component: {fileID: 87822828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (322)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -19319,7 +19453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99225970}
   - component: {fileID: 99225969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (282)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -20715,7 +20849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105298148}
   - component: {fileID: 105298147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (213)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -22415,7 +22549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 115260067}
   - component: {fileID: 115260066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (158)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -22557,7 +22691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 117864622}
   - component: {fileID: 117864621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (208)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -24271,7 +24405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125544570}
   - component: {fileID: 125544571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (120)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -24606,7 +24740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 127497448}
   - component: {fileID: 127497449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (41)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -26248,7 +26382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136325670}
   - component: {fileID: 136325671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (59)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -26412,7 +26546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137354495}
   - component: {fileID: 137354494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (324)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -28004,7 +28138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 146879761}
   - component: {fileID: 146879762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (9)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -29875,7 +30009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156560312}
   - component: {fileID: 156560311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (160)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -29927,7 +30061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156846834}
   - component: {fileID: 156846833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (319)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -31842,7 +31976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169416194}
   - component: {fileID: 169416193}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (285)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -32800,7 +32934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176071252}
   - component: {fileID: 176071253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (65)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -33095,7 +33229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 177395399}
   - component: {fileID: 177395398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (179)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -33317,6 +33451,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177608930}
   m_Mesh: {fileID: 4300006, guid: c2b1bafd07e77b74db1ed4246cf7b10e, type: 3}
+--- !u!1 &179161749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179161750}
+  - component: {fileID: 179161752}
+  - component: {fileID: 179161751}
+  m_Layer: 0
+  m_Name: 1 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179161750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179161749}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.39251503, z: -0, w: 0.9197456}
+  m_LocalPosition: {x: 5.954483, y: 0.00003, z: 7.710556}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 46.222, z: 0}
+--- !u!114 &179161751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179161749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &179161752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179161749}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &179638783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2117782472607043885, guid: 2a9ac5e6cb177c04ba67791704b4a756,
@@ -34754,7 +34955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187995166}
   - component: {fileID: 187995167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (71)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -34897,7 +35098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 188757652}
   - component: {fileID: 188757651}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (196)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -35262,7 +35463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 192690379}
   - component: {fileID: 192690378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (267)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -35766,7 +35967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194125349}
   - component: {fileID: 194125348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (264)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -35907,6 +36108,185 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195168084}
   m_Mesh: {fileID: 4300000, guid: 246348a83459ba74db0c1e4d1e6686b5, type: 3}
+--- !u!1 &195390988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195390990}
+  - component: {fileID: 195390989}
+  - component: {fileID: 195390991}
+  m_Layer: 0
+  m_Name: "L_DI\u015E"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &195390989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195390988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04b8b5abbdeaab4ca8ad09def7126a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerArea
+  areaName: L Trigger Area
+  targetVehicle: {fileID: 1592428044}
+  scenarioEventTrigger: {fileID: 195390991}
+  exitDelay: 0.15
+  debugLog: 0
+  showAreaLogs: 0
+--- !u!4 &195390990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195390988}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 143.07552, y: -0.00003, z: 187.98944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1003999055}
+  - {fileID: 1330667174}
+  - {fileID: 1972104087}
+  - {fileID: 295072340}
+  - {fileID: 296532971}
+  - {fileID: 640911945}
+  - {fileID: 179161750}
+  - {fileID: 687147502}
+  - {fileID: 696505722}
+  - {fileID: 1173175276}
+  - {fileID: 1704520795}
+  - {fileID: 511962779}
+  - {fileID: 1298410716}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &195390991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195390988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac11014d64fc6b42a9fdfb3c1d55e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioEventTrigger
+  generalSettings:
+    actionType: 0
+    writeResultLog: 1
+    logOnlyIfError: 0
+    logSelfWhenNoActiveEvent: 0
+    evaluateOnExit: 1
+    logOnlyOnce: 1
+    successMessage: "Olay ba\u015Far\u0131yla tamamland\u0131."
+    generalErrorMessage: "Olay ba\u015Far\u0131s\u0131z ger\xE7ekle\u015Fti."
+    appendErrorReasons: 1
+  distanceMeasureSettings:
+    measureDistance: 0
+    targetObject: {fileID: 0}
+    distanceMeasureMode: 0
+    firstBrakeDistanceLabel: "\u0130lk fren mesafesi"
+    stoppedDistanceLabel: "Durdu\u011Fu mesafe"
+    includeBrakeSpeed: 1
+    includeStopSpeed: 0
+  violationSummarySettings:
+    appendViolationSummary: 1
+    appendViolationCount: 1
+    appendViolationDuration: 1
+    appendStopDuration: 1
+  speedSettings:
+    checkSpeed: 0
+    minSpeedKmh: 0
+    maxSpeedKmh: 50
+    speedViolationDuration: 0.5
+    speedErrorMessage: "H\u0131z s\u0131n\u0131r\u0131 a\u015F\u0131ld\u0131."
+  stopSettings:
+    requireStop: 0
+    stopSpeedThresholdKmh: 3
+    requiredStopDuration: 1.5
+    stopErrorMessage: "Gerekli durma davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  trafficLightStopSettings:
+    useTrafficLightForStop: 0
+    targetTrafficLight: {fileID: 0}
+    requireStopOnRed: 1
+    requireStopOnYellow: 1
+    requireStopOnPedestrianPhase: 1
+    errorIfStoppedOnGreen: 1
+    greenStopErrorMessage: "Ye\u015Fil \u0131\u015F\u0131kta gereksiz durdu."
+    errorIfPassedBeforeGreenAfterStop: 1
+    passedBeforeGreenErrorMessage: "Ara\xE7 k\u0131rm\u0131z\u0131 \u0131\u015F\u0131kta
+      durduktan sonra \u0131\u015F\u0131k ye\u015File d\xF6nmeden ge\xE7ti."
+  brakeSettings:
+    checkBrake: 1
+    requiredBrakeValue: 0.5
+    requiredBrakeDuration: 0.3
+    reverseBrakeCondition: 0
+    brakeErrorMessage: "Beklenen fren davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  gasSettings:
+    checkGas: 0
+    requiredGasValue: 0.4
+    requiredGasDuration: 0.5
+    reverseGasCondition: 0
+    gasErrorMessage: "Beklenen gaz davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  gasBrakeTogetherSettings:
+    checkGasBrakeTogether: 0
+    gasTogetherThreshold: 0.3
+    brakeTogetherThreshold: 0.3
+    gasBrakeTogetherDuration: 0.3
+    gasBrakeTogetherErrorMessage: "Gaz ve fren pedal\u0131na ayn\u0131 anda bas\u0131ld\u0131."
+  steeringSettings:
+    checkSteeringDirection: 1
+    expectedSteeringDirection: 0
+    steeringThreshold: 0.3
+    requiredSteeringDuration: 0.4
+    reverseSteeringCondition: 0
+    steeringErrorMessage: "Beklenen direksiyon hareketi ger\xE7ekle\u015Fmedi."
+  signalSettings:
+    requiredSignal: 2
+    requiredSignalDuration: 0.5
+    signalErrorMessage: "Beklenen sinyal davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  offRoadSettings:
+    measureOffRoad: 0
+    offRoadViolationDuration: 0.5
+    listenOffRoadViolation: 0
+    offRoadErrorMessage: "Ara\xE7 yol d\u0131\u015F\u0131na \xE7\u0131kt\u0131."
+  wrongLaneSettings:
+    measureWrongLane: 0
+    wrongLaneViolationDuration: 0.5
+    listenWrongLaneViolation: 0
+    wrongLaneErrorMessage: "Ara\xE7 kar\u015F\u0131 \u015Feride ge\xE7ti."
+  lineViolationSettings:
+    measureLineViolation: 0
+    lineViolationDuration: 0.5
+    listenLineViolation: 0
+    lineViolationErrorMessage: "Ara\xE7 \u015Ferit \xE7izgisini ihlal etti."
+  corridorSettings:
+    measureCorridorTransition: 1
+    listenCorridorTransition: 0
+    corridorGroupId: Kavsak_1_Donus
+    corridorNo: 2
+    corridorTransitionDuration: 0.4
+    resetCorridorStartOnExit: 1
+    corridorResetDelay: 1
+    corridorTransitionErrorMessage: "S\xFCr\xFCc\xFC d\xF6n\xFC\u015F s\u0131ras\u0131nda
+      ba\u015Flad\u0131\u011F\u0131 \u015Ferit koridorunu de\u011Fi\u015Ftirerek
+      hatal\u0131 d\xF6n\xFC\u015F yapt\u0131."
+  collisionSettings:
+    listenCollisionViolation: 0
+    collisionErrorMessage: "Ara\xE7 \xE7arp\u0131\u015Fma ger\xE7ekle\u015Ftirdi."
 --- !u!1 &195942930
 GameObject:
   m_ObjectHideFlags: 0
@@ -37507,7 +37887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 205816767}
   - component: {fileID: 205816768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (112)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -39806,7 +40186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217604298}
   - component: {fileID: 217604299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (69)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -40037,7 +40417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218439846}
   - component: {fileID: 218439845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (272)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -40946,7 +41326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227711422}
   - component: {fileID: 227711421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (203)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -41088,7 +41468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228946797}
   - component: {fileID: 228946798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (123)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -42430,7 +42810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 237018806}
   - component: {fileID: 237018807}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (108)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -43022,7 +43402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240700607}
   - component: {fileID: 240700606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (303)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -43250,7 +43630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 241750474}
   - component: {fileID: 241750475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (23)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -43896,7 +44276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244524678}
   - component: {fileID: 244524677}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (249)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -44151,7 +44531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 245882589}
   - component: {fileID: 245882590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (103)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -44529,7 +44909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 247989215}
   - component: {fileID: 247989214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (288)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -45571,7 +45951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256241999}
   - component: {fileID: 256242000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (40)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -47847,7 +48227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 266671317}
   - component: {fileID: 266671318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (1)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -48117,7 +48497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 268721285}
   - component: {fileID: 268721284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (268)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -48486,7 +48866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269128760}
   - component: {fileID: 269128759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (230)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -48638,7 +49018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269904377}
   - component: {fileID: 269904376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (224)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -49380,7 +49760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277640156}
   - component: {fileID: 277640155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (247)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -50397,7 +50777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286306135}
   - component: {fileID: 286306136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (25)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -50449,7 +50829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286456083}
   - component: {fileID: 286456082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (188)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -50863,7 +51243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287812265}
   - component: {fileID: 287812266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (121)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -51741,7 +52121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 291291432}
   - component: {fileID: 291291431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (201)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -52457,6 +52837,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1822876914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &295072339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295072340}
+  - component: {fileID: 295072342}
+  - component: {fileID: 295072341}
+  m_Layer: 0
+  m_Name: 1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &295072340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295072339}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.22635639, z: -0, w: 0.9740446}
+  m_LocalPosition: {x: 0.45448303, y: 0.00003, z: 13.000565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 26.165, z: 0}
+--- !u!114 &295072341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295072339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &295072342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295072339}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &295531302
 GameObject:
   m_ObjectHideFlags: 0
@@ -52569,6 +53016,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295531302}
   m_Mesh: {fileID: 4300000, guid: 13e8234257743cd43b1b8c98a3ab9370, type: 3}
+--- !u!1 &296532970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 296532971}
+  - component: {fileID: 296532973}
+  - component: {fileID: 296532972}
+  m_Layer: 0
+  m_Name: 1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &296532971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296532970}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.30043766, z: -0, w: 0.9538015}
+  m_LocalPosition: {x: 1.9744873, y: 0.00003, z: 11.900558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 34.968, z: 0}
+--- !u!114 &296532972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296532970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &296532973
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296532970}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &296653757
 GameObject:
   m_ObjectHideFlags: 0
@@ -52579,7 +53093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296653758}
   - component: {fileID: 296653759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (126)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -55142,7 +55656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312087757}
   - component: {fileID: 312087758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (127)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -55256,7 +55770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313356313}
   - component: {fileID: 313356314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (125)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -55308,7 +55822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313391487}
   - component: {fileID: 313391486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (329)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -60956,7 +61470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338683613}
   - component: {fileID: 338683612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (330)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -61098,7 +61612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339530979}
   - component: {fileID: 339530978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (156)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -62566,7 +63080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 346439388}
   - component: {fileID: 346439387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (296)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -65637,6 +66151,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359768359}
   m_Mesh: {fileID: 4300008, guid: ceac1b6ce30c82f4092f1b298b41e446, type: 3}
+--- !u!1 &360252651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360252652}
+  - component: {fileID: 360252654}
+  - component: {fileID: 360252653}
+  m_Layer: 0
+  m_Name: 1 (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &360252652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360252651}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.4833779, z: -0, w: 0.8754118}
+  m_LocalPosition: {x: 3.5499878, y: -5, z: -4.8799896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 57.812, z: 0}
+--- !u!114 &360252653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360252651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &360252654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360252651}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &360647145
 GameObject:
   m_ObjectHideFlags: 0
@@ -66246,7 +66827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363322114}
   - component: {fileID: 363322115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (7)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -66546,7 +67127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365330316}
   - component: {fileID: 365330315}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (332)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -66660,7 +67241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 366938757}
   - component: {fileID: 366938758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (80)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -70394,7 +70975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 386299953}
   - component: {fileID: 386299954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (143)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -71714,7 +72295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393928596}
   - component: {fileID: 393928595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (227)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -72009,7 +72590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 395255387}
   - component: {fileID: 395255388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (53)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -72621,7 +73202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398891682}
   - component: {fileID: 398891683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (95)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -72763,7 +73344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400435012}
   - component: {fileID: 400435013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (74)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -76787,7 +77368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 424472294}
   - component: {fileID: 424472293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (280)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -77511,7 +78092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 428047409}
   - component: {fileID: 428047408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (339)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -79975,7 +80556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 444121732}
   - component: {fileID: 444121733}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (46)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -80526,7 +81107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 446902929}
   - component: {fileID: 446902930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (130)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -80912,7 +81493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450289441}
   - component: {fileID: 450289442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (67)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -80964,7 +81545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450293743}
   - component: {fileID: 450293744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (37)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -82420,7 +83001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 461158453}
   - component: {fileID: 461158454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (115)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -82605,7 +83186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463122774}
   - component: {fileID: 463122773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (320)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -82906,7 +83487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 465199948}
   - component: {fileID: 465199947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (294)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -83366,7 +83947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 467696565}
   - component: {fileID: 467696566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (33)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -84545,7 +85126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475646161}
   - component: {fileID: 475646160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (234)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -84597,7 +85178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476187348}
   - component: {fileID: 476187347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (273)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -85031,7 +85612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 478182875}
   - component: {fileID: 478182874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (342)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -85410,6 +85991,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479650464}
   m_Mesh: {fileID: 4300018, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+--- !u!1 &481148431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 481148432}
+  - component: {fileID: 481148434}
+  - component: {fileID: 481148433}
+  m_Layer: 0
+  m_Name: 1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481148432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481148431}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.2883886, z: -0, w: 0.95751345}
+  m_LocalPosition: {x: -0.3500061, y: -5, z: -1.4099884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 33.523, z: 0}
+--- !u!114 &481148433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481148431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &481148434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481148431}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &482026282
 GameObject:
   m_ObjectHideFlags: 0
@@ -85959,7 +86607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485783349}
   - component: {fileID: 485783348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (347)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -86765,7 +87413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 488190061}
   - component: {fileID: 488190060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (325)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -87746,7 +88394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494123420}
   - component: {fileID: 494123419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (311)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -88074,7 +88722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 496622075}
   - component: {fileID: 496622074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (278)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -88408,7 +89056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 498599133}
   - component: {fileID: 498599132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (345)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -88615,7 +89263,7 @@ GameObject:
   - component: {fileID: 500236812}
   - component: {fileID: 500236811}
   - component: {fileID: 500236810}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89124,7 +89772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 505337450}
   - component: {fileID: 505337449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (307)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -89378,7 +90026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 509614180}
   - component: {fileID: 509614179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (343)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -89791,6 +90439,73 @@ Transform:
   - {fileID: 1722888221}
   m_Father: {fileID: 127445532}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &511962778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511962779}
+  - component: {fileID: 511962781}
+  - component: {fileID: 511962780}
+  m_Layer: 0
+  m_Name: 1 (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &511962779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511962778}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.64322346, z: -0, w: 0.76567847}
+  m_LocalPosition: {x: 11.554489, y: 0.00003, z: -4.339447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 80.065, z: 0}
+--- !u!114 &511962780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511962778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &511962781
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511962778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &512421044
 GameObject:
   m_ObjectHideFlags: 0
@@ -91101,7 +91816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518376386}
   - component: {fileID: 518376387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (2)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -93652,7 +94367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532176450}
   - component: {fileID: 532176449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (279)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -96622,7 +97337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549989621}
   - component: {fileID: 549989622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (73)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -97338,7 +98053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 557433737}
   - component: {fileID: 557433736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (206)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -99083,7 +99798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568563178}
   - component: {fileID: 568563179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (119)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -99995,7 +100710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 574290653}
   - component: {fileID: 574290652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (182)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -100478,7 +101193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577582341}
   - component: {fileID: 577582342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (49)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -101528,7 +102243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586303691}
   - component: {fileID: 586303692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (102)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -104136,7 +104851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 601178251}
   - component: {fileID: 601178252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (110)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -104188,7 +104903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602052725}
   - component: {fileID: 602052726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (77)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -105160,7 +105875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606820910}
   - component: {fileID: 606820909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (338)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -106174,7 +106889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 611628671}
   - component: {fileID: 611628670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (313)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -108135,7 +108850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623526858}
   - component: {fileID: 623526857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (169)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -108187,7 +108902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 624066832}
   - component: {fileID: 624066833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (147)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -108303,7 +109018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625189942}
   - component: {fileID: 625189941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (237)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -108507,7 +109222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625571982}
   - component: {fileID: 625571981}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (184)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -109460,7 +110175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 631617051}
   - component: {fileID: 631617050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (301)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -110032,7 +110747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635476108}
   - component: {fileID: 635476107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (185)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -110487,7 +111202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638397890}
   - component: {fileID: 638397891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (116)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -110651,7 +111366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638435080}
   - component: {fileID: 638435081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (144)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -110856,6 +111571,73 @@ Transform:
   - {fileID: 1810161002}
   m_Father: {fileID: 2135194454}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &640911944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640911945}
+  - component: {fileID: 640911947}
+  - component: {fileID: 640911946}
+  m_Layer: 0
+  m_Name: 1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640911945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640911944}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.34832942, z: -0, w: 0.93737227}
+  m_LocalPosition: {x: 3.8644867, y: 0.00003, z: 9.760559}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 40.77, z: 0}
+--- !u!114 &640911946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640911944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &640911947
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640911944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &641268710
 GameObject:
   m_ObjectHideFlags: 0
@@ -110866,7 +111648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641268712}
   - component: {fileID: 641268711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (284)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -112030,7 +112812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647654425}
   - component: {fileID: 647654426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (148)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -114445,7 +115227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651272355}
   - component: {fileID: 651272356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (109)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -114728,7 +115510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654273786}
   - component: {fileID: 654273787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (27)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -115998,7 +116780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659580579}
   - component: {fileID: 659580578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (235)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -117431,7 +118213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668872933}
   - component: {fileID: 668872934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (19)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -120858,6 +121640,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686908041}
   m_Mesh: {fileID: 4300006, guid: 3584114a12b5cc74ca821178fe907c24, type: 3}
+--- !u!1 &687147501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687147502}
+  - component: {fileID: 687147504}
+  - component: {fileID: 687147503}
+  m_Layer: 0
+  m_Name: 1 (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687147502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687147501}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.4560029, z: -0, w: 0.88997835}
+  m_LocalPosition: {x: 7.384491, y: 0.00003, z: 5.5505524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 54.259, z: 0}
+--- !u!114 &687147503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687147501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &687147504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687147501}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &687599064
 GameObject:
   m_ObjectHideFlags: 0
@@ -122393,6 +123242,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696358636}
   m_Mesh: {fileID: 1728890206783855893, guid: 1580bb82720624e41afd3d765e6e2818, type: 3}
+--- !u!1 &696505721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696505722}
+  - component: {fileID: 696505724}
+  - component: {fileID: 696505723}
+  m_Layer: 0
+  m_Name: 1 (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &696505722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696505721}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.48418102, z: -0, w: 0.8749679}
+  m_LocalPosition: {x: 9.114487, y: 0.00003, z: 2.9805603}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 57.918, z: 0}
+--- !u!114 &696505723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696505721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &696505724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696505721}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &696832286
 GameObject:
   m_ObjectHideFlags: 0
@@ -124246,7 +125162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704821408}
   - component: {fileID: 704821407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (204)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -126154,7 +127070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 713370912}
   - component: {fileID: 713370911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (161)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -127373,7 +128289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 719475864}
   - component: {fileID: 719475863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (190)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -130475,7 +131391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 733308110}
   - component: {fileID: 733308109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (257)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -130766,7 +131682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735033011}
   - component: {fileID: 735033012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (47)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -132600,7 +133516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741585229}
   - component: {fileID: 741585228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (245)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -132920,7 +133836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 742344708}
   - component: {fileID: 742344709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (131)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -133860,7 +134776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 749260721}
   - component: {fileID: 749260720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (298)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -134004,7 +134920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750030828}
   - component: {fileID: 750030829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (97)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -134278,7 +135194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 752601440}
   - component: {fileID: 752601439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (292)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -135248,7 +136164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 757421734}
   - component: {fileID: 757421735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (16)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -135726,7 +136642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759396101}
   - component: {fileID: 759396100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (263)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -136422,6 +137338,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763289340}
   m_Mesh: {fileID: 8146679465786531252, guid: ad0c8422dbbc641408ec72a4e9d3ae48, type: 3}
+--- !u!1 &764033491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764033492}
+  - component: {fileID: 764033494}
+  - component: {fileID: 764033493}
+  m_Layer: 0
+  m_Name: 1 (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &764033492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764033491}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.41536313, z: -0, w: 0.9096557}
+  m_LocalPosition: {x: 1.9899902, y: -5, z: -3.3799896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 49.084, z: 0}
+--- !u!114 &764033493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764033491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &764033494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764033491}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &764261887
 GameObject:
   m_ObjectHideFlags: 0
@@ -137205,7 +138188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 769223272}
   - component: {fileID: 769223273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (133)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -142407,7 +143390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792828967}
   - component: {fileID: 792828966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (256)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -144611,7 +145594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 809302643}
   - component: {fileID: 809302644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (84)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -144663,7 +145646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 809553234}
   - component: {fileID: 809553235}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (134)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -144705,6 +145688,73 @@ MonoBehaviour:
   connectedPoints:
   - {fileID: 769223273}
   - {fileID: 1731294649}
+--- !u!1 &810315538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810315539}
+  - component: {fileID: 810315541}
+  - component: {fileID: 810315540}
+  m_Layer: 0
+  m_Name: 1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &810315539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810315538}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.053245995, z: -0, w: 0.9985814}
+  m_LocalPosition: {x: -9.300003, y: -5, z: 1.4100037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 6.104, z: 0}
+--- !u!114 &810315540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810315538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &810315541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810315538}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &810710440
 GameObject:
   m_ObjectHideFlags: 0
@@ -144836,7 +145886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 811048004}
   - component: {fileID: 811048003}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (262)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -145551,7 +146601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 815208307}
   - component: {fileID: 815208306}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (189)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -146215,7 +147265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819849586}
   - component: {fileID: 819849585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (327)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -146645,7 +147695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 822646014}
   - component: {fileID: 822646013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (265)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -150156,7 +151206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841317596}
   - component: {fileID: 841317597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (141)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -150652,7 +151702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 845351203}
   - component: {fileID: 845351204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (79)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -151042,7 +152092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 847754834}
   - component: {fileID: 847754833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (172)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -154566,7 +155616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 864659475}
   - component: {fileID: 864659476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (39)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -157301,7 +158351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 878287886}
   - component: {fileID: 878287885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (251)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -157505,7 +158555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879650146}
   - component: {fileID: 879650147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (154)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -157711,7 +158761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880825693}
   - component: {fileID: 880825692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (228)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -159719,7 +160769,7 @@ GameObject:
   - component: {fileID: 892799586}
   - component: {fileID: 892799588}
   - component: {fileID: 892799587}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161194,7 +162244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904737277}
   - component: {fileID: 904737278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (68)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -161448,7 +162498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905544768}
   - component: {fileID: 905544767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (210)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -163730,7 +164780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918998516}
   - component: {fileID: 918998515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (181)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -163984,7 +165034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 920931098}
   - component: {fileID: 920931099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (34)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -166596,7 +167646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937414000}
   - component: {fileID: 937414001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (56)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -167305,7 +168355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942287867}
   - component: {fileID: 942287866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (220)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -167992,7 +169042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948850024}
   - component: {fileID: 948850023}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (258)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -169725,7 +170775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 956297575}
   - component: {fileID: 956297574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (207)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -169964,7 +171014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 957354006}
   - component: {fileID: 957354005}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (318)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -171286,7 +172336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963916604}
   - component: {fileID: 963916603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (171)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -171971,7 +173021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969611675}
   - component: {fileID: 969611674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (255)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -172399,7 +173449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970507511}
   - component: {fileID: 970507510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (226)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -173141,7 +174191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976279565}
   - component: {fileID: 976279566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (43)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -173459,7 +174509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 980287031}
   - component: {fileID: 980287030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (177)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -174050,7 +175100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985244284}
   - component: {fileID: 985244285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (36)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -177149,7 +178199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002296590}
   - component: {fileID: 1002296591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (150)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -177328,7 +178378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002549379}
   - component: {fileID: 1002549380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (61)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -177678,6 +178728,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003573384}
   m_Mesh: {fileID: 4300008, guid: ceac1b6ce30c82f4092f1b298b41e446, type: 3}
+--- !u!1 &1003999054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1003999055}
+  - component: {fileID: 1003999057}
+  - component: {fileID: 1003999056}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1003999055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003999054}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.845512, y: 0.00003, z: 17.020554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1003999056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003999054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1003999057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003999054}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1004555644
 GameObject:
   m_ObjectHideFlags: 0
@@ -178221,7 +179338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1008023247}
   - component: {fileID: 1008023246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (321)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -180117,7 +181234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1017452970}
   - component: {fileID: 1017452969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (178)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -181046,6 +182163,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 524084797}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1024873066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1024873067}
+  - component: {fileID: 1024873069}
+  - component: {fileID: 1024873068}
+  m_Layer: 0
+  m_Name: 1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1024873067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024873066}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.16417874, z: -0, w: 0.98643064}
+  m_LocalPosition: {x: -3.550003, y: -5, z: 0.23001099}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 18.899, z: 0}
+--- !u!114 &1024873068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024873066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1024873069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024873066}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1025577763
 GameObject:
   m_ObjectHideFlags: 0
@@ -182358,7 +183542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035053845}
   - component: {fileID: 1035053844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (266)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -183414,7 +184598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042786484}
   - component: {fileID: 1042786485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (55)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -184409,7 +185593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048720553}
   - component: {fileID: 1048720552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (183)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -184991,7 +186175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1052098077}
   - component: {fileID: 1052098076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (312)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -187085,7 +188269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067147735}
   - component: {fileID: 1067147734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (248)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -187137,7 +188321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067194930}
   - component: {fileID: 1067194931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (88)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -187571,7 +188755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1071088539}
   - component: {fileID: 1071088538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (271)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -188303,7 +189487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076510441}
   - component: {fileID: 1076510442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (17)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -190421,7 +191605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087308129}
   - component: {fileID: 1087308130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (132)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -191222,7 +192406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1093242086}
   - component: {fileID: 1093242087}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (14)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -192044,6 +193228,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096412953}
   m_Mesh: {fileID: 4300000, guid: c2b1bafd07e77b74db1ed4246cf7b10e, type: 3}
+--- !u!1 &1096871159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1096871160}
+  - component: {fileID: 1096871162}
+  - component: {fileID: 1096871161}
+  m_Layer: 0
+  m_Name: 1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1096871160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096871159}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.110202536, z: -0, w: 0.9939092}
+  m_LocalPosition: {x: -5.6600037, y: -5, z: 1.0700073}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 12.654, z: 0}
+--- !u!114 &1096871161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096871159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1096871162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096871159}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1096911716
 GameObject:
   m_ObjectHideFlags: 0
@@ -192386,7 +193637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099580506}
   - component: {fileID: 1099580505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (254)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -192917,6 +194168,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101499411}
   m_Mesh: {fileID: 4300002, guid: 6eca51fd4eb4dac48980bc8387666111, type: 3}
+--- !u!1 &1101971245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101971246}
+  - component: {fileID: 1101971248}
+  - component: {fileID: 1101971247}
+  m_Layer: 0
+  m_Name: 1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101971246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101971245}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.22562246, z: -0, w: 0.97421485}
+  m_LocalPosition: {x: -2.0800018, y: -5, z: -0.6299896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 26.079, z: 0}
+--- !u!114 &1101971247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101971245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1101971248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101971245}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1102409592
 GameObject:
   m_ObjectHideFlags: 0
@@ -196125,7 +197443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122469825}
   - component: {fileID: 1122469826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (81)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -197296,7 +198614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126767152}
   - component: {fileID: 1126767151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (168)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -203258,7 +204576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1130945848}
   - component: {fileID: 1130945849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (113)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -203441,7 +204759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132551193}
   - component: {fileID: 1132551192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (300)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -204225,7 +205543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135776387}
   - component: {fileID: 1135776388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (138)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -205759,7 +207077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145047154}
   - component: {fileID: 1145047153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (221)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -206169,7 +207487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146285666}
   - component: {fileID: 1146285667}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (62)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -206554,7 +207872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1150174215}
   - component: {fileID: 1150174216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (35)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -206606,7 +207924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152594698}
   - component: {fileID: 1152594699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (128)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -207075,7 +208393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154656811}
   - component: {fileID: 1154656812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (114)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -209531,7 +210849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1170511821}
   - component: {fileID: 1170511820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (173)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -209827,7 +211145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171225612}
   - component: {fileID: 1171225613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (66)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -209879,7 +211197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171572621}
   - component: {fileID: 1171572622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (107)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -210097,6 +211415,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2010047719}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1173175275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1173175276}
+  - component: {fileID: 1173175278}
+  - component: {fileID: 1173175277}
+  m_Layer: 0
+  m_Name: 1 (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1173175276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173175275}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5399194, z: -0, w: 0.84171677}
+  m_LocalPosition: {x: 10.114487, y: 0.00003, z: 0.68055725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 65.356, z: 0}
+--- !u!114 &1173175277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173175275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1173175278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173175275}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1174001924
 GameObject:
   m_ObjectHideFlags: 0
@@ -211468,7 +212853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1181861240}
   - component: {fileID: 1181861239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (323)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -211669,7 +213054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1183269440}
   - component: {fileID: 1183269439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (217)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -211937,7 +213322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185987936}
   - component: {fileID: 1185987935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (198)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -212228,7 +213613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186851522}
   - component: {fileID: 1186851521}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (212)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -212868,7 +214253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1189286820}
   - component: {fileID: 1189286819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (328)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -215115,7 +216500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201171726}
   - component: {fileID: 1201171725}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (253)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -215167,7 +216552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201723523}
   - component: {fileID: 1201723524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (22)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -215506,7 +216891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1203254660}
   - component: {fileID: 1203254659}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (250)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -215913,7 +217298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1205864709}
   - component: {fileID: 1205864708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (243)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -216055,7 +217440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206929543}
   - component: {fileID: 1206929542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (304)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -217185,7 +218570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1212338506}
   - component: {fileID: 1212338507}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (90)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -218590,7 +219975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223964607}
   - component: {fileID: 1223964608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (3)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -220746,7 +222131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240338899}
   - component: {fileID: 1240338900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (8)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -223509,7 +224894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252099386}
   - component: {fileID: 1252099387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (92)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -226329,7 +227714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264982857}
   - component: {fileID: 1264982856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (331)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -227995,7 +229380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277406484}
   - component: {fileID: 1277406483}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (289)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -228913,7 +230298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284247213}
   - component: {fileID: 1284247214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (106)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -229653,7 +231038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1287212784}
   - component: {fileID: 1287212783}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (174)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -231865,6 +233250,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1363294521}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1298410715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1298410716}
+  - component: {fileID: 1298410718}
+  - component: {fileID: 1298410717}
+  m_Layer: 0
+  m_Name: 1 (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298410716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298410715}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.70378745, z: -0, w: 0.71041065}
+  m_LocalPosition: {x: 11.554489, y: 0.00003, z: -12.819443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 89.463, z: 0}
+--- !u!114 &1298410717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298410715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1298410718
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298410715}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1299004434
 GameObject:
   m_ObjectHideFlags: 0
@@ -232019,6 +233471,185 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1777878791}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1299828708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1299828710}
+  - component: {fileID: 1299828709}
+  - component: {fileID: 1299828711}
+  m_Layer: 0
+  m_Name: "L_\u0130\xC7"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1299828709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299828708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04b8b5abbdeaab4ca8ad09def7126a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerArea
+  areaName: L Trigger Area
+  targetVehicle: {fileID: 1592428044}
+  scenarioEventTrigger: {fileID: 1299828711}
+  exitDelay: 0.15
+  debugLog: 0
+  showAreaLogs: 0
+--- !u!4 &1299828710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299828708}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 138.23807, y: 5, z: 192.35204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 70253026}
+  - {fileID: 810315539}
+  - {fileID: 1096871160}
+  - {fileID: 1024873067}
+  - {fileID: 1101971246}
+  - {fileID: 481148432}
+  - {fileID: 1310081949}
+  - {fileID: 764033492}
+  - {fileID: 360252652}
+  - {fileID: 1762094557}
+  - {fileID: 83681391}
+  - {fileID: 2066250868}
+  - {fileID: 2012315234}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299828711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299828708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac11014d64fc6b42a9fdfb3c1d55e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioEventTrigger
+  generalSettings:
+    actionType: 5
+    writeResultLog: 1
+    logOnlyIfError: 0
+    logSelfWhenNoActiveEvent: 0
+    evaluateOnExit: 1
+    logOnlyOnce: 1
+    successMessage: "Olay ba\u015Far\u0131yla tamamland\u0131."
+    generalErrorMessage: "Olay ba\u015Far\u0131s\u0131z ger\xE7ekle\u015Fti."
+    appendErrorReasons: 1
+  distanceMeasureSettings:
+    measureDistance: 0
+    targetObject: {fileID: 0}
+    distanceMeasureMode: 0
+    firstBrakeDistanceLabel: "\u0130lk fren mesafesi"
+    stoppedDistanceLabel: "Durdu\u011Fu mesafe"
+    includeBrakeSpeed: 1
+    includeStopSpeed: 0
+  violationSummarySettings:
+    appendViolationSummary: 1
+    appendViolationCount: 1
+    appendViolationDuration: 1
+    appendStopDuration: 1
+  speedSettings:
+    checkSpeed: 0
+    minSpeedKmh: 0
+    maxSpeedKmh: 50
+    speedViolationDuration: 0.5
+    speedErrorMessage: "H\u0131z s\u0131n\u0131r\u0131 a\u015F\u0131ld\u0131."
+  stopSettings:
+    requireStop: 0
+    stopSpeedThresholdKmh: 3
+    requiredStopDuration: 1.5
+    stopErrorMessage: "Gerekli durma davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  trafficLightStopSettings:
+    useTrafficLightForStop: 0
+    targetTrafficLight: {fileID: 0}
+    requireStopOnRed: 1
+    requireStopOnYellow: 1
+    requireStopOnPedestrianPhase: 1
+    errorIfStoppedOnGreen: 1
+    greenStopErrorMessage: "Ye\u015Fil \u0131\u015F\u0131kta gereksiz durdu."
+    errorIfPassedBeforeGreenAfterStop: 1
+    passedBeforeGreenErrorMessage: "Ara\xE7 k\u0131rm\u0131z\u0131 \u0131\u015F\u0131kta
+      durduktan sonra \u0131\u015F\u0131k ye\u015File d\xF6nmeden ge\xE7ti."
+  brakeSettings:
+    checkBrake: 1
+    requiredBrakeValue: 0.5
+    requiredBrakeDuration: 0.3
+    reverseBrakeCondition: 0
+    brakeErrorMessage: "Beklenen fren davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  gasSettings:
+    checkGas: 0
+    requiredGasValue: 0.4
+    requiredGasDuration: 0.5
+    reverseGasCondition: 0
+    gasErrorMessage: "Beklenen gaz davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  gasBrakeTogetherSettings:
+    checkGasBrakeTogether: 0
+    gasTogetherThreshold: 0.3
+    brakeTogetherThreshold: 0.3
+    gasBrakeTogetherDuration: 0.3
+    gasBrakeTogetherErrorMessage: "Gaz ve fren pedal\u0131na ayn\u0131 anda bas\u0131ld\u0131."
+  steeringSettings:
+    checkSteeringDirection: 1
+    expectedSteeringDirection: 0
+    steeringThreshold: 0.3
+    requiredSteeringDuration: 0.4
+    reverseSteeringCondition: 0
+    steeringErrorMessage: "Beklenen direksiyon hareketi ger\xE7ekle\u015Fmedi."
+  signalSettings:
+    requiredSignal: 2
+    requiredSignalDuration: 0.5
+    signalErrorMessage: "Beklenen sinyal davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  offRoadSettings:
+    measureOffRoad: 0
+    offRoadViolationDuration: 0.5
+    listenOffRoadViolation: 0
+    offRoadErrorMessage: "Ara\xE7 yol d\u0131\u015F\u0131na \xE7\u0131kt\u0131."
+  wrongLaneSettings:
+    measureWrongLane: 0
+    wrongLaneViolationDuration: 0.5
+    listenWrongLaneViolation: 0
+    wrongLaneErrorMessage: "Ara\xE7 kar\u015F\u0131 \u015Feride ge\xE7ti."
+  lineViolationSettings:
+    measureLineViolation: 0
+    lineViolationDuration: 0.5
+    listenLineViolation: 0
+    lineViolationErrorMessage: "Ara\xE7 \u015Ferit \xE7izgisini ihlal etti."
+  corridorSettings:
+    measureCorridorTransition: 1
+    listenCorridorTransition: 0
+    corridorGroupId: Kavsak_1_Donus
+    corridorNo: 1
+    corridorTransitionDuration: 0.4
+    resetCorridorStartOnExit: 1
+    corridorResetDelay: 1
+    corridorTransitionErrorMessage: "S\xFCr\xFCc\xFC d\xF6n\xFC\u015F s\u0131ras\u0131nda
+      ba\u015Flad\u0131\u011F\u0131 \u015Ferit koridorunu de\u011Fi\u015Ftirerek
+      hatal\u0131 d\xF6n\xFC\u015F yapt\u0131."
+  collisionSettings:
+    listenCollisionViolation: 0
+    collisionErrorMessage: "Ara\xE7 \xE7arp\u0131\u015Fma ger\xE7ekle\u015Ftirdi."
 --- !u!1 &1299854286
 GameObject:
   m_ObjectHideFlags: 0
@@ -232213,7 +233844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300205376}
   - component: {fileID: 1300205377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (50)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -234462,7 +236093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308900775}
   - component: {fileID: 1308900776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (76)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -234604,7 +236235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1309498355}
   - component: {fileID: 1309498356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (30)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -234870,6 +236501,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309980980}
   m_Mesh: {fileID: 4300000, guid: f29852b8e59ba2940bd825a4b9ada0d1, type: 3}
+--- !u!1 &1310081948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310081949}
+  - component: {fileID: 1310081951}
+  - component: {fileID: 1310081950}
+  m_Layer: 0
+  m_Name: 1 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310081949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310081948}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.34700608, z: -0, w: 0.9378629}
+  m_LocalPosition: {x: 0.69999695, y: -5, z: -1.8600006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 40.609, z: 0}
+--- !u!114 &1310081950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310081948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1310081951
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310081948}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1310409802
 GameObject:
   m_ObjectHideFlags: 0
@@ -235441,7 +237139,7 @@ PrefabInstance:
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 97.90708
+      value: 103.46
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
@@ -236071,6 +237769,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1592428041}
+    - targetCorrespondingSourceObject: {fileID: 2939709155551316583, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1592428047}
+    - targetCorrespondingSourceObject: {fileID: 2939709155551316583, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1592428048}
     - targetCorrespondingSourceObject: {fileID: 6715624895605057008, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       insertIndex: -1
@@ -239243,7 +240949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327157431}
   - component: {fileID: 1327157430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (302)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -239902,7 +241608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1330568263}
   - component: {fileID: 1330568264}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (72)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -240125,6 +241831,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330623732}
   m_Mesh: {fileID: 4300006, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+--- !u!1 &1330667173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1330667174}
+  - component: {fileID: 1330667176}
+  - component: {fileID: 1330667175}
+  m_Layer: 0
+  m_Name: 1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1330667174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330667173}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.066282846, z: -0, w: 0.9978009}
+  m_LocalPosition: {x: -9.635513, y: 0.00003, z: 17.020554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 7.601, z: 0}
+--- !u!114 &1330667175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330667173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1330667176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330667173}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1330963159
 GameObject:
   m_ObjectHideFlags: 0
@@ -240292,7 +242065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1331376704}
   - component: {fileID: 1331376705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (124)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -240914,7 +242687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1333389590}
   - component: {fileID: 1333389589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (236)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -241514,7 +243287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338637135}
   - component: {fileID: 1338637134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (163)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -241788,7 +243561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1340947230}
   - component: {fileID: 1340947229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (305)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -242126,7 +243899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1342474449}
   - component: {fileID: 1342474448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (193)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -242394,7 +244167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345447954}
   - component: {fileID: 1345447955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (118)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -243405,7 +245178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1350124241}
   - component: {fileID: 1350124240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (186)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -244462,7 +246235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353238173}
   - component: {fileID: 1353238172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (252)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -244520,7 +246293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353836327}
   - component: {fileID: 1353836326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (199)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -244897,7 +246670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1357199191}
   - component: {fileID: 1357199192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (13)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -245989,7 +247762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364025324}
   - component: {fileID: 1364025323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (231)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -248036,7 +249809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375076830}
   - component: {fileID: 1375076831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (45)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -248967,7 +250740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1380308000}
   - component: {fileID: 1380307999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (202)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -250514,7 +252287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387828730}
   - component: {fileID: 1387828729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (195)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -252554,7 +254327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398715712}
   - component: {fileID: 1398715713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (21)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -252670,7 +254443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1401086916}
   - component: {fileID: 1401086917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (145)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -252938,7 +254711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1403910114}
   - component: {fileID: 1403910115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (24)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -253521,7 +255294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1406077647}
   - component: {fileID: 1406077646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (239)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -253700,7 +255473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1409186027}
   - component: {fileID: 1409186026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (240)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -255118,7 +256891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414289826}
   - component: {fileID: 1414289825}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (175)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -256779,7 +258552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423040527}
   - component: {fileID: 1423040526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (225)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -257168,7 +258941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425686788}
   - component: {fileID: 1425686787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (276)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -258352,7 +260125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434932114}
   - component: {fileID: 1434932113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (270)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -260241,7 +262014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447039026}
   - component: {fileID: 1447039027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (64)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -260867,7 +262640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453627282}
   - component: {fileID: 1453627283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (38)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -260981,7 +262754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453892701}
   - component: {fileID: 1453892702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (29)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -261545,7 +263318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458292014}
   - component: {fileID: 1458292013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (306)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -261688,7 +263461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458523207}
   - component: {fileID: 1458523206}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (281)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -262456,7 +264229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1461974179}
   - component: {fileID: 1461974180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (100)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -263092,7 +264865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465034161}
   - component: {fileID: 1465034162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (28)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -263311,7 +265084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466159142}
   - component: {fileID: 1466159141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (246)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -263609,7 +265382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467138962}
   - component: {fileID: 1467138963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (12)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -264569,7 +266342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472372421}
   - component: {fileID: 1472372420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (166)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -264621,7 +266394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472606623}
   - component: {fileID: 1472606624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (98)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -264673,7 +266446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1473316071}
   - component: {fileID: 1473316070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (167)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -265551,7 +267324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478504487}
   - component: {fileID: 1478504486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (192)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -266012,7 +267785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480783319}
   - component: {fileID: 1480783318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (277)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -267802,7 +269575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1488346317}
   - component: {fileID: 1488346316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (233)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -268555,7 +270328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1492981205}
   - component: {fileID: 1492981204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (283)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -269537,7 +271310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1501397343}
   - component: {fileID: 1501397342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (162)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -270994,7 +272767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508412481}
   - component: {fileID: 1508412480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (259)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -273297,7 +275070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516825996}
   - component: {fileID: 1516825997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (137)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -273439,7 +275212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517768405}
   - component: {fileID: 1517768404}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (344)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -273606,7 +275379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1520795453}
   - component: {fileID: 1520795454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (31)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -273695,7 +275468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1521697046}
   - component: {fileID: 1521697045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (209)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -273990,7 +275763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523560201}
   - component: {fileID: 1523560200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (200)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -274860,7 +276633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526299925}
   - component: {fileID: 1526299926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (5)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -277367,7 +279140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536277188}
   - component: {fileID: 1536277189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (6)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -277979,7 +279752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540553895}
   - component: {fileID: 1540553896}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (58)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -278364,7 +280137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542394192}
   - component: {fileID: 1542394191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (308)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -278708,7 +280481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542864977}
   - component: {fileID: 1542864976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (176)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -279912,7 +281685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551335288}
   - component: {fileID: 1551335287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (215)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -280169,7 +281942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1553361903}
   - component: {fileID: 1553361904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (82)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -281431,7 +283204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561543741}
   - component: {fileID: 1561543742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (51)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -282270,6 +284043,175 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564555969}
   m_Mesh: {fileID: 4300000, guid: 3e25bb683b1ee2b44b50bf78d01db054, type: 3}
+--- !u!1 &1564766183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1564766186}
+  - component: {fileID: 1564766185}
+  - component: {fileID: 1564766184}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1564766184
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564766183}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1564766185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564766183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac11014d64fc6b42a9fdfb3c1d55e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioEventTrigger
+  generalSettings:
+    actionType: 0
+    writeResultLog: 1
+    logOnlyIfError: 0
+    logSelfWhenNoActiveEvent: 0
+    evaluateOnExit: 1
+    logOnlyOnce: 1
+    successMessage: "Olay ba\u015Far\u0131yla tamamland\u0131."
+    generalErrorMessage: "Olay ba\u015Far\u0131s\u0131z ger\xE7ekle\u015Fti."
+    appendErrorReasons: 1
+  distanceMeasureSettings:
+    measureDistance: 0
+    targetObject: {fileID: 0}
+    distanceMeasureMode: 0
+    firstBrakeDistanceLabel: "\u0130lk fren mesafesi"
+    stoppedDistanceLabel: "Durdu\u011Fu mesafe"
+    includeBrakeSpeed: 1
+    includeStopSpeed: 0
+  violationSummarySettings:
+    appendViolationSummary: 1
+    appendViolationCount: 1
+    appendViolationDuration: 1
+    appendStopDuration: 1
+  speedSettings:
+    checkSpeed: 1
+    minSpeedKmh: 0
+    maxSpeedKmh: 20
+    speedViolationDuration: 0.5
+    speedErrorMessage: "H\u0131z s\u0131n\u0131r\u0131 a\u015F\u0131ld\u0131."
+  stopSettings:
+    requireStop: 0
+    stopSpeedThresholdKmh: 3
+    requiredStopDuration: 1.5
+    stopErrorMessage: "Gerekli durma davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  trafficLightStopSettings:
+    useTrafficLightForStop: 0
+    targetTrafficLight: {fileID: 0}
+    requireStopOnRed: 1
+    requireStopOnYellow: 1
+    requireStopOnPedestrianPhase: 1
+    errorIfStoppedOnGreen: 1
+    greenStopErrorMessage: "Ye\u015Fil \u0131\u015F\u0131kta gereksiz durdu."
+    errorIfPassedBeforeGreenAfterStop: 1
+    passedBeforeGreenErrorMessage: "Ara\xE7 k\u0131rm\u0131z\u0131 \u0131\u015F\u0131kta
+      durduktan sonra \u0131\u015F\u0131k ye\u015File d\xF6nmeden ge\xE7ti."
+  brakeSettings:
+    checkBrake: 0
+    requiredBrakeValue: 0.5
+    requiredBrakeDuration: 0.3
+    reverseBrakeCondition: 0
+    brakeErrorMessage: "Beklenen fren davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  gasSettings:
+    checkGas: 0
+    requiredGasValue: 0.4
+    requiredGasDuration: 0.5
+    reverseGasCondition: 0
+    gasErrorMessage: "Beklenen gaz davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  gasBrakeTogetherSettings:
+    checkGasBrakeTogether: 0
+    gasTogetherThreshold: 0.3
+    brakeTogetherThreshold: 0.3
+    gasBrakeTogetherDuration: 0.3
+    gasBrakeTogetherErrorMessage: "Gaz ve fren pedal\u0131na ayn\u0131 anda bas\u0131ld\u0131."
+  steeringSettings:
+    checkSteeringDirection: 0
+    expectedSteeringDirection: 0
+    steeringThreshold: 0.3
+    requiredSteeringDuration: 0.4
+    reverseSteeringCondition: 0
+    steeringErrorMessage: "Beklenen direksiyon hareketi ger\xE7ekle\u015Fmedi."
+  signalSettings:
+    requiredSignal: 0
+    requiredSignalDuration: 0.5
+    signalErrorMessage: "Beklenen sinyal davran\u0131\u015F\u0131 ger\xE7ekle\u015Fmedi."
+  offRoadSettings:
+    measureOffRoad: 0
+    offRoadViolationDuration: 0.5
+    listenOffRoadViolation: 0
+    offRoadErrorMessage: "Ara\xE7 yol d\u0131\u015F\u0131na \xE7\u0131kt\u0131."
+  wrongLaneSettings:
+    measureWrongLane: 0
+    wrongLaneViolationDuration: 0.5
+    listenWrongLaneViolation: 0
+    wrongLaneErrorMessage: "Ara\xE7 kar\u015F\u0131 \u015Feride ge\xE7ti."
+  lineViolationSettings:
+    measureLineViolation: 0
+    lineViolationDuration: 0.5
+    listenLineViolation: 0
+    lineViolationErrorMessage: "Ara\xE7 \u015Ferit \xE7izgisini ihlal etti."
+  corridorSettings:
+    measureCorridorTransition: 0
+    listenCorridorTransition: 0
+    corridorGroupId: Kavsak_1_Donus
+    corridorNo: 1
+    corridorTransitionDuration: 0.4
+    resetCorridorStartOnExit: 1
+    corridorResetDelay: 1
+    corridorTransitionErrorMessage: "S\xFCr\xFCc\xFC d\xF6n\xFC\u015F s\u0131ras\u0131nda
+      ba\u015Flad\u0131\u011F\u0131 \u015Ferit koridorunu de\u011Fi\u015Ftirerek
+      hatal\u0131 d\xF6n\xFC\u015F yapt\u0131."
+  collisionSettings:
+    listenCollisionViolation: 0
+    collisionErrorMessage: "Ara\xE7 \xE7arp\u0131\u015Fma ger\xE7ekle\u015Ftirdi."
+--- !u!4 &1564766186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564766183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 174.8, y: -0.5, z: 103.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1564855707
 GameObject:
   m_ObjectHideFlags: 0
@@ -282280,7 +284222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564855708}
   - component: {fileID: 1564855709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (78)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -283040,7 +284982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1568159973}
   - component: {fileID: 1568159974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (139)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -283662,7 +285604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1570773259}
   - component: {fileID: 1570773258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (205)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -284838,7 +286780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578054296}
   - component: {fileID: 1578054297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (83)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -285460,7 +287402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1583660465}
   - component: {fileID: 1583660466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (101)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -285575,7 +287517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1584536946}
   - component: {fileID: 1584536947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (52)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -285627,7 +287569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585217676}
   - component: {fileID: 1585217675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (191)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -285742,7 +287684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585847154}
   - component: {fileID: 1585847155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (87)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -287121,6 +289063,76 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1311846380}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &1592428045 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2939709155551316581, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1311846380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1592428047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592428040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3acbf3f253097e459267cb9f8c6a50d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrivingLogManager
+  generalSettings:
+    loggingActive: 1
+    writeToCsv: 1
+    showConsoleLog: 1
+    showOnlyEventLogsInConsole: 1
+    createNewFileEachRun: 1
+    csvFileName: driving_log.csv
+    csvFolderName: DrivingLogs
+    sessionId: Senaryo_2_1
+  vehicleSettings:
+    carRigidbody: {fileID: 1592428045}
+    g29Input: {fileID: 1375005454}
+    useG29Input: 0
+  continuousSettings:
+    continuousLogging: 0
+    continuousLogInterval: 0.25
+  keyboardSettings:
+    useKeyboardGasBrake: 1
+    useKeyboardSteering: 1
+  signalSettings:
+    readSignalFromRccpLights: 1
+    leftSignalKey: 113
+    rightSignalKey: 101
+    hazardSignalKey: 114
+  gasValue: 0
+  brakeValue: 0
+  steeringAngle: 0
+  speedKmh: 0
+  leftSignalOn: 0
+  rightSignalOn: 0
+  hazardSignalOn: 0
+--- !u!114 &1592428048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592428040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def5d978a50f9fa4b824382355d82bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionViolationReporter
+  generalSettings:
+    collisionCheckActive: 1
+    minimumCollisionSpeedKmh: 5
+    ignoreSameObjectAgain: 1
+    collisionCooldown: 1
+    defaultCollisionMessage: "Ara\xE7 bir nesneyle \xE7arp\u0131\u015Ft\u0131."
+    logSelfWhenNoActiveEvent: 1
+    selfLogActionName: "\xC7arp\u0131\u015Fma"
+  collisionGroups: []
 --- !u!1 &1593095433
 GameObject:
   m_ObjectHideFlags: 0
@@ -287131,7 +289143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593095435}
   - component: {fileID: 1593095434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (336)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -287246,7 +289258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593564021}
   - component: {fileID: 1593564020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (337)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -288944,7 +290956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1605236644}
   - component: {fileID: 1605236643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (286)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -295708,7 +297720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634639963}
   - component: {fileID: 1634639962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (164)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -297293,7 +299305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644203193}
   - component: {fileID: 1644203192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (165)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -297345,7 +299357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644474769}
   - component: {fileID: 1644474768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (341)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -298903,7 +300915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654968045}
   - component: {fileID: 1654968044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (340)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -299354,7 +301366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1657006130}
   - component: {fileID: 1657006129}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (291)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -301090,7 +303102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670323170}
   - component: {fileID: 1670323169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (180)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -301142,7 +303154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671464729}
   - component: {fileID: 1671464730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (4)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -303503,7 +305515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685780540}
   - component: {fileID: 1685780541}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (96)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -303555,7 +305567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1686374238}
   - component: {fileID: 1686374239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (75)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -304550,7 +306562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690320976}
   - component: {fileID: 1690320975}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (297)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -306026,7 +308038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1697716922}
   - component: {fileID: 1697716921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (222)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -306296,7 +308308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700443236}
   - component: {fileID: 1700443235}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (315)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -306348,7 +308360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701150271}
   - component: {fileID: 1701150270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (314)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -307250,6 +309262,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703713436}
   m_Mesh: {fileID: 4300000, guid: 74d3f3ce56cdea844a87f1869860a57d, type: 3}
+--- !u!1 &1704520794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1704520795}
+  - component: {fileID: 1704520797}
+  - component: {fileID: 1704520796}
+  m_Layer: 0
+  m_Name: 1 (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1704520795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704520794}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5825278, z: -0, w: 0.81281084}
+  m_LocalPosition: {x: 10.884491, y: 0.00003, z: -2.1194458}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 71.257, z: 0}
+--- !u!114 &1704520796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704520794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1704520797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704520794}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1704947816
 GameObject:
   m_ObjectHideFlags: 0
@@ -308130,7 +310209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1709081869}
   - component: {fileID: 1709081868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (269)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -308492,7 +310571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711307028}
   - component: {fileID: 1711307029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (42)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -309367,7 +311446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719375958}
   - component: {fileID: 1719375959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (18)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -310249,7 +312328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724222055}
   - component: {fileID: 1724222054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (295)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -310565,7 +312644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725822250}
   - component: {fileID: 1725822249}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (170)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -310946,7 +313025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726961941}
   - component: {fileID: 1726961940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (219)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -311095,7 +313174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1727332095}
   - component: {fileID: 1727332094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (299)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -311687,7 +313766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731294648}
   - component: {fileID: 1731294649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (135)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -311739,7 +313818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1732415909}
   - component: {fileID: 1732415910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (99)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -312479,7 +314558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735619376}
   - component: {fileID: 1735619377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (105)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -312622,7 +314701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735985192}
   - component: {fileID: 1735985191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (244)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -313625,7 +315704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741808151}
   - component: {fileID: 1741808150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (232)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -314844,7 +316923,7 @@ GameObject:
   - component: {fileID: 1745948924}
   - component: {fileID: 1745948926}
   - component: {fileID: 1745948925}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316087,7 +318166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1754978936}
   - component: {fileID: 1754978937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -316806,7 +318885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1759316576}
   - component: {fileID: 1759316575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (333)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -316984,7 +319063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1760766495}
   - component: {fileID: 1760766496}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (122)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -317036,7 +319115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761222847}
   - component: {fileID: 1761222846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (194)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -317203,6 +319282,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2002977598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1762094556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762094557}
+  - component: {fileID: 1762094559}
+  - component: {fileID: 1762094558}
+  m_Layer: 0
+  m_Name: 1 (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762094557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762094556}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5278634, z: -0, w: 0.84932935}
+  m_LocalPosition: {x: 4.4799957, y: -5, z: -6.48999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 63.722, z: 0}
+--- !u!114 &1762094558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762094556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1762094559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762094556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1762729310
 GameObject:
   m_ObjectHideFlags: 0
@@ -317213,7 +319359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1762729311}
   - component: {fileID: 1762729312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (91)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -322658,7 +324804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1797526696}
   - component: {fileID: 1797526695}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (241)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -325826,7 +327972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813813532}
   - component: {fileID: 1813813533}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (44)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -326077,7 +328223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815756206}
   - component: {fileID: 1815756207}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (48)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -326129,7 +328275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815984330}
   - component: {fileID: 1815984331}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (32)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -326524,7 +328670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817378600}
   - component: {fileID: 1817378599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (242)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -328551,7 +330697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1830884095}
   - component: {fileID: 1830884096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (57)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -329116,7 +331262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1834417748}
   - component: {fileID: 1834417749}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (60)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -330386,7 +332532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840024643}
   - component: {fileID: 1840024644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (104)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -330502,7 +332648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840664072}
   - component: {fileID: 1840664073}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (70)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -330618,7 +332764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843535747}
   - component: {fileID: 1843535746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (155)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -330921,7 +333067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846127432}
   - component: {fileID: 1846127433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (149)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -331549,13 +333695,69 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1073572777}
     m_Modifications:
+    - target: {fileID: 1078748727531646, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119496001361992, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150811285624068, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227970693377876, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290112594164672, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421391592215704, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440267488521758, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686548889156506, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1702394528788622, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737790164049144, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1774752494246434, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
       propertyPath: m_Name
       value: MapCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 1774752494246434, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1774752494246434, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813018558041210, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848823946701060, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998278275311544, guid: aeaf541e7b78f2148a6b64cf964b4c9d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114001364334757514, guid: aeaf541e7b78f2148a6b64cf964b4c9d,
         type: 3}
@@ -335346,7 +337548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1862933072}
   - component: {fileID: 1862933071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (229)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -335734,7 +337936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1865295925}
   - component: {fileID: 1865295926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (85)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -337303,7 +339505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1875780107}
   - component: {fileID: 1875780106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (287)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -337956,7 +340158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1878020683}
   - component: {fileID: 1878020684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (20)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -339932,7 +342134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886534938}
   - component: {fileID: 1886534939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (146)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -341166,7 +343368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893621695}
   - component: {fileID: 1893621694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (275)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -342893,7 +345095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1902638062}
   - component: {fileID: 1902638063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (10)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -342947,7 +345149,7 @@ GameObject:
   - component: {fileID: 1904531873}
   - component: {fileID: 1904531872}
   - component: {fileID: 1904531871}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345598,7 +347800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1911161607}
   - component: {fileID: 1911161608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (94)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -345742,7 +347944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913075483}
   - component: {fileID: 1913075484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (111)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -346428,7 +348630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1917468479}
   - component: {fileID: 1917468478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (211)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -348228,7 +350430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1927042078}
   - component: {fileID: 1927042079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (54)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -351934,7 +354136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939263775}
   - component: {fileID: 1939263774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (274)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -355190,7 +357392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1961107638}
   - component: {fileID: 1961107639}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (153)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -356085,7 +358287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966437844}
   - component: {fileID: 1966437843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (216)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -357479,6 +359681,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1822876914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1972104086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972104087}
+  - component: {fileID: 1972104089}
+  - component: {fileID: 1972104088}
+  m_Layer: 0
+  m_Name: 1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972104087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972104086}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.18367314, z: -0, w: 0.9829874}
+  m_LocalPosition: {x: -3.3155212, y: 0.00003, z: 14.970566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195390990}
+  m_LocalEulerAnglesHint: {x: 0, y: 21.168, z: 0}
+--- !u!114 &1972104088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972104086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &1972104089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972104086}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1972494001
 GameObject:
   m_ObjectHideFlags: 0
@@ -357970,7 +360239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974897876}
   - component: {fileID: 1974897875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (310)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -359291,7 +361560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1980537782}
   - component: {fileID: 1980537781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (316)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -361453,7 +363722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1996297533}
   - component: {fileID: 1996297534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (142)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -361703,7 +363972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1997414373}
   - component: {fileID: 1997414372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (238)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -361845,7 +364114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998059936}
   - component: {fileID: 1998059937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (152)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -362680,7 +364949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2001341528}
   - component: {fileID: 2001341527}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (317)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -364409,6 +366678,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012241288}
   m_Mesh: {fileID: 4300000, guid: 1eaee62c7b8ccf4408f098c4c7afa29c, type: 3}
+--- !u!1 &2012315233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012315234}
+  - component: {fileID: 2012315236}
+  - component: {fileID: 2012315235}
+  m_Layer: 0
+  m_Name: 1 (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2012315234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012315233}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.6996756, z: -0, w: 0.7144607}
+  m_LocalPosition: {x: 6.5399933, y: -5, z: -15.610001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 88.802, z: 0}
+--- !u!114 &2012315235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012315233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &2012315236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012315233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2013628183
 GameObject:
   m_ObjectHideFlags: 0
@@ -366105,7 +368441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026883436}
   - component: {fileID: 2026883435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (326)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -366463,7 +368799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2028519347}
   - component: {fileID: 2028519346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (335)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -367243,7 +369579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030760142}
   - component: {fileID: 2030760141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (223)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -367629,7 +369965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032730376}
   - component: {fileID: 2032730377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (93)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -368949,7 +371285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040203296}
   - component: {fileID: 2040203297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (140)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -369749,7 +372085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043859072}
   - component: {fileID: 2043859073}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (89)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -371221,7 +373557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2051271175}
   - component: {fileID: 2051271176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (63)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -371650,7 +373986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2053866389}
   - component: {fileID: 2053866388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (260)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -371792,7 +374128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2054687512}
   - component: {fileID: 2054687511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (261)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -372549,7 +374885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064833834}
   - component: {fileID: 2064833835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (136)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -372663,7 +374999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2065370425}
   - component: {fileID: 2065370424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (157)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -372975,6 +375311,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065903019}
   m_Mesh: {fileID: 4300008, guid: c2b1bafd07e77b74db1ed4246cf7b10e, type: 3}
+--- !u!1 &2066250867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2066250868}
+  - component: {fileID: 2066250870}
+  - component: {fileID: 2066250869}
+  m_Layer: 0
+  m_Name: 1 (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2066250868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066250867}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.6447631, z: -0, w: 0.7643825}
+  m_LocalPosition: {x: 6, y: -5, z: -10.729996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1299828710}
+  m_LocalEulerAnglesHint: {x: 0, y: 80.296, z: 0}
+--- !u!114 &2066250869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066250867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77c3367a57601b468e3a4ae08015fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CompoundTriggerRelay
+  area: {fileID: 0}
+--- !u!65 &2066250870
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066250867}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2067202352
 GameObject:
   m_ObjectHideFlags: 0
@@ -373139,7 +375542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2067641326}
   - component: {fileID: 2067641325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (159)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -374485,7 +376888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074745590}
   - component: {fileID: 2074745591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (15)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -375766,7 +378169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080588757}
   - component: {fileID: 2080588756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (290)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -377237,7 +379640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2087680598}
   - component: {fileID: 2087680599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (117)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -377778,7 +380181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2091128377}
   - component: {fileID: 2091128378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (11)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -378095,7 +380498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092950167}
   - component: {fileID: 2092950168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (151)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -378302,7 +380705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094000626}
   - component: {fileID: 2094000627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (129)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -379368,7 +381771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101459692}
   - component: {fileID: 2101459691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (293)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -379907,7 +382310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105337078}
   - component: {fileID: 2105337077}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (309)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -384892,7 +387295,7 @@ GameObject:
   - component: {fileID: 2133996683}
   - component: {fileID: 2133996685}
   - component: {fileID: 2133996684}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386002,7 +388405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138141549}
   - component: {fileID: 2138141548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (187)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -386054,7 +388457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138478023}
   - component: {fileID: 2138478022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (197)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -386919,7 +389322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145850466}
   - component: {fileID: 2145850465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point (214)
   m_TagString: Untagged
   m_Icon: {fileID: 7240890024493199768, guid: 0000000000000000d000000000000000, type: 0}
@@ -388256,3 +390659,6 @@ SceneRoots:
   - {fileID: 771854517}
   - {fileID: 1353229287}
   - {fileID: 1712280670}
+  - {fileID: 195390990}
+  - {fileID: 1299828710}
+  - {fileID: 1564766186}

@@ -645,6 +645,11 @@ public class ScenarioEventTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        ManualTriggerEnter(other);
+    }
+
+    public void ManualTriggerEnter(Collider other)
+    {
         DrivingLogManager logger = GetLogger(other);
         if (logger == null)
             return;
@@ -666,6 +671,11 @@ public class ScenarioEventTrigger : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        ManualTriggerStay(other);
+    }
+
+    public void ManualTriggerStay(Collider other)
+    {
         DrivingLogManager logger = GetLogger(other);
         if (logger == null)
             return;
@@ -677,6 +687,11 @@ public class ScenarioEventTrigger : MonoBehaviour
     }
 
     private void OnTriggerExit(Collider other)
+    {
+        ManualTriggerExit(other);
+    }
+
+    public void ManualTriggerExit(Collider other)
     {
         DrivingLogManager logger = GetLogger(other);
         if (logger == null)
