@@ -21715,7 +21715,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 109879620}
-  - component: {fileID: 109879622}
   - component: {fileID: 109879619}
   - component: {fileID: 109879618}
   - component: {fileID: 109879621}
@@ -21800,11 +21799,14 @@ MonoBehaviour:
   keyboardThrottleSmooth: 10
   handlebarVisual: {fileID: 1398618388252725778}
   frontWheelSteerRoot: {fileID: 2898394801314426955}
-  visualSteerAngle: 60
+  visualSteerAngle: 35
   visualSteerSmooth: 12
   handlebarSteerAxis: {x: 0, y: 0, z: 1}
   frontWheelSteerAxis: {x: 0, y: 0, z: 1}
   invertFrontWheelSteerVisual: 0
+  rotateVisualsAroundRendererCenter: 1
+  drawVisualCenters: 1
+  visualCenterGizmoSize: 0.08
   handlebarLocalRotationOffset: {x: 0, y: 0, z: 0}
   frontWheelSteerLocalRotationOffset: {x: 0, y: 0, z: 0}
   frontWheelSpinLocalRotationOffset: {x: 0, y: 0, z: 0}
@@ -21825,8 +21827,8 @@ Transform:
   m_GameObject: {fileID: 109879617}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 171.416, y: 0.283, z: 104.938}
-  m_LocalScale: {x: 0.32609448, y: 0.3260943, z: 0.32609448}
+  m_LocalPosition: {x: 171.416, y: 0.1500001, z: 104.938}
+  m_LocalScale: {x: 0.54744035, y: 0.54744, z: 0.54744035}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 953393627}
@@ -21845,27 +21847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60757e4723cacba4e8d9b8dfe9a7b15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InsaneSystems.RoadNavigator.NavigatorPlayer
---- !u!114 &109879622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109879617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eea465851558e0c419a24cda532b45e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MotorcycleTelemetryLogger
-  motorController: {fileID: 109879619}
-  rb: {fileID: 109879618}
-  logOnStart: 1
-  sampleRate: 20
-  fileNamePrefix: motorcycle_telemetry
-  harshBrakeThreshold: 0.75
-  harshSteerRateThreshold: 120
-  highSideSlipThreshold: 1.2
-  highYawRateThreshold: 90
 --- !u!1 &111569975
 GameObject:
   m_ObjectHideFlags: 0
@@ -171809,7 +171790,7 @@ Transform:
   m_GameObject: {fileID: 953393626}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 2.15, z: -1.123}
+  m_LocalPosition: {x: -0, y: 2.52, z: -1.123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

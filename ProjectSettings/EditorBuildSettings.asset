@@ -35,7 +35,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Realistic Car Controller Pro/Addons/Installed/Demo Content/Scenes/RCCP_Scene_CityNew_AI.unity
     guid: 027daeb76767a314ea08b1a99a646d0e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/sado.unity
     guid: fb8c1f8128710bf448446c96370bb3e9
   - enabled: 0

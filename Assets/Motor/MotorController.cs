@@ -8,7 +8,9 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private Rigidbody rb;
 
     [Header("Force Fixed Local X Rotation")]
+    [Tooltip("X'i -90 kalması gereken ana visual root objesi. Teker/gidon verme.")]
     [SerializeField] private Transform forceMinus90Target;
+
     [SerializeField] private bool forceLocalXRotation = true;
     [SerializeField] private float forcedLocalX = -90f;
 
@@ -16,6 +18,7 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private bool useKeyboardInputForTest = true;
 
     [Header("Movement Direction")]
+    [Tooltip("Motor gücü hangi LOCAL eksene uygulansın? Z için (0,0,1).")]
     [SerializeField] private Vector3 movementLocalAxis = Vector3.forward;
 
     [Header("Movement Settings")]
@@ -25,9 +28,9 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private float brakePower = 6f;
 
     [Header("Grip / Anti Slide Settings")]
-    [SerializeField] private float lateralGrip = 8f;
+    [SerializeField] private float lateralGrip = 12f;
     [SerializeField] private float velocityAlignStrength = 5f;
-    [SerializeField] private float maxSidewaysSpeed = 0.6f;
+    [SerializeField] private float maxSidewaysSpeed = 0.4f;
     [SerializeField] private bool applyGripOnlyWhenGrounded = true;
 
     [Header("Ground / Stability")]
@@ -40,7 +43,7 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private Vector3 centerOfMassOffset = new Vector3(0f, -0.6f, 0f);
 
     [Header("Steering Settings")]
-    [SerializeField] private float turnSpeed = 45f;
+    [SerializeField] private float turnSpeed = 42f;
     [SerializeField] private float minSpeedToSteer = 0.05f;
     [SerializeField] private bool invertSteer = false;
 
@@ -48,7 +51,7 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private bool autoCalibrateSteering = true;
     [SerializeField] private float steeringMin = -0.15f;
     [SerializeField] private float steeringMax = 0.55f;
-    [SerializeField] private float steeringSmoothSpeed = 14f;
+    [SerializeField] private float steeringSmoothSpeed = 12f;
     [SerializeField] private float zeroHoldTime = 0.06f;
 
     [Header("Keyboard Test")]
@@ -61,21 +64,17 @@ public class ArduinoMotorController : MonoBehaviour
     [Tooltip("Ön tekerin sağ-sol dönen parent objesi. Spin pivot ile aynı obje OLMAMALI.")]
     [SerializeField] private Transform frontWheelSteerRoot;
 
-    [SerializeField] private float visualSteerAngle = 35f;
-    [SerializeField] private float visualSteerSmooth = 12f;
+    [SerializeField] private float visualSteerAngle = 28f;
+    [SerializeField] private float visualSteerSmooth = 20f;
 
+    [Tooltip("Gidon hangi LOCAL eksende sağ-sol dönüyorsa onu yaz.")]
     [SerializeField] private Vector3 handlebarSteerAxis = Vector3.up;
+
+    [Tooltip("Ön teker sağ-sol dönerken local X değişsin istiyorsan (1,0,0).")]
     [SerializeField] private Vector3 frontWheelSteerAxis = Vector3.right;
+
+    [Tooltip("Sağa dönerken ön teker X eksiye gitsin diye açık kalsın.")]
     [SerializeField] private bool invertFrontWheelSteerVisual = true;
-
-    [Header("Visual Rotate Around Own Center")]
-    [Tooltip("Açık olursa görsel objeler pivot yerine kendi Renderer center noktasına göre döner.")]
-    [SerializeField] private bool rotateVisualsAroundRendererCenter = true;
-
-    [Tooltip("Scene view'da görsel center noktalarını çizdirir.")]
-    [SerializeField] private bool drawVisualCenters = true;
-
-    [SerializeField] private float visualCenterGizmoSize = 0.08f;
 
     [Header("Visual Rotation Corrections")]
     [SerializeField] private Vector3 handlebarLocalRotationOffset = Vector3.zero;
@@ -84,12 +83,17 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private Vector3 rearWheelSpinLocalRotationOffset = Vector3.zero;
 
     [Header("Wheel Spin")]
+    [Tooltip("Ön tekerin kendi merkezindeki spin pivotu. FrontWheelSteerRoot'un child'ı olmalı.")]
     [SerializeField] private Transform frontWheelSpinPivot;
+
     [SerializeField] private Transform rearWheelSpinPivot;
     [SerializeField] private float wheelRadius = 0.35f;
     [SerializeField] private float wheelSpinMultiplier = 1f;
 
+    [Tooltip("Teker ileri giderken local X ekseninde dönsün istiyorsan (1,0,0).")]
     [SerializeField] private Vector3 frontWheelSpinAxis = Vector3.right;
+
+    [Tooltip("Teker ileri giderken local X ekseninde dönsün istiyorsan (1,0,0).")]
     [SerializeField] private Vector3 rearWheelSpinAxis = Vector3.right;
 
     [Header("Brake")]
@@ -136,9 +140,6 @@ public class ArduinoMotorController : MonoBehaviour
             rb.centerOfMass = centerOfMassOffset;
             rb.interpolation = RigidbodyInterpolation.Interpolate;
             rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
-
-            // VR kamera child iken gövde X/Z devrilmesin diye yeterli.
-            // Ekstra MoveRotation ile stabilize etmek kamera titremesi yapabiliyor.
             rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
         }
 
@@ -178,18 +179,14 @@ public class ArduinoMotorController : MonoBehaviour
         ApplyThrottle();
         ApplyReverse();
         ApplySteering();
+
         ApplyLateralGrip();
         ApplyVelocityAlignment();
+
         ApplyBrake();
         ApplyGroundStabilization();
         LimitHorizontalSpeed();
-
-        // BUNU KALDIRDIK:
-        // StabilizeBodyRotation();
-        //
-        // Sebep:
-        // ApplySteering zaten rb.MoveRotation yapıyor.
-        // Aynı FixedUpdate içinde ikinci kez rotation basmak VR kamera child iken jitter yapabilir.
+        StabilizeBodyRotation();
     }
 
     private void LateUpdate()
@@ -218,7 +215,7 @@ public class ArduinoMotorController : MonoBehaviour
             {
                 Debug.LogWarning(
                     "UYARI: FrontWheelSpinPivot, FrontWheelSteerRoot'un child'ı değil. " +
-                    "Hiyerarşi: FrontWheelSteerRoot > FrontWheelSpinPivot > FrontWheelMesh"
+                    "Ön teker sağ-sol dönmeyebilir. Hiyerarşi: FrontWheelSteerRoot > FrontWheelSpinPivot > FrontWheelMesh"
                 );
             }
         }
@@ -307,6 +304,10 @@ public class ArduinoMotorController : MonoBehaviour
         );
 
         brakeInput = targetBrake;
+
+        rawX = targetSteer;
+        rawY = targetThrottle;
+        rawZ = targetBrake;
     }
 
     private void ReadArduinoInput()
@@ -385,6 +386,7 @@ public class ArduinoMotorController : MonoBehaviour
     {
         rawY = Joystick.current.stick.y.ReadUnprocessedValue();
 
+        // Y = 1 iken gaz yok, Y = 0'a yaklaştıkça gaz artar.
         throttleInput = 1f - Mathf.Clamp01(rawY);
         throttleInput = Mathf.Clamp01(throttleInput);
     }
@@ -449,7 +451,16 @@ public class ArduinoMotorController : MonoBehaviour
 
         float speedFactor = Mathf.InverseLerp(0f, maxSpeed, horizontalSpeed);
         float moveFactor = Mathf.Max(throttleInput, reverseInput);
-        float steeringPower = Mathf.Max(speedFactor, moveFactor);
+
+        // Gidon kırılır kırılmaz tank gibi dönmesin.
+        // Gaz/hız geldikçe daha doğal yön değiştirsin.
+        float steeringPower = Mathf.Lerp(
+            moveFactor * 0.45f,
+            speedFactor,
+            0.65f
+        );
+
+        steeringPower = Mathf.Clamp01(steeringPower);
 
         float directionMultiplier = reverseInput > throttleInput ? -1f : 1f;
 
@@ -477,23 +488,17 @@ public class ArduinoMotorController : MonoBehaviour
         float forwardSpeed = Vector3.Dot(horizontalVelocity, moveDirection);
         Vector3 forwardVelocity = moveDirection * forwardSpeed;
 
-        Vector3 sidewaysVelocity = horizontalVelocity - forwardVelocity;
+        Vector3 currentSidewaysVelocity = horizontalVelocity - forwardVelocity;
 
-        if (sidewaysVelocity.magnitude > maxSidewaysSpeed)
+        if (currentSidewaysVelocity.magnitude > maxSidewaysSpeed)
         {
-            sidewaysVelocity = sidewaysVelocity.normalized * maxSidewaysSpeed;
+            currentSidewaysVelocity = currentSidewaysVelocity.normalized * maxSidewaysSpeed;
         }
 
         float gripAmount = Mathf.Clamp01(lateralGrip * Time.fixedDeltaTime);
 
         Vector3 correctedSidewaysVelocity = Vector3.Lerp(
-            horizontalVelocity - forwardVelocity,
-            sidewaysVelocity,
-            gripAmount
-        );
-
-        correctedSidewaysVelocity = Vector3.Lerp(
-            correctedSidewaysVelocity,
+            currentSidewaysVelocity,
             Vector3.zero,
             gripAmount
         );
@@ -594,6 +599,19 @@ public class ArduinoMotorController : MonoBehaviour
         );
     }
 
+    private void StabilizeBodyRotation()
+    {
+        float currentY = rb.rotation.eulerAngles.y;
+
+        rb.MoveRotation(Quaternion.Euler(0f, currentY, 0f));
+
+        rb.angularVelocity = new Vector3(
+            0f,
+            rb.angularVelocity.y,
+            0f
+        );
+    }
+
     private void UpdateVisualSteering()
     {
         float targetAngle = steerInput * visualSteerAngle;
@@ -606,14 +624,12 @@ public class ArduinoMotorController : MonoBehaviour
 
         if (handlebarVisual != null)
         {
-            Quaternion targetLocalRotation =
+            handlebarVisual.localRotation =
                 handlebarBaseRotation *
                 Quaternion.AngleAxis(
                     currentVisualSteerAngle,
                     handlebarSteerAxis.normalized
                 );
-
-            SetLocalRotationKeepingVisualCenter(handlebarVisual, targetLocalRotation);
         }
 
         if (frontWheelSteerRoot != null)
@@ -622,14 +638,12 @@ public class ArduinoMotorController : MonoBehaviour
                 ? -currentVisualSteerAngle
                 : currentVisualSteerAngle;
 
-            Quaternion targetLocalRotation =
+            frontWheelSteerRoot.localRotation =
                 frontWheelSteerBaseRotation *
                 Quaternion.AngleAxis(
                     frontWheelAngle,
                     frontWheelSteerAxis.normalized
                 );
-
-            SetLocalRotationKeepingVisualCenter(frontWheelSteerRoot, targetLocalRotation);
         }
     }
 
@@ -650,80 +664,29 @@ public class ArduinoMotorController : MonoBehaviour
             360f *
             wheelSpinMultiplier;
 
+        // İleri giderken teker local X eksi yönde dönsün.
         frontWheelSpinAngle -= degreePerSecond * Time.deltaTime;
         rearWheelSpinAngle -= degreePerSecond * Time.deltaTime;
 
         if (frontWheelSpinPivot != null)
         {
-            Quaternion targetLocalRotation =
+            frontWheelSpinPivot.localRotation =
                 frontWheelSpinBaseRotation *
                 Quaternion.AngleAxis(
                     frontWheelSpinAngle,
                     frontWheelSpinAxis.normalized
                 );
-
-            SetLocalRotationKeepingVisualCenter(frontWheelSpinPivot, targetLocalRotation);
         }
 
         if (rearWheelSpinPivot != null)
         {
-            Quaternion targetLocalRotation =
+            rearWheelSpinPivot.localRotation =
                 rearWheelSpinBaseRotation *
                 Quaternion.AngleAxis(
                     rearWheelSpinAngle,
                     rearWheelSpinAxis.normalized
                 );
-
-            SetLocalRotationKeepingVisualCenter(rearWheelSpinPivot, targetLocalRotation);
         }
-    }
-
-    private void SetLocalRotationKeepingVisualCenter(Transform target, Quaternion targetLocalRotation)
-    {
-        if (target == null)
-            return;
-
-        if (!rotateVisualsAroundRendererCenter)
-        {
-            target.localRotation = targetLocalRotation;
-            return;
-        }
-
-        Vector3 center = GetRendererCenter(target);
-
-        Quaternion oldWorldRotation = target.rotation;
-        Vector3 oldWorldPosition = target.position;
-
-        Vector3 worldOffsetFromCenter = oldWorldPosition - center;
-        Vector3 localOffsetFromCenter = Quaternion.Inverse(oldWorldRotation) * worldOffsetFromCenter;
-
-        Quaternion targetWorldRotation;
-
-        if (target.parent != null)
-            targetWorldRotation = target.parent.rotation * targetLocalRotation;
-        else
-            targetWorldRotation = targetLocalRotation;
-
-        Vector3 newWorldPosition = center + targetWorldRotation * localOffsetFromCenter;
-
-        target.SetPositionAndRotation(newWorldPosition, targetWorldRotation);
-    }
-
-    private Vector3 GetRendererCenter(Transform target)
-    {
-        Renderer[] renderers = target.GetComponentsInChildren<Renderer>();
-
-        if (renderers == null || renderers.Length == 0)
-            return target.position;
-
-        Bounds bounds = renderers[0].bounds;
-
-        for (int i = 1; i < renderers.Length; i++)
-        {
-            bounds.Encapsulate(renderers[i].bounds);
-        }
-
-        return bounds.center;
     }
 
     private void ForceTargetLocalXRotation()
@@ -790,29 +753,42 @@ public class ArduinoMotorController : MonoBehaviour
 
         Gizmos.color = Color.blue;
 
-        Vector3 moveDirection = Application.isPlaying && rb != null
+        Vector3 moveDirection = Application.isPlaying
             ? GetMoveDirection()
             : transform.TransformDirection(movementLocalAxis.normalized);
 
         Gizmos.DrawLine(transform.position, transform.position + moveDirection.normalized * 2f);
-
-        if (!drawVisualCenters)
-            return;
-
-        Gizmos.color = Color.red;
-
-        DrawVisualCenterGizmo(handlebarVisual);
-        DrawVisualCenterGizmo(frontWheelSteerRoot);
-        DrawVisualCenterGizmo(frontWheelSpinPivot);
-        DrawVisualCenterGizmo(rearWheelSpinPivot);
     }
 
-    private void DrawVisualCenterGizmo(Transform target)
-    {
-        if (target == null)
-            return;
+    // TELEMETRY ACCESS
+    public float SteerInput => steerInput;
+    public float ThrottleInput => throttleInput;
+    public float ReverseInput => reverseInput;
+    public float BrakeInput => brakeInput;
 
-        Vector3 center = GetRendererCenter(target);
-        Gizmos.DrawWireSphere(center, visualCenterGizmoSize);
+    public float RawX => rawX;
+    public float RawY => rawY;
+    public float RawZ => rawZ;
+
+    public float VisualSteerAngle => currentVisualSteerAngle;
+    public bool IsGrounded => isGrounded;
+
+    public Vector3 CurrentHorizontalVelocity => GetHorizontalVelocity();
+    public Vector3 CurrentMoveDirection => GetMoveDirection();
+    public float CurrentSpeed => GetHorizontalSpeed();
+
+    public float CurrentSidewaysSpeed
+    {
+        get
+        {
+            Vector3 horizontalVelocity = GetHorizontalVelocity();
+            Vector3 moveDirection = GetMoveDirection();
+
+            float forwardSpeed = Vector3.Dot(horizontalVelocity, moveDirection);
+            Vector3 forwardVelocity = moveDirection * forwardSpeed;
+            Vector3 sidewaysVelocity = horizontalVelocity - forwardVelocity;
+
+            return sidewaysVelocity.magnitude;
+        }
     }
 }
