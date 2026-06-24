@@ -555527,8 +555527,8 @@ MonoBehaviour:
   brakeOutput: 0
   calibrateOnStart: 1
   centerOffset: 0
-  leftIndicatorButton: button8
-  rightIndicatorButton: button3
+  leftIndicatorButton: button6
+  rightIndicatorButton: button5
   hazardButton: button9
   gearDriveButton: button4
   gearNeutralButton: button3
