@@ -1242,7 +1242,7 @@ MonoBehaviour:
   - {fileID: 651506492}
   draw: 1
   inView: 1
-  position: {x: 336.58447, y: 0.14405206, z: -16.561207}
+  position: {x: 336.58447, y: 0.14405206, z: -16.561203}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -1860,7 +1860,7 @@ MonoBehaviour:
   - {fileID: 1411555243}
   draw: 1
   inView: 1
-  position: {x: 1345.8047, y: 0.15335947, z: 478.37772}
+  position: {x: 1345.8047, y: 0.15335947, z: 478.37775}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   - {fileID: 1131063480}
   draw: 1
   inView: 1
-  position: {x: 362.40125, y: 0.1484082, z: -74.16349}
+  position: {x: 362.40125, y: 0.1484082, z: -74.16348}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -3109,7 +3109,7 @@ MonoBehaviour:
   - {fileID: 259537648}
   draw: 1
   inView: 1
-  position: {x: 339.53833, y: 0.14405036, z: -58.78765}
+  position: {x: 339.53833, y: 0.14405036, z: -58.78766}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -4655,7 +4655,7 @@ MonoBehaviour:
   - {fileID: 1241036813}
   draw: 1
   inView: 1
-  position: {x: 1337.8772, y: 0.14999981, z: 242.28642}
+  position: {x: 1337.8772, y: 0.14999981, z: 242.28644}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -5140,7 +5140,7 @@ MonoBehaviour:
   - {fileID: 471925518}
   draw: 1
   inView: 1
-  position: {x: 346.07202, y: 0.14405096, z: 135.02547}
+  position: {x: 346.07202, y: 0.14405096, z: 135.02545}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -10742,7 +10742,7 @@ MonoBehaviour:
   - {fileID: 1121964910}
   draw: 1
   inView: 1
-  position: {x: 1353.2549, y: 0.15335947, z: 477.5093}
+  position: {x: 1353.2549, y: 0.15335947, z: 477.50934}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -13363,7 +13363,7 @@ MonoBehaviour:
   - {fileID: 338377376}
   draw: 1
   inView: 1
-  position: {x: 339.47485, y: 0.1440503, z: -64.0882}
+  position: {x: 339.47485, y: 0.1440503, z: -64.088196}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -13883,7 +13883,7 @@ MonoBehaviour:
   - {fileID: 530869124}
   draw: 1
   inView: 1
-  position: {x: 1325.213, y: 0.15335947, z: 463.66922}
+  position: {x: 1325.213, y: 0.15335947, z: 463.66925}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -16229,7 +16229,7 @@ MonoBehaviour:
   - {fileID: 691616326}
   draw: 1
   inView: 1
-  position: {x: 341.5183, y: 0.14405093, z: 125.27226}
+  position: {x: 341.5183, y: 0.14405093, z: 125.27228}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -17007,7 +17007,7 @@ MonoBehaviour:
   - {fileID: 494174854}
   draw: 1
   inView: 1
-  position: {x: 1361.5515, y: 0.14999974, z: 250.02238}
+  position: {x: 1361.5515, y: 0.14999974, z: 250.0224}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -17560,7 +17560,7 @@ MonoBehaviour:
   - {fileID: 513109925}
   draw: 1
   inView: 1
-  position: {x: 361.9463, y: 0.14795998, z: 111.82054}
+  position: {x: 361.9463, y: 0.14795998, z: 111.82056}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -18079,7 +18079,7 @@ MonoBehaviour:
   - {fileID: 1176188246}
   draw: 1
   inView: 1
-  position: {x: 387.42365, y: 0.1474478, z: 124.56765}
+  position: {x: 387.42365, y: 0.1474478, z: 124.56766}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -19496,7 +19496,7 @@ MonoBehaviour:
   - {fileID: 34601259}
   draw: 1
   inView: 1
-  position: {x: 1353.5643, y: 0.15335947, z: 421.56296}
+  position: {x: 1353.5643, y: 0.15335947, z: 421.56293}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -33649,7 +33649,7 @@ MonoBehaviour:
   - {fileID: 1684637163}
   draw: 1
   inView: 1
-  position: {x: 398.53546, y: 0.147528, z: 124.48674}
+  position: {x: 398.53546, y: 0.147528, z: 124.486755}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -34768,7 +34768,7 @@ MonoBehaviour:
   - {fileID: 1883695344}
   draw: 1
   inView: 1
-  position: {x: 1376.208, y: 0.15335947, z: 440.21103}
+  position: {x: 1376.208, y: 0.15335947, z: 440.211}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -36913,7 +36913,7 @@ MonoBehaviour:
   - {fileID: 920109759}
   draw: 1
   inView: 1
-  position: {x: 360.07568, y: 0.14610322, z: 110.12306}
+  position: {x: 360.07568, y: 0.14610322, z: 110.12305}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -38572,7 +38572,7 @@ MonoBehaviour:
   - {fileID: 676407485}
   draw: 1
   inView: 1
-  position: {x: 339.31787, y: 0.14405021, z: -97.88256}
+  position: {x: 339.31787, y: 0.14405021, z: -97.88257}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -39515,7 +39515,7 @@ MonoBehaviour:
   - {fileID: 198460691}
   draw: 1
   inView: 1
-  position: {x: 413.73798, y: 0.14642777, z: 125.59673}
+  position: {x: 413.73798, y: 0.14642777, z: 125.59674}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -40240,7 +40240,7 @@ MonoBehaviour:
   - {fileID: 1983971641}
   draw: 1
   inView: 1
-  position: {x: 362.35657, y: 0.14836276, z: -44.31304}
+  position: {x: 362.35657, y: 0.14836276, z: -44.31305}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -41763,7 +41763,7 @@ MonoBehaviour:
   - {fileID: 1440172941}
   draw: 1
   inView: 1
-  position: {x: 1374.7172, y: 0.15335947, z: 436.066}
+  position: {x: 1374.7172, y: 0.15335947, z: 436.06598}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -41961,7 +41961,7 @@ MonoBehaviour:
   prev: []
   draw: 1
   inView: 1
-  position: {x: 436.9452, y: 0.14607647, z: 120.52226}
+  position: {x: 436.9452, y: 0.14607647, z: 120.52228}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -44179,7 +44179,7 @@ MonoBehaviour:
   - {fileID: 2027138176}
   draw: 1
   inView: 1
-  position: {x: 368.71704, y: 0.14657152, z: 123.36937}
+  position: {x: 368.71704, y: 0.14657152, z: 123.369385}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -48296,7 +48296,7 @@ MonoBehaviour:
   - {fileID: 2106158646}
   draw: 1
   inView: 1
-  position: {x: 1338.3362, y: 0.14999971, z: 364.20517}
+  position: {x: 1338.3362, y: 0.14999971, z: 364.20514}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -50324,7 +50324,7 @@ MonoBehaviour:
   - {fileID: 824668191}
   draw: 1
   inView: 1
-  position: {x: 1362.297, y: 0.14999966, z: 385.07077}
+  position: {x: 1362.297, y: 0.14999966, z: 385.07074}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -52825,7 +52825,7 @@ MonoBehaviour:
   - {fileID: 983799508}
   draw: 1
   inView: 1
-  position: {x: 1356.9788, y: 0.15335947, z: 477.8544}
+  position: {x: 1356.9788, y: 0.15335947, z: 477.85443}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -54630,7 +54630,7 @@ MonoBehaviour:
   - {fileID: 243986856}
   draw: 1
   inView: 1
-  position: {x: 416.58585, y: 0.14666644, z: 125.35595}
+  position: {x: 416.58585, y: 0.14666644, z: 125.35596}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -54737,7 +54737,7 @@ MonoBehaviour:
   - {fileID: 1164282962}
   draw: 1
   inView: 1
-  position: {x: 380.25012, y: 0.14405029, z: 147.72197}
+  position: {x: 380.25012, y: 0.14405029, z: 147.72198}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -58488,7 +58488,7 @@ MonoBehaviour:
   - {fileID: 617086208}
   draw: 1
   inView: 1
-  position: {x: 405.6979, y: 0.14781207, z: 124.20015}
+  position: {x: 405.6979, y: 0.14781207, z: 124.200134}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -59335,7 +59335,7 @@ MonoBehaviour:
   - {fileID: 2135793408}
   draw: 1
   inView: 1
-  position: {x: 362.1286, y: 0.14813778, z: 60.624832}
+  position: {x: 362.1286, y: 0.14813778, z: 60.624817}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -61456,7 +61456,7 @@ MonoBehaviour:
   - {fileID: 1890870708}
   draw: 1
   inView: 1
-  position: {x: 1362.4795, y: 0.15335947, z: 424.5132}
+  position: {x: 1362.4795, y: 0.15335947, z: 424.51324}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -62405,7 +62405,7 @@ MonoBehaviour:
   - {fileID: 1306879273}
   draw: 1
   inView: 1
-  position: {x: 375.00684, y: 0.1440499, z: 147.94261}
+  position: {x: 375.00684, y: 0.1440499, z: 147.94263}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -64567,7 +64567,7 @@ MonoBehaviour:
   - {fileID: 294912531}
   draw: 1
   inView: 1
-  position: {x: 366.10693, y: 0.14625053, z: 122.93931}
+  position: {x: 366.10693, y: 0.14625053, z: 122.9393}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -64952,7 +64952,7 @@ MonoBehaviour:
   prev: []
   draw: 1
   inView: 1
-  position: {x: 1364.6945, y: 0.14999959, z: 496.93442}
+  position: {x: 1364.6945, y: 0.14999959, z: 496.9344}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -65117,7 +65117,7 @@ MonoBehaviour:
   - {fileID: 1501016607}
   draw: 1
   inView: 1
-  position: {x: 1321.5286, y: 0.15335947, z: 448.18143}
+  position: {x: 1321.5286, y: 0.15335947, z: 448.18146}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -65843,7 +65843,7 @@ MonoBehaviour:
   - {fileID: 878785385}
   draw: 1
   inView: 1
-  position: {x: 408.08276, y: 0.14790498, z: 124.10641}
+  position: {x: 408.08276, y: 0.14790498, z: 124.106415}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -65997,7 +65997,7 @@ MonoBehaviour:
   - {fileID: 39819055}
   draw: 1
   inView: 1
-  position: {x: 362.53857, y: 0.14854372, z: -52.124493}
+  position: {x: 362.53857, y: 0.14854372, z: -52.124496}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -70246,7 +70246,7 @@ MonoBehaviour:
   - {fileID: 2146232112}
   draw: 1
   inView: 1
-  position: {x: 362.862, y: 0.14886408, z: 28.217758}
+  position: {x: 362.862, y: 0.14886408, z: 28.217773}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -73959,7 +73959,7 @@ MonoBehaviour:
   - {fileID: 1680510116}
   draw: 1
   inView: 1
-  position: {x: 1320.5657, y: 0.15335947, z: 452.1981}
+  position: {x: 1320.5657, y: 0.15335947, z: 452.19806}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -74366,7 +74366,7 @@ MonoBehaviour:
   - {fileID: 1135433461}
   draw: 1
   inView: 1
-  position: {x: 361.47955, y: 0.14749618, z: 103.86254}
+  position: {x: 361.47955, y: 0.14749618, z: 103.86255}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -74816,7 +74816,7 @@ MonoBehaviour:
   - {fileID: 2011013205}
   draw: 1
   inView: 1
-  position: {x: 362.3152, y: 0.14832556, z: 103.50008}
+  position: {x: 362.3152, y: 0.14832556, z: 103.50006}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -76283,7 +76283,7 @@ MonoBehaviour:
   - {fileID: 1758378065}
   draw: 1
   inView: 1
-  position: {x: 1361.7771, y: 0.1499996, z: 379.4116}
+  position: {x: 1361.7771, y: 0.1499996, z: 379.41156}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -77470,7 +77470,7 @@ MonoBehaviour:
   - {fileID: 1483384170}
   draw: 1
   inView: 1
-  position: {x: 1337.5144, y: 0.14999974, z: 391.4808}
+  position: {x: 1337.5144, y: 0.14999974, z: 391.48077}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -82973,7 +82973,7 @@ MonoBehaviour:
   - {fileID: 648201760}
   draw: 1
   inView: 1
-  position: {x: 362.28174, y: 0.14828826, z: -39.00733}
+  position: {x: 362.28174, y: 0.14828826, z: -39.007324}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -85023,7 +85023,7 @@ MonoBehaviour:
   - {fileID: 1483402784}
   draw: 1
   inView: 1
-  position: {x: 339.48578, y: 0.14405029, z: -66.8261}
+  position: {x: 339.48578, y: 0.14405029, z: -66.82611}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -88228,7 +88228,7 @@ MonoBehaviour:
   - {fileID: 313237756}
   draw: 1
   inView: 1
-  position: {x: 1338.1553, y: 0.14999977, z: 247.85173}
+  position: {x: 1338.1553, y: 0.14999977, z: 247.85175}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -94203,7 +94203,7 @@ MonoBehaviour:
   - {fileID: 1305032017}
   draw: 1
   inView: 1
-  position: {x: 362.29706, y: 0.14830399, z: 41.79991}
+  position: {x: 362.29706, y: 0.14830399, z: 41.799927}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -97653,7 +97653,7 @@ MonoBehaviour:
   - {fileID: 623707902}
   draw: 1
   inView: 1
-  position: {x: 1321.0233, y: 0.15335947, z: 459.7739}
+  position: {x: 1321.0233, y: 0.15335947, z: 459.77386}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -101749,7 +101749,7 @@ MonoBehaviour:
   - {fileID: 287076632}
   draw: 1
   inView: 1
-  position: {x: 361.1383, y: 0.14715728, z: 100.91359}
+  position: {x: 361.1383, y: 0.14715728, z: 100.913574}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -103486,7 +103486,7 @@ MonoBehaviour:
   - {fileID: 1685546052}
   draw: 1
   inView: 1
-  position: {x: 1336.4326, y: 0.15335947, z: 424.78586}
+  position: {x: 1336.4326, y: 0.15335947, z: 424.78583}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -104160,7 +104160,7 @@ MonoBehaviour:
   - {fileID: 2121239872}
   draw: 1
   inView: 1
-  position: {x: 1326.594, y: 0.15335947, z: 433.85837}
+  position: {x: 1326.594, y: 0.15335947, z: 433.85834}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -104288,7 +104288,7 @@ MonoBehaviour:
   - {fileID: 245167746}
   draw: 1
   inView: 1
-  position: {x: 364.18634, y: 0.14616777, z: 122.26704}
+  position: {x: 364.18634, y: 0.14616777, z: 122.26703}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -106090,7 +106090,7 @@ MonoBehaviour:
   - {fileID: 672823015}
   draw: 1
   inView: 1
-  position: {x: 1376.5693, y: 0.15335947, z: 459.30423}
+  position: {x: 1376.5693, y: 0.15335947, z: 459.30426}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -106473,7 +106473,7 @@ MonoBehaviour:
   - {fileID: 116867304}
   draw: 1
   inView: 1
-  position: {x: 1375.1094, y: 0.15335947, z: 437.8492}
+  position: {x: 1375.1094, y: 0.15335947, z: 437.84918}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -108239,7 +108239,7 @@ MonoBehaviour:
   - {fileID: 1295954984}
   draw: 1
   inView: 1
-  position: {x: 1362.4674, y: 0.14999968, z: 362.79648}
+  position: {x: 1362.4674, y: 0.14999968, z: 362.79645}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -108572,7 +108572,7 @@ MonoBehaviour:
   - {fileID: 1049986535}
   draw: 1
   inView: 1
-  position: {x: 339.02966, y: 0.1440503, z: -61.9513}
+  position: {x: 339.02966, y: 0.1440503, z: -61.951294}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -108972,7 +108972,7 @@ MonoBehaviour:
   - {fileID: 351155332}
   draw: 1
   inView: 1
-  position: {x: 1338.4342, y: 0.14999974, z: 250.45729}
+  position: {x: 1338.4342, y: 0.14999974, z: 250.45728}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -109465,7 +109465,7 @@ MonoBehaviour:
   - {fileID: 1957536372}
   draw: 1
   inView: 1
-  position: {x: 362.40894, y: 0.1484171, z: 79.402756}
+  position: {x: 362.40894, y: 0.1484171, z: 79.40277}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -113969,7 +113969,7 @@ MonoBehaviour:
   - {fileID: 1821034075}
   draw: 1
   inView: 1
-  position: {x: 362.62878, y: 0.14863567, z: -106.52853}
+  position: {x: 362.62878, y: 0.14863567, z: -106.528534}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -116247,7 +116247,7 @@ MonoBehaviour:
   - {fileID: 1636618863}
   draw: 1
   inView: 1
-  position: {x: 1351.7537, y: 0.15335947, z: 422.10983}
+  position: {x: 1351.7537, y: 0.15335947, z: 422.1098}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -117575,7 +117575,7 @@ MonoBehaviour:
   - {fileID: 154008934}
   draw: 1
   inView: 1
-  position: {x: 369.2522, y: 0.14702445, z: 123.4478}
+  position: {x: 369.2522, y: 0.14702445, z: 123.447815}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -119366,7 +119366,7 @@ MonoBehaviour:
   - {fileID: 434740035}
   draw: 1
   inView: 1
-  position: {x: 1323.0476, y: 0.15335947, z: 441.54672}
+  position: {x: 1323.0476, y: 0.15335947, z: 441.5467}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -119888,7 +119888,7 @@ MonoBehaviour:
   - {fileID: 1849775661}
   draw: 1
   inView: 1
-  position: {x: 339.26245, y: 0.14405043, z: -57.224937}
+  position: {x: 339.26245, y: 0.14405043, z: -57.224945}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -120049,7 +120049,7 @@ MonoBehaviour:
   - {fileID: 1834012310}
   draw: 1
   inView: 1
-  position: {x: 385.49878, y: 0.14405058, z: 147.69594}
+  position: {x: 385.49878, y: 0.14405058, z: 147.69592}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -120290,7 +120290,7 @@ MonoBehaviour:
   - {fileID: 1920196098}
   draw: 1
   inView: 1
-  position: {x: 361.50903, y: 0.1475205, z: -17.626808}
+  position: {x: 361.50903, y: 0.1475205, z: -17.6268}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -120768,7 +120768,7 @@ MonoBehaviour:
   - {fileID: 294681401}
   draw: 1
   inView: 1
-  position: {x: 1361.721, y: 0.1499996, z: 376.67587}
+  position: {x: 1361.721, y: 0.1499996, z: 376.67584}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -124419,7 +124419,7 @@ MonoBehaviour:
   - {fileID: 747061342}
   draw: 1
   inView: 1
-  position: {x: 362.97955, y: 0.14898415, z: 89.47716}
+  position: {x: 362.97955, y: 0.14898415, z: 89.47717}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -126322,7 +126322,7 @@ MonoBehaviour:
   - {fileID: 1770309851}
   draw: 1
   inView: 1
-  position: {x: 1361.76, y: 0.14999975, z: 511.72073}
+  position: {x: 1361.76, y: 0.14999975, z: 511.72076}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -127882,7 +127882,7 @@ MonoBehaviour:
   - {fileID: 1391841926}
   draw: 1
   inView: 1
-  position: {x: 1337.6404, y: 0.14999974, z: 386.16745}
+  position: {x: 1337.6404, y: 0.14999974, z: 386.16742}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -127981,7 +127981,7 @@ MonoBehaviour:
   - {fileID: 2120949661}
   draw: 1
   inView: 1
-  position: {x: 1361.6365, y: 0.14999971, z: 252.57518}
+  position: {x: 1361.6365, y: 0.14999971, z: 252.5752}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -130305,7 +130305,7 @@ MonoBehaviour:
   - {fileID: 1485068262}
   draw: 1
   inView: 1
-  position: {x: 1332.7965, y: 0.15335947, z: 473.01468}
+  position: {x: 1332.7965, y: 0.15335947, z: 473.0147}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -130537,7 +130537,7 @@ MonoBehaviour:
   - {fileID: 416990923}
   draw: 1
   inView: 1
-  position: {x: 1338.6123, y: 0.14999971, z: 252.61278}
+  position: {x: 1338.6123, y: 0.14999971, z: 252.6128}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -131682,7 +131682,7 @@ MonoBehaviour:
   - {fileID: 1930958211}
   draw: 1
   inView: 1
-  position: {x: 362.24402, y: 0.14825526, z: 108.60332}
+  position: {x: 362.24402, y: 0.14825526, z: 108.60333}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -132187,7 +132187,7 @@ MonoBehaviour:
   - {fileID: 506396549}
   draw: 1
   inView: 1
-  position: {x: 1329.7245, y: 0.15335947, z: 469.82333}
+  position: {x: 1329.7245, y: 0.15335947, z: 469.8233}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -134051,7 +134051,7 @@ MonoBehaviour:
   - {fileID: 959327634}
   draw: 1
   inView: 1
-  position: {x: 369.78424, y: 0.14404987, z: 147.48787}
+  position: {x: 369.78424, y: 0.14404987, z: 147.48785}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -137140,7 +137140,7 @@ MonoBehaviour:
   - {fileID: 1027781961}
   draw: 1
   inView: 1
-  position: {x: 1346.6768, y: 0.15335947, z: 478.56998}
+  position: {x: 1346.6768, y: 0.15335947, z: 478.57}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -139680,7 +139680,7 @@ MonoBehaviour:
   - {fileID: 46189396}
   draw: 1
   inView: 1
-  position: {x: 1356.3169, y: 0.15335947, z: 476.98587}
+  position: {x: 1356.3169, y: 0.15335947, z: 476.9859}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -139946,7 +139946,7 @@ MonoBehaviour:
   - {fileID: 1225535567}
   draw: 1
   inView: 1
-  position: {x: 361.7436, y: 0.14773831, z: 115.45653}
+  position: {x: 361.7436, y: 0.14773831, z: 115.45654}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -140851,7 +140851,7 @@ MonoBehaviour:
   - {fileID: 785450130}
   draw: 1
   inView: 1
-  position: {x: 369.78003, y: 0.1480763, z: 122.91472}
+  position: {x: 369.78003, y: 0.1480763, z: 122.914734}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -147193,7 +147193,7 @@ MonoBehaviour:
   - {fileID: 221466137}
   draw: 1
   inView: 1
-  position: {x: 362.20374, y: 0.14821252, z: 63.269028}
+  position: {x: 362.20374, y: 0.14821252, z: 63.269043}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -148655,6 +148655,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1523648116}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &578393651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 427854430180704303, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &578393654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578393651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &578413361
 GameObject:
   m_ObjectHideFlags: 0
@@ -150040,7 +150075,7 @@ MonoBehaviour:
   - {fileID: 1287279849}
   draw: 1
   inView: 1
-  position: {x: 432.583, y: 0.14745769, z: 123.36571}
+  position: {x: 432.583, y: 0.14745769, z: 123.36572}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -150205,7 +150240,7 @@ MonoBehaviour:
   - {fileID: 1727247385}
   draw: 1
   inView: 1
-  position: {x: 1324.0675, y: 0.15335947, z: 439.07663}
+  position: {x: 1324.0675, y: 0.15335947, z: 439.0766}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -150894,7 +150929,7 @@ MonoBehaviour:
   - {fileID: 1187623427}
   draw: 1
   inView: 1
-  position: {x: 1338.2202, y: 0.14999974, z: 347.71457}
+  position: {x: 1338.2202, y: 0.14999974, z: 347.71454}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -154362,6 +154397,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
         type: 3}
+      propertyPath: radius
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
+        type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -154372,8 +154412,38 @@ PrefabInstance:
       objectReference: {fileID: 1828423783}
     - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
         type: 3}
+      propertyPath: closeRadius
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
+        type: 3}
+      propertyPath: distanceToDisable
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
+        type: 3}
+      propertyPath: checkTrafficPerSecond
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
+        type: 3}
+      propertyPath: dontSpawnBehindCamera
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
+        type: 3}
+      propertyPath: maximumActiveVehicles
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
+        type: 3}
       propertyPath: trafficVehicles.Array.size
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
+        type: 3}
+      propertyPath: disableVehiclesBehindCamera
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
         type: 3}
@@ -155360,7 +155430,7 @@ MonoBehaviour:
   - {fileID: 1510022235}
   draw: 1
   inView: 1
-  position: {x: 363.25116, y: 0.14925519, z: 112.76519}
+  position: {x: 363.25116, y: 0.14925519, z: 112.7652}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -158269,7 +158339,7 @@ MonoBehaviour:
   - {fileID: 813751356}
   draw: 1
   inView: 1
-  position: {x: 351.9051, y: 0.14405099, z: 140.2621}
+  position: {x: 351.9051, y: 0.14405099, z: 140.26208}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -158698,7 +158768,7 @@ MonoBehaviour:
   - {fileID: 2107190563}
   draw: 1
   inView: 1
-  position: {x: 408.57153, y: 0.14712548, z: 124.892815}
+  position: {x: 408.57153, y: 0.14712548, z: 124.89282}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -159895,7 +159965,7 @@ MonoBehaviour:
   - {fileID: 1965292705}
   draw: 1
   inView: 1
-  position: {x: 1320.7278, y: 0.15335947, z: 457.69186}
+  position: {x: 1320.7278, y: 0.15335947, z: 457.69183}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -161749,7 +161819,7 @@ MonoBehaviour:
   - {fileID: 2038639147}
   draw: 1
   inView: 1
-  position: {x: 1335.3956, y: 0.15335947, z: 474.60617}
+  position: {x: 1335.3956, y: 0.15335947, z: 474.60614}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -165182,7 +165252,7 @@ MonoBehaviour:
   - {fileID: 393297792}
   draw: 1
   inView: 1
-  position: {x: 1334.5153, y: 0.15335947, z: 426.61667}
+  position: {x: 1334.5153, y: 0.15335947, z: 426.61664}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -165972,7 +166042,7 @@ MonoBehaviour:
   - {fileID: 1723695913}
   draw: 1
   inView: 1
-  position: {x: 334.72925, y: 0.14405186, z: -15.292117}
+  position: {x: 334.72925, y: 0.14405186, z: -15.292114}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -166065,6 +166135,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1064010914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &651939875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6876293178819600234, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &651939878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651939875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1001 &652063239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -168658,7 +168763,7 @@ MonoBehaviour:
   - {fileID: 458287726}
   draw: 1
   inView: 1
-  position: {x: 1361.8071, y: 0.15335947, z: 475.57846}
+  position: {x: 1361.8071, y: 0.15335947, z: 475.57843}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -169708,7 +169813,7 @@ MonoBehaviour:
   - {fileID: 396089152}
   draw: 1
   inView: 1
-  position: {x: 1325.1956, y: 0.15335947, z: 436.26016}
+  position: {x: 1325.1956, y: 0.15335947, z: 436.2602}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -170091,7 +170196,7 @@ MonoBehaviour:
   - {fileID: 773537042}
   draw: 1
   inView: 1
-  position: {x: 1374.2228, y: 0.15335947, z: 464.6307}
+  position: {x: 1374.2228, y: 0.15335947, z: 464.63068}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -170798,6 +170903,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670243772}
   m_Mesh: {fileID: 2490840297386746621, guid: adddd982dd3cc564abf74d06bc9b07ee, type: 3}
+--- !u!1 &670265375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6656413708994918142, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &670265378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670265375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &670326573
 GameObject:
   m_ObjectHideFlags: 0
@@ -171017,7 +171157,7 @@ MonoBehaviour:
   - {fileID: 1306466890}
   draw: 1
   inView: 1
-  position: {x: 339.6671, y: 0.14405051, z: -53.62113}
+  position: {x: 339.6671, y: 0.14405051, z: -53.621124}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -171444,7 +171584,7 @@ MonoBehaviour:
   - {fileID: 994463869}
   draw: 1
   inView: 1
-  position: {x: 1377.5465, y: 0.15335947, z: 457.09726}
+  position: {x: 1377.5465, y: 0.15335947, z: 457.09723}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -172269,7 +172409,7 @@ MonoBehaviour:
   - {fileID: 1920061548}
   draw: 1
   inView: 1
-  position: {x: 391.37347, y: 0.14405087, z: 147.7794}
+  position: {x: 391.37347, y: 0.14405087, z: 147.77942}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -173330,7 +173470,7 @@ MonoBehaviour:
   - {fileID: 2113982934}
   draw: 1
   inView: 1
-  position: {x: 361.70703, y: 0.14771706, z: 9.844337}
+  position: {x: 361.70703, y: 0.14771706, z: 9.84433}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -173575,7 +173715,7 @@ MonoBehaviour:
   - {fileID: 1138122120}
   draw: 1
   inView: 1
-  position: {x: 1362.1987, y: 0.1499997, z: 343.43747}
+  position: {x: 1362.1987, y: 0.1499997, z: 343.43744}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -173653,7 +173793,7 @@ MonoBehaviour:
   - {fileID: 2011914124}
   draw: 1
   inView: 1
-  position: {x: 1364.2224, y: 0.14999984, z: 213.07411}
+  position: {x: 1364.2224, y: 0.14999984, z: 213.0741}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -175426,7 +175566,7 @@ MonoBehaviour:
   - {fileID: 1769717421}
   draw: 1
   inView: 1
-  position: {x: 1338.4271, y: 0.14999971, z: 353.16537}
+  position: {x: 1338.4271, y: 0.14999971, z: 353.16534}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -175895,7 +176035,7 @@ MonoBehaviour:
   - {fileID: 2081849397}
   draw: 1
   inView: 1
-  position: {x: 340.66345, y: 0.14405093, z: 122.480965}
+  position: {x: 340.66345, y: 0.14405093, z: 122.48096}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -175959,7 +176099,7 @@ MonoBehaviour:
   - {fileID: 2050312261}
   draw: 1
   inView: 1
-  position: {x: 1377.3215, y: 0.15335947, z: 455.9031}
+  position: {x: 1377.3215, y: 0.15335947, z: 455.90314}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -177398,7 +177538,7 @@ MonoBehaviour:
   - {fileID: 818800093}
   draw: 1
   inView: 1
-  position: {x: 1337.4777, y: 0.14999981, z: 298.3265}
+  position: {x: 1337.4777, y: 0.14999981, z: 298.32648}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -196408,7 +196548,7 @@ MonoBehaviour:
   - {fileID: 988999082}
   draw: 1
   inView: 1
-  position: {x: 339.60284, y: 0.14405152, z: -24.27348}
+  position: {x: 339.60284, y: 0.14405152, z: -24.273483}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -197362,7 +197502,7 @@ MonoBehaviour:
   prev: []
   draw: 1
   inView: 1
-  position: {x: 362.4723, y: 0.14848088, z: -113.84472}
+  position: {x: 362.4723, y: 0.14848088, z: -113.84473}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -197586,7 +197726,7 @@ MonoBehaviour:
   - {fileID: 1624047227}
   draw: 1
   inView: 1
-  position: {x: 1361.7827, y: 0.14999975, z: 236.77605}
+  position: {x: 1361.7827, y: 0.14999975, z: 236.77606}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -198006,7 +198146,7 @@ MonoBehaviour:
   - {fileID: 588387326}
   draw: 1
   inView: 1
-  position: {x: 1364.0452, y: 0.15335947, z: 426.06796}
+  position: {x: 1364.0452, y: 0.15335947, z: 426.06793}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -200109,8 +200249,6 @@ MonoBehaviour:
   wideMotionModeHandPosesEnabled: 0
   _readOnlyFastMotionModeHandPosesEnabled: 0
   fastMotionModeHandPosesEnabled: 0
-  _readOnlyWideMotionMode2HandPosesEnabled: 0
-  wideMotionMode2HandPosesEnabled: 0
   dynamicResolutionVersion: 1
 --- !u!114 &726313361
 MonoBehaviour:
@@ -200595,6 +200733,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727109291}
   m_Mesh: {fileID: 4300008, guid: c2b1bafd07e77b74db1ed4246cf7b10e, type: 3}
+--- !u!1 &728047746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6065421440378134984, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &728047749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728047746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &728242735
 GameObject:
   m_ObjectHideFlags: 0
@@ -200916,7 +201089,7 @@ MonoBehaviour:
   - {fileID: 488175891}
   draw: 1
   inView: 1
-  position: {x: 362.3241, y: 0.14832997, z: -28.896797}
+  position: {x: 362.3241, y: 0.14832997, z: -28.89679}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -203672,6 +203845,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5109604030079018270, guid: 3821b30cc45f5474795995b8da78d427,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 924b03d71ba06224d904928bde541e52, type: 2}
+    - target: {fileID: -5109604030079018270, guid: 3821b30cc45f5474795995b8da78d427,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0a21787411d183d48bf0c1676d3368b4, type: 2}
+    - target: {fileID: -5109604030079018270, guid: 3821b30cc45f5474795995b8da78d427,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 95f503685ab93a847bb17252855dfa4a, type: 2}
     - target: {fileID: 919132149155446097, guid: 3821b30cc45f5474795995b8da78d427,
         type: 3}
       propertyPath: m_Name
@@ -206731,7 +206919,7 @@ MonoBehaviour:
   - {fileID: 1238377491}
   draw: 1
   inView: 1
-  position: {x: 1338.6812, y: 0.14999971, z: 234.97737}
+  position: {x: 1338.6812, y: 0.14999971, z: 234.97736}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -207337,7 +207525,7 @@ MonoBehaviour:
   - {fileID: 891343537}
   draw: 1
   inView: 1
-  position: {x: 362.97192, y: 0.14897643, z: 87.04039}
+  position: {x: 362.97192, y: 0.14897643, z: 87.040405}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -207438,7 +207626,7 @@ MonoBehaviour:
   - {fileID: 1109929076}
   draw: 1
   inView: 1
-  position: {x: 422.35144, y: 0.1480359, z: 123.97432}
+  position: {x: 422.35144, y: 0.1480359, z: 123.974304}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -211011,7 +211199,7 @@ MonoBehaviour:
   - {fileID: 1729605873}
   draw: 1
   inView: 1
-  position: {x: 375.4953, y: 0.14854759, z: 123.458084}
+  position: {x: 375.4953, y: 0.14854759, z: 123.45807}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -211575,7 +211763,7 @@ MonoBehaviour:
   - {fileID: 1830869794}
   draw: 1
   inView: 1
-  position: {x: 1362.2253, y: 0.14999968, z: 351.72824}
+  position: {x: 1362.2253, y: 0.14999968, z: 351.7282}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -211819,7 +212007,7 @@ MonoBehaviour:
   - {fileID: 512408566}
   draw: 1
   inView: 1
-  position: {x: 1356.9648, y: 0.15335947, z: 423.06332}
+  position: {x: 1356.9648, y: 0.15335947, z: 423.0633}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -211947,7 +212135,7 @@ MonoBehaviour:
   - {fileID: 1696101215}
   draw: 1
   inView: 1
-  position: {x: 361.49768, y: 0.14405088, z: 144.80751}
+  position: {x: 361.49768, y: 0.14405088, z: 144.8075}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -214173,7 +214361,7 @@ MonoBehaviour:
   - {fileID: 1111041500}
   draw: 1
   inView: 1
-  position: {x: 361.86865, y: 0.14788036, z: -90.55508}
+  position: {x: 361.86865, y: 0.14788036, z: -90.555084}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -228486,7 +228674,7 @@ MonoBehaviour:
   - {fileID: 763663326}
   draw: 1
   inView: 1
-  position: {x: 372.84766, y: 0.14885774, z: 123.14519}
+  position: {x: 372.84766, y: 0.14885774, z: 123.1452}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -232340,7 +232528,7 @@ MonoBehaviour:
   - {fileID: 9147015}
   draw: 1
   inView: 1
-  position: {x: 362.3474, y: 0.14835465, z: -71.552605}
+  position: {x: 362.3474, y: 0.14835465, z: -71.55261}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -233621,7 +233809,7 @@ MonoBehaviour:
   - {fileID: 2072380959}
   draw: 1
   inView: 1
-  position: {x: 340.3484, y: 0.144051, z: -37.066597}
+  position: {x: 340.3484, y: 0.144051, z: -37.06659}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -234318,7 +234506,7 @@ PrefabInstance:
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1251.2845
+      value: 1357
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
@@ -234328,12 +234516,12 @@ PrefabInstance:
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 420.8727
+      value: 340
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
@@ -234343,12 +234531,12 @@ PrefabInstance:
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
@@ -234358,7 +234546,7 @@ PrefabInstance:
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 2939709155551316580, guid: 8cc00b10afd8d7848942e7d69eca351d,
         type: 3}
@@ -235016,6 +235204,38 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 633800306}
+    - targetCorrespondingSourceObject: {fileID: 6656413708994918142, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 670265378}
+    - targetCorrespondingSourceObject: {fileID: 3859989694625870454, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1599203617}
+    - targetCorrespondingSourceObject: {fileID: 6065421440378134984, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 728047749}
+    - targetCorrespondingSourceObject: {fileID: 9179547762334153460, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1162079770}
+    - targetCorrespondingSourceObject: {fileID: 6876293178819600234, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 651939878}
+    - targetCorrespondingSourceObject: {fileID: 7463297300630107780, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1327987951}
+    - targetCorrespondingSourceObject: {fileID: 427854430180704303, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 578393654}
+    - targetCorrespondingSourceObject: {fileID: 391750682254016184, guid: 8cc00b10afd8d7848942e7d69eca351d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1987227953}
   m_SourcePrefab: {fileID: 100100000, guid: 8cc00b10afd8d7848942e7d69eca351d, type: 3}
 --- !u!1 &806786555
 GameObject:
@@ -236709,7 +236929,7 @@ MonoBehaviour:
   - {fileID: 464471565}
   draw: 1
   inView: 1
-  position: {x: 349.61548, y: 0.14405096, z: 138.76347}
+  position: {x: 349.61548, y: 0.14405096, z: 138.76349}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -237618,7 +237838,7 @@ MonoBehaviour:
   - {fileID: 2116625834}
   draw: 1
   inView: 1
-  position: {x: 339.3955, y: 0.14405113, z: -36.127476}
+  position: {x: 339.3955, y: 0.14405113, z: -36.127472}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -238215,7 +238435,7 @@ MonoBehaviour:
   - {fileID: 1116022966}
   draw: 1
   inView: 1
-  position: {x: 1337.4017, y: 0.14999981, z: 295.60367}
+  position: {x: 1337.4017, y: 0.14999981, z: 295.6037}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -238816,7 +239036,7 @@ MonoBehaviour:
   - {fileID: 1432498376}
   draw: 1
   inView: 1
-  position: {x: 362.7898, y: 0.14791358, z: 117.85754}
+  position: {x: 362.7898, y: 0.14791358, z: 117.857544}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -239442,7 +239662,7 @@ MonoBehaviour:
   - {fileID: 7289097}
   draw: 1
   inView: 1
-  position: {x: 1362.3734, y: 0.14999966, z: 387.7491}
+  position: {x: 1362.3734, y: 0.14999966, z: 387.74908}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -240524,7 +240744,7 @@ MonoBehaviour:
   - {fileID: 1790550892}
   draw: 1
   inView: 1
-  position: {x: 339.5736, y: 0.14405032, z: -104.819145}
+  position: {x: 339.5736, y: 0.14405032, z: -104.81915}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -241275,7 +241495,7 @@ MonoBehaviour:
   - {fileID: 1907254176}
   draw: 1
   inView: 1
-  position: {x: 339.70093, y: 0.14405039, z: -77.688484}
+  position: {x: 339.70093, y: 0.14405039, z: -77.68848}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -242213,7 +242433,7 @@ MonoBehaviour:
   - {fileID: 79776275}
   draw: 1
   inView: 1
-  position: {x: 1356.1445, y: 0.15335947, z: 422.29306}
+  position: {x: 1356.1445, y: 0.15335947, z: 422.29303}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -243987,7 +244207,7 @@ MonoBehaviour:
   - {fileID: 213781951}
   draw: 1
   inView: 1
-  position: {x: 340.38904, y: 0.14405121, z: -30.537025}
+  position: {x: 340.38904, y: 0.14405121, z: -30.537018}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -244587,7 +244807,7 @@ MonoBehaviour:
   - {fileID: 615356494}
   draw: 1
   inView: 1
-  position: {x: 354.35156, y: 0.14405099, z: 141.66054}
+  position: {x: 354.35156, y: 0.14405099, z: 141.66052}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -245572,7 +245792,7 @@ MonoBehaviour:
   - {fileID: 1154916058}
   draw: 1
   inView: 1
-  position: {x: 1362.4199, y: 0.14999974, z: 338.32657}
+  position: {x: 1362.4199, y: 0.14999974, z: 338.3266}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -251616,7 +251836,7 @@ MonoBehaviour:
   - {fileID: 582585994}
   draw: 1
   inView: 1
-  position: {x: 429.54797, y: 0.14721785, z: 124.37831}
+  position: {x: 429.54797, y: 0.14721785, z: 124.378296}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -253917,7 +254137,7 @@ MonoBehaviour:
   - {fileID: 1171535018}
   draw: 1
   inView: 1
-  position: {x: 362.76154, y: 0.14876744, z: 84.73317}
+  position: {x: 362.76154, y: 0.14876744, z: 84.733154}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -255634,7 +255854,7 @@ MonoBehaviour:
   - {fileID: 636423696}
   draw: 1
   inView: 1
-  position: {x: 1377.8303, y: 0.15335947, z: 450.69693}
+  position: {x: 1377.8303, y: 0.15335947, z: 450.69696}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -256284,7 +256504,7 @@ MonoBehaviour:
   - {fileID: 1067400408}
   draw: 1
   inView: 1
-  position: {x: 339.48364, y: 0.14405157, z: -20.013014}
+  position: {x: 339.48364, y: 0.14405157, z: -20.013016}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -257165,7 +257385,7 @@ MonoBehaviour:
   - {fileID: 598847349}
   draw: 1
   inView: 1
-  position: {x: 339.41296, y: 0.14405026, z: -74.75381}
+  position: {x: 339.41296, y: 0.14405026, z: -74.753815}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -257326,7 +257546,7 @@ MonoBehaviour:
   - {fileID: 809697944}
   draw: 1
   inView: 1
-  position: {x: 1362.067, y: 0.14999981, z: 217.94887}
+  position: {x: 1362.067, y: 0.14999981, z: 217.94885}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -260441,7 +260661,7 @@ MonoBehaviour:
   - {fileID: 541982481}
   draw: 1
   inView: 1
-  position: {x: 360.7091, y: 0.14673215, z: 112.65547}
+  position: {x: 360.7091, y: 0.14673215, z: 112.65546}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -260737,7 +260957,7 @@ MonoBehaviour:
   - {fileID: 1604787350}
   draw: 1
   inView: 1
-  position: {x: 1373.572, y: 0.15335947, z: 465.7866}
+  position: {x: 1373.572, y: 0.15335947, z: 465.78656}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -264051,7 +264271,7 @@ MonoBehaviour:
   - {fileID: 1062026014}
   draw: 1
   inView: 1
-  position: {x: 1362.2289, y: 0.14999975, z: 278.88327}
+  position: {x: 1362.2289, y: 0.14999975, z: 278.88324}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -264240,7 +264460,7 @@ MonoBehaviour:
   - {fileID: 1913375892}
   draw: 1
   inView: 1
-  position: {x: 362.0515, y: 0.14806102, z: 55.277786}
+  position: {x: 362.0515, y: 0.14806102, z: 55.27777}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -268682,7 +268902,7 @@ Transform:
   m_GameObject: {fileID: 956350238}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.9844055, y: 0, z: 2.7394943}
+  m_LocalPosition: {x: 2.67, y: 0, z: 2.7394943}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -273557,7 +273777,7 @@ MonoBehaviour:
   - {fileID: 485007428}
   draw: 1
   inView: 1
-  position: {x: 338.31323, y: 0.14405176, z: -20.633171}
+  position: {x: 338.31323, y: 0.14405176, z: -20.633179}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -276175,7 +276395,7 @@ MonoBehaviour:
   - {fileID: 108842928}
   draw: 1
   inView: 1
-  position: {x: 1359.3429, y: 0.15335947, z: 477.3326}
+  position: {x: 1359.3429, y: 0.15335947, z: 477.33258}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -278228,7 +278448,7 @@ MonoBehaviour:
   - {fileID: 900816080}
   draw: 1
   inView: 1
-  position: {x: 339.6245, y: 0.14405158, z: -22.18174}
+  position: {x: 339.6245, y: 0.14405158, z: -22.181732}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -279765,7 +279985,7 @@ MonoBehaviour:
   - {fileID: 1662689458}
   draw: 1
   inView: 1
-  position: {x: 1378.5669, y: 0.15335947, z: 454.71628}
+  position: {x: 1378.5669, y: 0.15335947, z: 454.71625}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -280305,7 +280525,7 @@ MonoBehaviour:
   - {fileID: 187186746}
   draw: 1
   inView: 1
-  position: {x: 383.2138, y: 0.1466173, z: 125.405525}
+  position: {x: 383.2138, y: 0.1466173, z: 125.40552}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -282946,7 +283166,7 @@ MonoBehaviour:
   - {fileID: 786293654}
   draw: 1
   inView: 1
-  position: {x: 1362.0511, y: 0.14999963, z: 367.32425}
+  position: {x: 1362.0511, y: 0.14999963, z: 367.32428}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -286977,7 +287197,7 @@ MonoBehaviour:
   - {fileID: 1447161059}
   draw: 1
   inView: 1
-  position: {x: 1322.9951, y: 0.15335947, z: 464.80832}
+  position: {x: 1322.9951, y: 0.15335947, z: 464.8083}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -289155,7 +289375,7 @@ MonoBehaviour:
   - {fileID: 1379591189}
   draw: 1
   inView: 1
-  position: {x: 361.56604, y: 0.14758158, z: 96.800095}
+  position: {x: 361.56604, y: 0.14758158, z: 96.80011}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -294517,7 +294737,7 @@ MonoBehaviour:
   - {fileID: 462442977}
   draw: 1
   inView: 1
-  position: {x: 339.1421, y: 0.14405036, z: -59.769154}
+  position: {x: 339.1421, y: 0.14405036, z: -59.76915}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -295459,7 +295679,7 @@ MonoBehaviour:
   - {fileID: 1656843629}
   draw: 1
   inView: 1
-  position: {x: 1340.9033, y: 0.15335947, z: 423.45755}
+  position: {x: 1340.9033, y: 0.15335947, z: 423.45758}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -297468,7 +297688,7 @@ MonoBehaviour:
   - {fileID: 647622806}
   draw: 1
   inView: 1
-  position: {x: 1332.3987, y: 0.15335947, z: 428.55496}
+  position: {x: 1332.3987, y: 0.15335947, z: 428.555}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -297927,7 +298147,7 @@ MonoBehaviour:
   - {fileID: 5382042}
   draw: 1
   inView: 1
-  position: {x: 338.16302, y: 0.14405207, z: -17.834993}
+  position: {x: 338.16302, y: 0.14405207, z: -17.834991}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -300159,7 +300379,7 @@ MonoBehaviour:
   - {fileID: 8668173}
   draw: 1
   inView: 1
-  position: {x: 1347.8354, y: 0.15335947, z: 478.36032}
+  position: {x: 1347.8354, y: 0.15335947, z: 478.3603}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -305700,7 +305920,7 @@ MonoBehaviour:
   - {fileID: 1546337803}
   draw: 1
   inView: 1
-  position: {x: 424.7085, y: 0.14841212, z: 123.594765}
+  position: {x: 424.7085, y: 0.14841212, z: 123.59476}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -306093,7 +306313,7 @@ MonoBehaviour:
   - {fileID: 1922000846}
   draw: 1
   inView: 1
-  position: {x: 361.91125, y: 0.14792281, z: -93.38296}
+  position: {x: 361.91125, y: 0.14792281, z: -93.382965}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -307090,7 +307310,7 @@ MonoBehaviour:
   - {fileID: 69221196}
   draw: 1
   inView: 1
-  position: {x: 1337.3875, y: 0.14999981, z: 292.8823}
+  position: {x: 1337.3875, y: 0.14999981, z: 292.88226}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -307813,7 +308033,7 @@ MonoBehaviour:
   - {fileID: 682895330}
   draw: 1
   inView: 1
-  position: {x: 361.7104, y: 0.14772035, z: 11.98558}
+  position: {x: 361.7104, y: 0.14772035, z: 11.985596}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -312547,7 +312767,7 @@ MonoBehaviour:
   - {fileID: 1741964465}
   draw: 1
   inView: 1
-  position: {x: 362.16187, y: 0.14817354, z: 106.64107}
+  position: {x: 362.16187, y: 0.14817354, z: 106.64105}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -318766,7 +318986,7 @@ MonoBehaviour:
   - {fileID: 1734820193}
   draw: 1
   inView: 1
-  position: {x: 362.5614, y: 0.14856818, z: 74.34126}
+  position: {x: 362.5614, y: 0.14856818, z: 74.34125}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -319456,6 +319676,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 790316443}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1162079767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9179547762334153460, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1162079770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162079767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &1162604193
 GameObject:
   m_ObjectHideFlags: 0
@@ -321008,7 +321263,7 @@ MonoBehaviour:
   - {fileID: 417667733}
   draw: 1
   inView: 1
-  position: {x: 362.51904, y: 0.14852653, z: 82.0511}
+  position: {x: 362.51904, y: 0.14852653, z: 82.05109}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -321397,7 +321652,7 @@ MonoBehaviour:
   prev: []
   draw: 1
   inView: 1
-  position: {x: 1335.1473, y: 0.14999981, z: 212.0605}
+  position: {x: 1335.1473, y: 0.14999981, z: 212.06049}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -321773,7 +322028,7 @@ MonoBehaviour:
   - {fileID: 1190817744}
   draw: 1
   inView: 1
-  position: {x: 390.54773, y: 0.14765358, z: 124.36003}
+  position: {x: 390.54773, y: 0.14765358, z: 124.36005}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -322482,7 +322737,7 @@ MonoBehaviour:
   - {fileID: 1524603275}
   draw: 1
   inView: 1
-  position: {x: 402.1355, y: 0.14405152, z: 147.63884}
+  position: {x: 402.1355, y: 0.14405152, z: 147.63885}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -324479,7 +324734,7 @@ MonoBehaviour:
   - {fileID: 1622465178}
   draw: 1
   inView: 1
-  position: {x: 1362.5217, y: 0.14999977, z: 317.67227}
+  position: {x: 1362.5217, y: 0.14999977, z: 317.6723}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -324697,7 +324952,7 @@ MonoBehaviour:
   - {fileID: 1422224028}
   draw: 1
   inView: 1
-  position: {x: 393.43683, y: 0.14793509, z: 124.076035}
+  position: {x: 393.43683, y: 0.14793509, z: 124.07605}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -328780,7 +329035,7 @@ MonoBehaviour:
   - {fileID: 817246367}
   draw: 1
   inView: 1
-  position: {x: 339.3886, y: 0.14405105, z: -38.763634}
+  position: {x: 339.3886, y: 0.14405105, z: -38.76364}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -329382,7 +329637,7 @@ MonoBehaviour:
   - {fileID: 1134659915}
   draw: 1
   inView: 1
-  position: {x: 1362.601, y: 0.14999975, z: 333.72714}
+  position: {x: 1362.601, y: 0.14999975, z: 333.7271}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -330148,7 +330403,7 @@ MonoBehaviour:
   - {fileID: 250872866}
   draw: 1
   inView: 1
-  position: {x: 362.55566, y: 0.14856058, z: -49.30549}
+  position: {x: 362.55566, y: 0.14856058, z: -49.30548}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -336155,7 +336410,7 @@ MonoBehaviour:
   - {fileID: 1775554680}
   draw: 1
   inView: 1
-  position: {x: 1321.4911, y: 0.15335947, z: 453.71292}
+  position: {x: 1321.4911, y: 0.15335947, z: 453.71295}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -337399,7 +337654,7 @@ MonoBehaviour:
   - {fileID: 632175506}
   draw: 1
   inView: 1
-  position: {x: 1337.3182, y: 0.15335947, z: 475.41855}
+  position: {x: 1337.3182, y: 0.15335947, z: 475.41852}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -341927,7 +342182,7 @@ MonoBehaviour:
   - {fileID: 568422760}
   draw: 1
   inView: 1
-  position: {x: 1339.9392, y: 0.14999959, z: 219.43141}
+  position: {x: 1339.9392, y: 0.14999959, z: 219.4314}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -342485,7 +342740,7 @@ MonoBehaviour:
   - {fileID: 2014560423}
   draw: 1
   inView: 1
-  position: {x: 362.60712, y: 0.14861472, z: 95.14244}
+  position: {x: 362.60712, y: 0.14861472, z: 95.142456}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -344359,7 +344614,7 @@ MonoBehaviour:
   - {fileID: 1649038513}
   draw: 1
   inView: 1
-  position: {x: 391.3282, y: 0.14719829, z: 124.819374}
+  position: {x: 391.3282, y: 0.14719829, z: 124.81937}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -346835,7 +347090,7 @@ MonoBehaviour:
   - {fileID: 1874335343}
   draw: 1
   inView: 1
-  position: {x: 362.47705, y: 0.14848365, z: -79.768105}
+  position: {x: 362.47705, y: 0.14848365, z: -79.7681}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -348377,7 +348632,7 @@ MonoBehaviour:
   - {fileID: 145492385}
   draw: 1
   inView: 1
-  position: {x: 434.68005, y: 0.14697516, z: 121.99874}
+  position: {x: 434.68005, y: 0.14697516, z: 121.99875}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -348560,7 +348815,7 @@ MonoBehaviour:
   - {fileID: 2143406530}
   draw: 1
   inView: 1
-  position: {x: 362.61823, y: 0.1478914, z: 117.64818}
+  position: {x: 362.61823, y: 0.1478914, z: 117.64819}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -350853,7 +351108,7 @@ MonoBehaviour:
   - {fileID: 717127050}
   draw: 1
   inView: 1
-  position: {x: 1361.7289, y: 0.14999975, z: 233.76024}
+  position: {x: 1361.7289, y: 0.14999975, z: 233.76025}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -352794,7 +353049,7 @@ MonoBehaviour:
   - {fileID: 1463453451}
   draw: 1
   inView: 1
-  position: {x: 362.32037, y: 0.14832698, z: 39.166946}
+  position: {x: 362.32037, y: 0.14832698, z: 39.16693}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -353280,7 +353535,7 @@ MonoBehaviour:
   - {fileID: 15542026}
   draw: 1
   inView: 1
-  position: {x: 339.5982, y: 0.14405043, z: -56.195107}
+  position: {x: 339.5982, y: 0.14405043, z: -56.1951}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -357310,6 +357565,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1523648116}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1327987948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7463297300630107780, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1327987951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327987948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &1328241051
 GameObject:
   m_ObjectHideFlags: 0
@@ -360016,7 +360306,7 @@ MonoBehaviour:
   - {fileID: 1417315191}
   draw: 1
   inView: 1
-  position: {x: 398.02515, y: 0.14848593, z: 123.5203}
+  position: {x: 398.02515, y: 0.14848593, z: 123.520294}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -360194,7 +360484,7 @@ MonoBehaviour:
   - {fileID: 1568895449}
   draw: 1
   inView: 1
-  position: {x: 362.27698, y: 0.14828426, z: -58.34762}
+  position: {x: 362.27698, y: 0.14828426, z: -58.347626}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -365653,7 +365943,7 @@ MonoBehaviour:
   - {fileID: 448132714}
   draw: 1
   inView: 1
-  position: {x: 1349.0674, y: 0.15335947, z: 421.82376}
+  position: {x: 1349.0674, y: 0.15335947, z: 421.8238}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -366740,7 +367030,7 @@ MonoBehaviour:
   - {fileID: 506524682}
   draw: 1
   inView: 1
-  position: {x: 1338.5177, y: 0.14999971, z: 255.3597}
+  position: {x: 1338.5177, y: 0.14999971, z: 255.35968}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -369471,7 +369761,7 @@ MonoBehaviour:
   - {fileID: 386847618}
   draw: 1
   inView: 1
-  position: {x: 361.27008, y: 0.1472879, z: 98.57101}
+  position: {x: 361.27008, y: 0.1472879, z: 98.571014}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -371944,7 +372234,7 @@ MonoBehaviour:
   - {fileID: 2095494087}
   draw: 1
   inView: 1
-  position: {x: 1337.9915, y: 0.14999971, z: 383.54398}
+  position: {x: 1337.9915, y: 0.14999971, z: 383.544}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -374872,7 +375162,7 @@ MonoBehaviour:
   - {fileID: 1827892132}
   draw: 1
   inView: 1
-  position: {x: 339.48633, y: 0.14405131, z: -30.397305}
+  position: {x: 339.48633, y: 0.14405131, z: -30.397308}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -375775,7 +376065,7 @@ MonoBehaviour:
   - {fileID: 958957617}
   draw: 1
   inView: 1
-  position: {x: 430.74805, y: 0.14405203, z: 147.4308}
+  position: {x: 430.74805, y: 0.14405203, z: 147.43079}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -375929,7 +376219,7 @@ MonoBehaviour:
   - {fileID: 850506597}
   draw: 1
   inView: 1
-  position: {x: 356.6068, y: 0.14405099, z: 142.8095}
+  position: {x: 356.6068, y: 0.14405099, z: 142.80951}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -377647,7 +377937,7 @@ MonoBehaviour:
   - {fileID: 2113927600}
   draw: 1
   inView: 1
-  position: {x: 1342.9249, y: 0.15335947, z: 477.70828}
+  position: {x: 1342.9249, y: 0.15335947, z: 477.7083}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -379591,7 +379881,7 @@ MonoBehaviour:
   - {fileID: 569347037}
   draw: 1
   inView: 1
-  position: {x: 1371.0944, y: 0.15335947, z: 431.11893}
+  position: {x: 1371.0944, y: 0.15335947, z: 431.11896}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -379785,7 +380075,7 @@ MonoBehaviour:
   - {fileID: 1338092803}
   draw: 1
   inView: 1
-  position: {x: 395.96967, y: 0.14823246, z: 123.77602}
+  position: {x: 395.96967, y: 0.14823246, z: 123.776}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -380789,7 +381079,7 @@ MonoBehaviour:
   - {fileID: 1496024495}
   draw: 1
   inView: 1
-  position: {x: 1362.4443, y: 0.1499997, z: 357.54465}
+  position: {x: 1362.4443, y: 0.1499997, z: 357.54462}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -382295,7 +382585,7 @@ MonoBehaviour:
   - {fileID: 1932609469}
   draw: 1
   inView: 1
-  position: {x: 362.6198, y: 0.14640631, z: 120.613235}
+  position: {x: 362.6198, y: 0.14640631, z: 120.61322}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -382994,7 +383284,7 @@ MonoBehaviour:
   - {fileID: 1793018152}
   draw: 1
   inView: 1
-  position: {x: 1322.1226, y: 0.15335947, z: 458.30582}
+  position: {x: 1322.1226, y: 0.15335947, z: 458.30585}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -384141,7 +384431,7 @@ MonoBehaviour:
   - {fileID: 144817058}
   draw: 1
   inView: 1
-  position: {x: 1375.9609, y: 0.15335947, z: 438.30234}
+  position: {x: 1375.9609, y: 0.15335947, z: 438.3023}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -386499,7 +386789,7 @@ MonoBehaviour:
   - {fileID: 366139760}
   draw: 1
   inView: 1
-  position: {x: 1321.8147, y: 0.15335947, z: 462.6492}
+  position: {x: 1321.8147, y: 0.15335947, z: 462.64923}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -389772,7 +390062,7 @@ MonoBehaviour:
   - {fileID: 1333253205}
   draw: 1
   inView: 1
-  position: {x: 362.4154, y: 0.14842118, z: 36.473434}
+  position: {x: 362.4154, y: 0.14842118, z: 36.47345}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -393680,7 +393970,7 @@ MonoBehaviour:
   - {fileID: 570948125}
   draw: 1
   inView: 1
-  position: {x: 1337.5881, y: 0.14999981, z: 335.84378}
+  position: {x: 1337.5881, y: 0.14999981, z: 335.8438}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -393856,7 +394146,7 @@ MonoBehaviour:
   - {fileID: 1257937788}
   draw: 1
   inView: 1
-  position: {x: 1339.5306, y: 0.14999963, z: 221.87215}
+  position: {x: 1339.5306, y: 0.14999963, z: 221.87213}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -394810,7 +395100,7 @@ MonoBehaviour:
   - {fileID: 1264449151}
   draw: 1
   inView: 1
-  position: {x: 1334.7516, y: 0.15335947, z: 474.29562}
+  position: {x: 1334.7516, y: 0.15335947, z: 474.2956}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -397308,7 +397598,7 @@ MonoBehaviour:
   - {fileID: 413863014}
   draw: 1
   inView: 1
-  position: {x: 1362.5013, y: 0.14999971, z: 360.4548}
+  position: {x: 1362.5013, y: 0.14999971, z: 360.45477}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -397372,7 +397662,7 @@ MonoBehaviour:
   - {fileID: 504319384}
   draw: 1
   inView: 1
-  position: {x: 403.6328, y: 0.14772928, z: 124.283676}
+  position: {x: 403.6328, y: 0.14772928, z: 124.28369}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -399768,7 +400058,7 @@ MonoBehaviour:
   - {fileID: 1481092165}
   draw: 1
   inView: 1
-  position: {x: 1337.7721, y: 0.14999978, z: 339.27603}
+  position: {x: 1337.7721, y: 0.14999978, z: 339.27606}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -400252,7 +400542,7 @@ MonoBehaviour:
   - {fileID: 822258686}
   draw: 1
   inView: 1
-  position: {x: 363.35663, y: 0.14935198, z: 115.295975}
+  position: {x: 363.35663, y: 0.14935198, z: 115.29596}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -400541,7 +400831,7 @@ MonoBehaviour:
   - {fileID: 1926661528}
   draw: 1
   inView: 1
-  position: {x: 1338.3345, y: 0.15335947, z: 476.80588}
+  position: {x: 1338.3345, y: 0.15335947, z: 476.80585}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -402977,7 +403267,7 @@ MonoBehaviour:
   - {fileID: 1570470492}
   draw: 1
   inView: 1
-  position: {x: 1361.7109, y: 0.14999975, z: 227.20985}
+  position: {x: 1361.7109, y: 0.14999975, z: 227.20984}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -403974,7 +404264,7 @@ MonoBehaviour:
   - {fileID: 1361814490}
   draw: 1
   inView: 1
-  position: {x: 1346.6498, y: 0.15335947, z: 421.68234}
+  position: {x: 1346.6498, y: 0.15335947, z: 421.6823}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -404244,7 +404534,7 @@ MonoBehaviour:
   - {fileID: 2085019614}
   draw: 1
   inView: 1
-  position: {x: 1361.8252, y: 0.14999974, z: 244.62062}
+  position: {x: 1361.8252, y: 0.14999974, z: 244.6206}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -406928,7 +407218,7 @@ MonoBehaviour:
   - {fileID: 2084371343}
   draw: 1
   inView: 1
-  position: {x: 339.3722, y: 0.14405021, z: -112.946465}
+  position: {x: 339.3722, y: 0.14405021, z: -112.94647}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -408620,7 +408910,7 @@ MonoBehaviour:
   - {fileID: 883081272}
   draw: 1
   inView: 1
-  position: {x: 427.0222, y: 0.14806458, z: 123.94539}
+  position: {x: 427.0222, y: 0.14806458, z: 123.94537}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -409559,7 +409849,7 @@ MonoBehaviour:
   - {fileID: 239779671}
   draw: 1
   inView: 1
-  position: {x: 339.46295, y: 0.14405027, z: -99.68093}
+  position: {x: 339.46295, y: 0.14405027, z: -99.68094}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -410028,7 +410318,7 @@ MonoBehaviour:
   - {fileID: 324410098}
   draw: 1
   inView: 1
-  position: {x: 361.8872, y: 0.14789593, z: -4.332802}
+  position: {x: 361.8872, y: 0.14789593, z: -4.332794}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -412414,7 +412704,7 @@ MonoBehaviour:
   - {fileID: 1259677767}
   draw: 1
   inView: 1
-  position: {x: 362.3515, y: 0.14836119, z: 98.33327}
+  position: {x: 362.3515, y: 0.14836119, z: 98.33325}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -414536,7 +414826,7 @@ MonoBehaviour:
   - {fileID: 1524965905}
   draw: 1
   inView: 1
-  position: {x: 1344.159, y: 0.15335947, z: 421.85904}
+  position: {x: 1344.159, y: 0.15335947, z: 421.85907}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -414600,7 +414890,7 @@ MonoBehaviour:
   - {fileID: 226505969}
   draw: 1
   inView: 1
-  position: {x: 362.20068, y: 0.14820868, z: -61.021187}
+  position: {x: 362.20068, y: 0.14820868, z: -61.02118}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -414730,7 +415020,7 @@ GameObject:
   - component: {fileID: 1570399660}
   - component: {fileID: 1570399659}
   - component: {fileID: 1570399658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RainSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419590,7 +419880,7 @@ MonoBehaviour:
   - {fileID: 1299171057}
   draw: 1
   inView: 1
-  position: {x: 1361.7085, y: 0.14999975, z: 230.65636}
+  position: {x: 1361.7085, y: 0.14999975, z: 230.65637}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -420449,7 +420739,7 @@ MonoBehaviour:
   - {fileID: 715317034}
   draw: 1
   inView: 1
-  position: {x: 362.53424, y: 0.14854215, z: -110.94889}
+  position: {x: 362.53424, y: 0.14854215, z: -110.94888}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -428166,6 +428456,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599138724}
   m_Mesh: {fileID: -7174794492518713597, guid: d666058cc610ce94d8c7b6e4b2704534, type: 3}
+--- !u!1 &1599203614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3859989694625870454, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1599203617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599203614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &1599745817
 GameObject:
   m_ObjectHideFlags: 0
@@ -429624,7 +429949,7 @@ MonoBehaviour:
   - {fileID: 1255997698}
   draw: 1
   inView: 1
-  position: {x: 1372.0374, y: 0.15335947, z: 467.9432}
+  position: {x: 1372.0374, y: 0.15335947, z: 467.94318}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -432076,7 +432401,7 @@ MonoBehaviour:
   - {fileID: 736054604}
   draw: 1
   inView: 1
-  position: {x: 1330.6343, y: 0.15335949, z: 472.43393}
+  position: {x: 1330.6343, y: 0.15335949, z: 472.4339}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -433506,7 +433831,7 @@ MonoBehaviour:
   - {fileID: 1783964022}
   draw: 1
   inView: 1
-  position: {x: 1362.5499, y: 0.14999975, z: 319.84018}
+  position: {x: 1362.5499, y: 0.14999975, z: 319.84015}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -433632,7 +433957,7 @@ MonoBehaviour:
   - {fileID: 219333025}
   draw: 1
   inView: 1
-  position: {x: 403.02277, y: 0.14836997, z: 123.63729}
+  position: {x: 403.02277, y: 0.14836997, z: 123.6373}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -433788,7 +434113,7 @@ MonoBehaviour:
   - {fileID: 1663990088}
   draw: 1
   inView: 1
-  position: {x: 1361.8378, y: 0.14999975, z: 239.63628}
+  position: {x: 1361.8378, y: 0.14999975, z: 239.63629}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -434741,7 +435066,7 @@ MonoBehaviour:
   - {fileID: 1064432202}
   draw: 1
   inView: 1
-  position: {x: 1330.2893, y: 0.15335947, z: 430.17355}
+  position: {x: 1330.2893, y: 0.15335947, z: 430.17352}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -437183,7 +437508,7 @@ MonoBehaviour:
   - {fileID: 173804777}
   draw: 1
   inView: 1
-  position: {x: 1338.2112, y: 0.14999971, z: 367.67734}
+  position: {x: 1338.2112, y: 0.14999971, z: 367.6773}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -441114,7 +441439,7 @@ MonoBehaviour:
   - {fileID: 2001859585}
   draw: 1
   inView: 1
-  position: {x: 1338.3497, y: 0.15335947, z: 424.23886}
+  position: {x: 1338.3497, y: 0.15335947, z: 424.23883}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -442077,7 +442402,7 @@ MonoBehaviour:
   - {fileID: 1270764889}
   draw: 1
   inView: 1
-  position: {x: 408.36166, y: 0.14405172, z: 147.41618}
+  position: {x: 408.36166, y: 0.14405172, z: 147.4162}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -442377,7 +442702,7 @@ MonoBehaviour:
   - {fileID: 569406586}
   draw: 1
   inView: 1
-  position: {x: 362.30762, y: 0.14831579, z: 65.98854}
+  position: {x: 362.30762, y: 0.14831579, z: 65.988525}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -442441,7 +442766,7 @@ MonoBehaviour:
   - {fileID: 1900554762}
   draw: 1
   inView: 1
-  position: {x: 1379.1117, y: 0.15335947, z: 452.3361}
+  position: {x: 1379.1117, y: 0.15335947, z: 452.33612}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -443221,7 +443546,7 @@ MonoBehaviour:
   - {fileID: 266514797}
   draw: 1
   inView: 1
-  position: {x: 362.79248, y: 0.14879522, z: 30.745193}
+  position: {x: 362.79248, y: 0.14879522, z: 30.745178}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -445538,7 +445863,7 @@ MonoBehaviour:
   - {fileID: 1265893259}
   draw: 1
   inView: 1
-  position: {x: 388.68665, y: 0.1470239, z: 124.995316}
+  position: {x: 388.68665, y: 0.1470239, z: 124.9953}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -446492,7 +446817,7 @@ MonoBehaviour:
   - {fileID: 1731584479}
   draw: 1
   inView: 1
-  position: {x: 362.17834, y: 0.14818661, z: 50.380264}
+  position: {x: 362.17834, y: 0.14818661, z: 50.38025}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -448232,7 +448557,7 @@ MonoBehaviour:
   - {fileID: 1324704490}
   draw: 1
   inView: 1
-  position: {x: 1337.4366, y: 0.14999986, z: 226.89507}
+  position: {x: 1337.4366, y: 0.14999986, z: 226.89508}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -450208,7 +450533,7 @@ MonoBehaviour:
   - {fileID: 353409816}
   draw: 1
   inView: 1
-  position: {x: 362.29956, y: 0.14830664, z: 45.04805}
+  position: {x: 362.29956, y: 0.14830664, z: 45.048035}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -451716,7 +452041,7 @@ MonoBehaviour:
   - {fileID: 1406077977}
   draw: 1
   inView: 1
-  position: {x: 358.96875, y: 0.14405097, z: 143.83168}
+  position: {x: 358.96875, y: 0.14405097, z: 143.83167}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -452111,7 +452436,7 @@ MonoBehaviour:
   - {fileID: 898136562}
   draw: 1
   inView: 1
-  position: {x: 1377.9205, y: 0.15335947, z: 447.93466}
+  position: {x: 1377.9205, y: 0.15335947, z: 447.93463}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -457292,7 +457617,7 @@ Transform:
   m_GameObject: {fileID: 1720789752}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.5550537, y: 0, z: 15.143211}
+  m_LocalPosition: {x: 6.67, y: 0, z: 35.86}
   m_LocalScale: {x: 1, y: 4.278, z: 28.91603}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -458226,7 +458551,7 @@ MonoBehaviour:
   - {fileID: 1815767302}
   draw: 1
   inView: 1
-  position: {x: 332.98633, y: 0.1440518, z: -14.099859}
+  position: {x: 332.98633, y: 0.1440518, z: -14.0998535}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -459578,7 +459903,7 @@ MonoBehaviour:
   - {fileID: 49283355}
   draw: 1
   inView: 1
-  position: {x: 1323.324, y: 0.15335947, z: 440.94974}
+  position: {x: 1323.324, y: 0.15335947, z: 440.94977}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -461091,7 +461416,7 @@ MonoBehaviour:
   - {fileID: 1689528470}
   draw: 1
   inView: 1
-  position: {x: 362.25647, y: 0.14826402, z: 47.68434}
+  position: {x: 362.25647, y: 0.14826402, z: 47.684326}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -461962,7 +462287,7 @@ MonoBehaviour:
   - {fileID: 1890816737}
   draw: 1
   inView: 1
-  position: {x: 362.5619, y: 0.14856854, z: 71.66145}
+  position: {x: 362.5619, y: 0.14856854, z: 71.66144}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -462847,7 +463172,7 @@ MonoBehaviour:
   - {fileID: 144032617}
   draw: 1
   inView: 1
-  position: {x: 339.02576, y: 0.14405009, z: -80.47158}
+  position: {x: 339.02576, y: 0.14405009, z: -80.47159}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -463489,7 +463814,7 @@ MonoBehaviour:
   - {fileID: 603241474}
   draw: 1
   inView: 1
-  position: {x: 362.83002, y: 0.14883699, z: 109.769966}
+  position: {x: 362.83002, y: 0.14883699, z: 109.76996}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -464438,7 +464763,7 @@ MonoBehaviour:
   - {fileID: 583104388}
   draw: 1
   inView: 1
-  position: {x: 1325.3748, y: 0.15335947, z: 436.41824}
+  position: {x: 1325.3748, y: 0.15335947, z: 436.41827}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -465024,7 +465349,7 @@ MonoBehaviour:
   - {fileID: 1568507009}
   draw: 1
   inView: 1
-  position: {x: 1341.4753, y: 0.15335947, z: 422.44595}
+  position: {x: 1341.4753, y: 0.15335947, z: 422.44598}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -469399,7 +469724,7 @@ MonoBehaviour:
   - {fileID: 193853109}
   draw: 1
   inView: 1
-  position: {x: 1362.525, y: 0.14999977, z: 306.70193}
+  position: {x: 1362.525, y: 0.14999977, z: 306.70197}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -470005,7 +470330,7 @@ MonoBehaviour:
   - {fileID: 1435521334}
   draw: 1
   inView: 1
-  position: {x: 1321.6228, y: 0.15335947, z: 455.9329}
+  position: {x: 1321.6228, y: 0.15335947, z: 455.93292}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -474085,7 +474410,7 @@ MonoBehaviour:
   - {fileID: 1669496714}
   draw: 1
   inView: 1
-  position: {x: 362.38434, y: 0.14838952, z: 21.062637}
+  position: {x: 362.38434, y: 0.14838952, z: 21.062622}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -476222,7 +476547,7 @@ MonoBehaviour:
   - {fileID: 1549354514}
   draw: 1
   inView: 1
-  position: {x: 339.56702, y: 0.1440503, z: -102.4116}
+  position: {x: 339.56702, y: 0.1440503, z: -102.41159}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -476510,7 +476835,7 @@ MonoBehaviour:
   - {fileID: 833157222}
   draw: 1
   inView: 1
-  position: {x: 339.5368, y: 0.14405029, z: -107.29105}
+  position: {x: 339.5368, y: 0.14405029, z: -107.291046}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -477295,7 +477620,7 @@ MonoBehaviour:
   - {fileID: 1746123833}
   draw: 1
   inView: 1
-  position: {x: 1326.8425, y: 0.15335947, z: 434.27023}
+  position: {x: 1326.8425, y: 0.15335947, z: 434.2702}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -478236,7 +478561,7 @@ MonoBehaviour:
   - {fileID: 2040173565}
   draw: 1
   inView: 1
-  position: {x: 339.57837, y: 0.14405033, z: -87.63038}
+  position: {x: 339.57837, y: 0.14405033, z: -87.63037}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -482882,7 +483207,7 @@ MonoBehaviour:
   - {fileID: 1573935082}
   draw: 1
   inView: 1
-  position: {x: 362.57922, y: 0.14858666, z: -108.84347}
+  position: {x: 362.57922, y: 0.14858666, z: -108.843475}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -485905,7 +486230,7 @@ MonoBehaviour:
   - {fileID: 1426571819}
   draw: 1
   inView: 1
-  position: {x: 1362.3291, y: 0.1499997, z: 354.27304}
+  position: {x: 1362.3291, y: 0.1499997, z: 354.273}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -486566,7 +486891,7 @@ MonoBehaviour:
   - {fileID: 200947432}
   draw: 1
   inView: 1
-  position: {x: 382.75757, y: 0.14405043, z: 147.68852}
+  position: {x: 382.75757, y: 0.14405043, z: 147.68854}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -487124,7 +487449,7 @@ MonoBehaviour:
   - {fileID: 128262941}
   draw: 1
   inView: 1
-  position: {x: 1338.3306, y: 0.1499997, z: 375.59146}
+  position: {x: 1338.3306, y: 0.1499997, z: 375.5915}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -487815,7 +488140,7 @@ MonoBehaviour:
   - {fileID: 776058844}
   draw: 1
   inView: 1
-  position: {x: 361.9901, y: 0.14800072, z: -87.98159}
+  position: {x: 361.9901, y: 0.14800072, z: -87.9816}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -490123,7 +490448,7 @@ MonoBehaviour:
   - {fileID: 2136788776}
   draw: 1
   inView: 1
-  position: {x: 371.56396, y: 0.14801046, z: 123.99998}
+  position: {x: 371.56396, y: 0.14801046, z: 123.99997}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -490588,7 +490913,7 @@ MonoBehaviour:
   - {fileID: 2065570447}
   draw: 1
   inView: 1
-  position: {x: 382.36945, y: 0.14738587, z: 124.63014}
+  position: {x: 382.36945, y: 0.14738587, z: 124.63013}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -491355,7 +491680,7 @@ MonoBehaviour:
   - {fileID: 89418702}
   draw: 1
   inView: 1
-  position: {x: 339.36212, y: 0.14405051, z: -54.621696}
+  position: {x: 339.36212, y: 0.14405051, z: -54.621704}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -491835,7 +492160,7 @@ MonoBehaviour:
   - {fileID: 1378581902}
   draw: 1
   inView: 1
-  position: {x: 1370.3704, y: 0.15335947, z: 431.26138}
+  position: {x: 1370.3704, y: 0.15335947, z: 431.2614}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -494341,7 +494666,7 @@ MonoBehaviour:
   - {fileID: 1045554373}
   draw: 1
   inView: 1
-  position: {x: 1364.0894, y: 0.15335947, z: 474.79233}
+  position: {x: 1364.0894, y: 0.15335947, z: 474.7923}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -496298,7 +496623,7 @@ MonoBehaviour:
   - {fileID: 997655609}
   draw: 1
   inView: 1
-  position: {x: 380.59393, y: 0.14707947, z: 124.939255}
+  position: {x: 380.59393, y: 0.14707947, z: 124.93927}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -496424,7 +496749,7 @@ MonoBehaviour:
   - {fileID: 1680142541}
   draw: 1
   inView: 1
-  position: {x: 362.4265, y: 0.14843358, z: -82.43011}
+  position: {x: 362.4265, y: 0.14843358, z: -82.430115}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -498553,7 +498878,7 @@ MonoBehaviour:
   - {fileID: 763630631}
   draw: 1
   inView: 1
-  position: {x: 1377.0469, y: 0.15335947, z: 442.5956}
+  position: {x: 1377.0469, y: 0.15335947, z: 442.59564}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -499834,7 +500159,7 @@ MonoBehaviour:
   - {fileID: 1662669339}
   draw: 1
   inView: 1
-  position: {x: 362.42767, y: 0.14843513, z: 68.580795}
+  position: {x: 362.42767, y: 0.14843513, z: 68.58081}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -499898,7 +500223,7 @@ MonoBehaviour:
   - {fileID: 840465281}
   draw: 1
   inView: 1
-  position: {x: 1359.3092, y: 0.15335947, z: 423.35672}
+  position: {x: 1359.3092, y: 0.15335947, z: 423.35675}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -503056,7 +503381,7 @@ MonoBehaviour:
   - {fileID: 1846515254}
   draw: 1
   inView: 1
-  position: {x: 379.08173, y: 0.14744443, z: 124.57106}
+  position: {x: 379.08173, y: 0.14744443, z: 124.571045}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -503155,7 +503480,7 @@ MonoBehaviour:
   - {fileID: 1543900817}
   draw: 1
   inView: 1
-  position: {x: 339.72137, y: 0.14405039, z: -80.37144}
+  position: {x: 339.72137, y: 0.14405039, z: -80.37143}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -504677,7 +505002,7 @@ MonoBehaviour:
   - {fileID: 1674722270}
   draw: 1
   inView: 1
-  position: {x: 362.10083, y: 0.14810978, z: 52.634537}
+  position: {x: 362.10083, y: 0.14810978, z: 52.63452}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -505194,7 +505519,7 @@ MonoBehaviour:
   - {fileID: 59792992}
   draw: 1
   inView: 1
-  position: {x: 1366.9434, y: 0.15335947, z: 426.96756}
+  position: {x: 1366.9434, y: 0.15335947, z: 426.9676}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -507058,7 +507383,7 @@ MonoBehaviour:
   - {fileID: 1084254146}
   draw: 1
   inView: 1
-  position: {x: 362.10187, y: 0.14811215, z: -95.90667}
+  position: {x: 362.10187, y: 0.14811215, z: -95.90668}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -507248,7 +507573,7 @@ MonoBehaviour:
   - {fileID: 1908027385}
   draw: 1
   inView: 1
-  position: {x: 1327.6255, y: 0.15335947, z: 468.5148}
+  position: {x: 1327.6255, y: 0.15335947, z: 468.51483}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -509144,7 +509469,7 @@ MonoBehaviour:
   - {fileID: 288184570}
   draw: 1
   inView: 1
-  position: {x: 362.4026, y: 0.14841248, z: 105.94658}
+  position: {x: 362.4026, y: 0.14841248, z: 105.946594}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -509479,7 +509804,7 @@ MonoBehaviour:
   - {fileID: 2049059167}
   draw: 1
   inView: 1
-  position: {x: 364.2392, y: 0.14609614, z: 122.4323}
+  position: {x: 364.2392, y: 0.14609614, z: 122.43231}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -515447,7 +515772,7 @@ MonoBehaviour:
   - {fileID: 283801409}
   draw: 1
   inView: 1
-  position: {x: 1320.4507, y: 0.15335947, z: 454.93442}
+  position: {x: 1320.4507, y: 0.15335947, z: 454.9344}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -518907,7 +519232,7 @@ MonoBehaviour:
   - {fileID: 1212131735}
   draw: 1
   inView: 1
-  position: {x: 362.48035, y: 0.14848566, z: -46.74224}
+  position: {x: 362.48035, y: 0.14848566, z: -46.74225}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -519628,6 +519953,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 449838307}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1987227950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 391750682254016184, guid: 8cc00b10afd8d7848942e7d69eca351d,
+    type: 3}
+  m_PrefabInstance: {fileID: 806679466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1987227953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987227950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!4 &1987447466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4144838621837896, guid: 2d04bc45f3cb4444dacc586dcc19ab34,
@@ -520607,7 +520967,7 @@ MonoBehaviour:
   - {fileID: 1265196913}
   draw: 1
   inView: 1
-  position: {x: 1361.6821, y: 0.1499996, z: 397.9384}
+  position: {x: 1361.6821, y: 0.1499996, z: 397.93842}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -524527,7 +524887,7 @@ MonoBehaviour:
   - {fileID: 1560681682}
   draw: 1
   inView: 1
-  position: {x: 362.25714, y: 0.14826779, z: 101.2292}
+  position: {x: 362.25714, y: 0.14826779, z: 101.22919}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -524591,7 +524951,7 @@ MonoBehaviour:
   - {fileID: 906817383}
   draw: 1
   inView: 1
-  position: {x: 1362.628, y: 0.14999989, z: 214.43077}
+  position: {x: 1362.628, y: 0.14999989, z: 214.43079}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -525201,7 +525561,7 @@ MonoBehaviour:
   - {fileID: 478600932}
   draw: 1
   inView: 1
-  position: {x: 362.83765, y: 0.14884344, z: 92.21916}
+  position: {x: 362.83765, y: 0.14884344, z: 92.21918}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -527385,7 +527745,7 @@ MonoBehaviour:
   - {fileID: 396375427}
   draw: 1
   inView: 1
-  position: {x: 362.82068, y: 0.14668706, z: 120.27934}
+  position: {x: 362.82068, y: 0.14668706, z: 120.27936}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -527932,7 +528292,7 @@ MonoBehaviour:
   - {fileID: 2040252878}
   draw: 1
   inView: 1
-  position: {x: 366.09888, y: 0.1467661, z: 121.941696}
+  position: {x: 366.09888, y: 0.1467661, z: 121.94171}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -530337,7 +530697,7 @@ MonoBehaviour:
   - {fileID: 1616455081}
   draw: 1
   inView: 1
-  position: {x: 1332.5781, y: 0.15335947, z: 473.41574}
+  position: {x: 1332.5781, y: 0.15335947, z: 473.4157}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -530763,7 +531123,7 @@ MonoBehaviour:
   - {fileID: 17890067}
   draw: 1
   inView: 1
-  position: {x: 1345.7786, y: 0.15335947, z: 422.52567}
+  position: {x: 1345.7786, y: 0.15335947, z: 422.5257}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -533144,7 +533504,7 @@ MonoBehaviour:
   - {fileID: 543726996}
   draw: 1
   inView: 1
-  position: {x: 366.48425, y: 0.14638641, z: 122.761765}
+  position: {x: 366.48425, y: 0.14638641, z: 122.76178}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -533208,7 +533568,7 @@ MonoBehaviour:
   - {fileID: 630366862}
   draw: 1
   inView: 1
-  position: {x: 362.51, y: 0.14851747, z: -101.32465}
+  position: {x: 362.51, y: 0.14851747, z: -101.324646}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -533601,7 +533961,7 @@ MonoBehaviour:
   - {fileID: 487701704}
   draw: 1
   inView: 1
-  position: {x: 1376.89, y: 0.15335947, z: 458.11508}
+  position: {x: 1376.89, y: 0.15335947, z: 458.11505}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -537610,7 +537970,7 @@ MonoBehaviour:
   - {fileID: 1280402391}
   draw: 1
   inView: 1
-  position: {x: 339.41626, y: 0.14405087, z: -44.20741}
+  position: {x: 339.41626, y: 0.14405087, z: -44.207413}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -538773,7 +539133,7 @@ MonoBehaviour:
   - {fileID: 191177352}
   draw: 1
   inView: 1
-  position: {x: 1354.7994, y: 0.15335947, z: 478.1343}
+  position: {x: 1354.7994, y: 0.15335947, z: 478.13434}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -541548,7 +541908,7 @@ MonoBehaviour:
   - {fileID: 1984479696}
   draw: 1
   inView: 1
-  position: {x: 340.05646, y: 0.14405116, z: 120.49901}
+  position: {x: 340.05646, y: 0.14405116, z: 120.49902}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -542302,7 +542662,7 @@ MonoBehaviour:
   - {fileID: 1791181066}
   draw: 1
   inView: 1
-  position: {x: 339.46558, y: 0.14405027, z: -109.95182}
+  position: {x: 339.46558, y: 0.14405027, z: -109.95181}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -542555,7 +542915,7 @@ MonoBehaviour:
   - {fileID: 70318643}
   draw: 1
   inView: 1
-  position: {x: 1361.6108, y: 0.14999974, z: 247.59041}
+  position: {x: 1361.6108, y: 0.14999974, z: 247.5904}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -550091,7 +550451,7 @@ MonoBehaviour:
   - {fileID: 1238449990}
   draw: 1
   inView: 1
-  position: {x: 1339.6053, y: 0.15335947, z: 476.38492}
+  position: {x: 1339.6053, y: 0.15335947, z: 476.38495}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -550867,7 +551227,7 @@ MonoBehaviour:
   - {fileID: 1402672599}
   draw: 1
   inView: 1
-  position: {x: 339.4226, y: 0.14405122, z: -33.574684}
+  position: {x: 339.4226, y: 0.14405122, z: -33.574677}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -552262,7 +552622,7 @@ MonoBehaviour:
   - {fileID: 1565829971}
   draw: 1
   inView: 1
-  position: {x: 1361.7915, y: 0.14999974, z: 255.32597}
+  position: {x: 1361.7915, y: 0.14999974, z: 255.32599}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -552475,7 +552835,7 @@ MonoBehaviour:
   - {fileID: 1627118745}
   draw: 1
   inView: 1
-  position: {x: 1328.2075, y: 0.15335947, z: 431.80496}
+  position: {x: 1328.2075, y: 0.15335947, z: 431.805}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
@@ -556827,7 +557187,7 @@ MonoBehaviour:
   - {fileID: 72397603}
   draw: 1
   inView: 1
-  position: {x: 362.07733, y: 0.1480902, z: 114.47728}
+  position: {x: 362.07733, y: 0.1480902, z: 114.477295}
   priorityLocked: 0
   priority: 1
   triggerEvent: 0
