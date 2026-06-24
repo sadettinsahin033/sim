@@ -6,3 +6,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260531
+  packageName: 3D Cartoon Road Warning Signs
+  packageVersion: 1.0.1
+  assetPath: Assets/Settings/SampleSceneProfile.asset
+  uploadId: 600777
