@@ -209,6 +209,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235132}
   m_Mesh: {fileID: 4300008, guid: ceac1b6ce30c82f4092f1b298b41e446, type: 3}
+--- !u!1 &1095365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1095367}
+  - component: {fileID: 1095366}
+  m_Layer: 0
+  m_Name: Waypoint38
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1095366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1337.7279, y: 0.75, z: 195.03093}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 455172377}
+  previousWaypoint: {fileID: 872499209}
+  interConnectionWaypoint: {fileID: 0}
+  index: 38
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 40.75652
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 6.84721
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 33.276527
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1095367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095365}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.063579746, y: 0.7214924, z: -0.066844895, w: 0.6862493}
+  m_LocalPosition: {x: 1337.7279, y: 0.75, z: 195.03093}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1230961
 GameObject:
   m_ObjectHideFlags: 0
@@ -54702,6 +54764,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 353274142}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &199281126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 199281128}
+  - component: {fileID: 199281127}
+  m_Layer: 0
+  m_Name: Waypoint32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &199281127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199281126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1259.3188, y: 0.75, z: 196.36668}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 1877081581}
+  previousWaypoint: {fileID: 864354574}
+  interConnectionWaypoint: {fileID: 0}
+  index: 32
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 44.707752
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 11.187705
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 19.05209
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &199281128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199281126}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8418249, z: -0, w: 0.53975075}
+  m_LocalPosition: {x: 1259.3188, y: 0.75, z: 196.36668}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &200947431
 GameObject:
   m_ObjectHideFlags: 0
@@ -84318,7 +84442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
-  waypointPosition: {x: 1249.4032, y: 0.75, z: 454.9895}
+  waypointPosition: {x: 1246.21, y: 0.75, z: 454.9895}
   connectedLane: {fileID: 1706651782}
   nextWaypoint: {fileID: 1743381083}
   previousWaypoint: {fileID: 1074241757}
@@ -84329,11 +84453,11 @@ MonoBehaviour:
   radius: 1.5
   targetSpeed: 50
   wait: 0
-  desiredSpeedForNextWaypoint: 43.238155
+  desiredSpeedForNextWaypoint: 49.91999
   desiredSpeedForInterConnectionWaypoint: 50
-  distanceToNextWaypoint: 9.753665
+  distanceToNextWaypoint: 6.38696
   distanceToInterConnectionWaypoint: 0
-  angleToNextWaypoint: 24.342634
+  angleToNextWaypoint: 0.28803554
   angleToInterConnectionWaypoint: 0
   ignoreGizmos: 0
 --- !u!4 &334155508
@@ -84344,8 +84468,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334155506}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9766685, z: -0, w: 0.21475278}
-  m_LocalPosition: {x: 1249.4032, y: 0.75, z: 454.9895}
+  m_LocalRotation: {x: -0, y: 0.9997959, z: -0, w: 0.020201936}
+  m_LocalPosition: {x: 1246.21, y: 0.75, z: 454.9895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102756,6 +102880,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390658125}
   m_Mesh: {fileID: 4300004, guid: ceac1b6ce30c82f4092f1b298b41e446, type: 3}
+--- !u!1 &390707700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 390707702}
+  - component: {fileID: 390707701}
+  m_Layer: 0
+  m_Name: Waypoint30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &390707701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390707700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1248.0891, y: 0.75, z: 205.15251}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 864354574}
+  previousWaypoint: {fileID: 2007443565}
+  interConnectionWaypoint: {fileID: 0}
+  index: 30
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 44.305836
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 7.228833
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 20.498993
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &390707702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390707700}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9881019, z: -0, w: 0.15380082}
+  m_LocalPosition: {x: 1248.0891, y: 0.75, z: 205.15251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &391714623
 GameObject:
   m_ObjectHideFlags: 0
@@ -112944,22 +113130,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
-  waypointPosition: {x: 1293.4523, y: 0.75, z: 444.74344}
+  waypointPosition: {x: 1244.6, y: 0.75, z: 356.2}
   connectedLane: {fileID: 1706651782}
-  nextWaypoint: {fileID: 0}
+  nextWaypoint: {fileID: 1501965813}
   previousWaypoint: {fileID: 1562246427}
   interConnectionWaypoint: {fileID: 0}
   index: 22
   firstWaypoint: 0
-  lastWaypoint: 1
+  lastWaypoint: 0
   radius: 1.5
   targetSpeed: 50
   wait: 0
-  desiredSpeedForNextWaypoint: 50
+  desiredSpeedForNextWaypoint: 49.35602
   desiredSpeedForInterConnectionWaypoint: 50
-  distanceToNextWaypoint: 0
+  distanceToNextWaypoint: 17.747766
   distanceToInterConnectionWaypoint: 0
-  angleToNextWaypoint: 0
+  angleToNextWaypoint: 2.3183243
   angleToInterConnectionWaypoint: 0
   ignoreGizmos: 0
 --- !u!4 &431189030
@@ -112970,8 +113156,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431189028}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7197382, z: -0, w: 0.6942456}
-  m_LocalPosition: {x: 1293.4523, y: 0.75, z: 444.74344}
+  m_LocalRotation: {x: -0, y: 0.9999123, z: -0, w: -0.013242366}
+  m_LocalPosition: {x: 1244.6, y: 0.75, z: 356.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -118232,6 +118418,68 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &455172376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455172378}
+  - component: {fileID: 455172377}
+  m_Layer: 0
+  m_Name: Waypoint39
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &455172377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455172376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1343.364, y: 0.75, z: 191.14267}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 3111712}
+  previousWaypoint: {fileID: 1095366}
+  interConnectionWaypoint: {fileID: 0}
+  index: 39
+  firstWaypoint: 0
+  lastWaypoint: 1
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 43.59659
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 8.037805
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 23.052286
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &455172378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455172376}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8853983, z: -0, w: 0.46483308}
+  m_LocalPosition: {x: 1343.364, y: 0.75, z: 191.14267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &455938597
 GameObject:
   m_ObjectHideFlags: 0
@@ -118812,7 +119060,7 @@ Transform:
   m_GameObject: {fileID: 457358382}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.352, y: 0.405, z: -0.159}
+  m_LocalPosition: {x: -0.3, y: 0.405, z: 0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -140440,7 +140688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
-  waypointPosition: {x: 1265.996, y: 0.75, z: 445.68085}
+  waypointPosition: {x: 1246, y: 0.75, z: 422.2}
   connectedLane: {fileID: 1706651782}
   nextWaypoint: {fileID: 1562246427}
   previousWaypoint: {fileID: 1743381083}
@@ -140451,11 +140699,11 @@ MonoBehaviour:
   radius: 1.5
   targetSpeed: 50
   wait: 0
-  desiredSpeedForNextWaypoint: 45.620163
+  desiredSpeedForNextWaypoint: 49.965683
   desiredSpeedForInterConnectionWaypoint: 50
-  distanceToNextWaypoint: 14.776345
+  distanceToNextWaypoint: 35.805046
   distanceToInterConnectionWaypoint: 0
-  angleToNextWaypoint: 15.76742
+  angleToNextWaypoint: 0.1235407
   angleToInterConnectionWaypoint: 0
   ignoreGizmos: 0
 --- !u!4 &543274791
@@ -140466,8 +140714,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543274789}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.80710495, z: -0, w: 0.590408}
-  m_LocalPosition: {x: 1265.996, y: 0.75, z: 445.68085}
+  m_LocalRotation: {x: -0, y: 0.99995524, z: -0, w: -0.009465157}
+  m_LocalPosition: {x: 1246, y: 0.75, z: 422.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -142485,6 +142733,205 @@ RectTransform:
   m_AnchoredPosition: {x: 633.6, y: 1039.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &550529894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 550529895}
+  - component: {fileID: 550529902}
+  - component: {fileID: 550529901}
+  - component: {fileID: 550529900}
+  - component: {fileID: 550529899}
+  - component: {fileID: 550529898}
+  - component: {fileID: 550529897}
+  - component: {fileID: 550529896}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] Hand Tracking right'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &550529895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1315415750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &550529896
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: aa70c70787230f248b33d8a0ce1a6c3d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_DirtyAABB: 0
+--- !u!114 &550529897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ovrMesh: {fileID: 0}
+  _ovrSkeleton: {fileID: 0}
+  _confidenceBehavior: 1
+  _systemGestureBehavior: 1
+  _systemGestureMaterial: {fileID: 2100000, guid: 9d107f2f043e1ed408b970f146718017,
+    type: 2}
+--- !u!114 &550529898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5c234723e3a54d8dd09b131117743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshType: 5
+--- !u!114 &550529899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c16b381e28e8d479237771d234dbae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _confidenceBehavior: 1
+  _systemGestureBehavior: 1
+  _renderPhysicsCapsules: 0
+  _skeletonMaterial: {fileID: 2100000, guid: 9c05c5a6e4902ff4082cfb34e5b64b2d, type: 2}
+  _capsuleMaterial: {fileID: 0}
+  _systemGestureMaterial: {fileID: 2100000, guid: 38beab19e7c1f7947afac78fd60f90b0,
+    type: 2}
+--- !u!114 &550529900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skeletonType: 5
+  _updateRootPose: 0
+  _updateRootScale: 1
+  _enablePhysicsCapsules: 0
+  _applyBoneTranslations: 1
+--- !u!114 &550529901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandType: 1
+  _pointerPoseRoot: {fileID: 0}
+  m_showState: 3
+  RayHelper: {fileID: 0}
+--- !u!114 &550529902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550529894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Meta.XR.BuildingBlocks::Meta.XR.BuildingBlocks.BuildingBlock
+  blockId: 8b26b298-7bf4-490e-b245-a039c0184303
+  instanceId: cb187cbe-5019-4042-8dc4-2f1021b3a6a1
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &550653737
 GameObject:
   m_ObjectHideFlags: 0
@@ -154403,7 +154850,7 @@ PrefabInstance:
     - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
         type: 3}
       propertyPath: radius
-      value: 200
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
         type: 3}
@@ -154418,7 +154865,7 @@ PrefabInstance:
     - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
         type: 3}
       propertyPath: closeRadius
-      value: 100
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 3936924969082989665, guid: 8c9c0eaee5ef43e459dfc3c46255ce79,
         type: 3}
@@ -158614,6 +159061,68 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1615018591}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &615904322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615904324}
+  - component: {fileID: 615904323}
+  m_Layer: 0
+  m_Name: Waypoint24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &615904323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615904322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1244.6005, y: 0.75, z: 320.123}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 1969595186}
+  previousWaypoint: {fileID: 1501965813}
+  interConnectionWaypoint: {fileID: 0}
+  index: 24
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 49.91434
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 17.64438
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 0.30837655
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &615904324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615904322}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.99997723, z: -0, w: -0.006751998}
+  m_LocalPosition: {x: 1244.6005, y: 0.75, z: 320.123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &615924815 stripped
 GameObject:
@@ -234159,6 +234668,7 @@ Transform:
   m_Children:
   - {fileID: 1126819104}
   - {fileID: 716366760}
+  - {fileID: 890436489}
   m_Father: {fileID: 2133547983}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &806679466
@@ -247953,6 +248463,68 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &864354573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 864354575}
+  - component: {fileID: 864354574}
+  m_Layer: 0
+  m_Name: Waypoint31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &864354574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864354573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1252.5588, y: 0.75, z: 199.47118}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 199281127}
+  previousWaypoint: {fileID: 390707701}
+  interConnectionWaypoint: {fileID: 0}
+  index: 31
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 42.461155
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 7.4387903
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 27.139845
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &864354575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864354573}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9449675, z: -0, w: 0.32716432}
+  m_LocalPosition: {x: 1252.5588, y: 0.75, z: 199.47118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &864389755
 GameObject:
   m_ObjectHideFlags: 0
@@ -249647,6 +250219,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872253316}
   m_Mesh: {fileID: 4300000, guid: 9f68b01c4960c5b418bee4977a9784ed, type: 3}
+--- !u!1 &872499208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872499210}
+  - component: {fileID: 872499209}
+  m_Layer: 0
+  m_Name: Waypoint37
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &872499209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872499208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1330.1462, y: 2.1687946, z: 195.41078}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 1095366}
+  previousWaypoint: {fileID: 1141120059}
+  interConnectionWaypoint: {fileID: 0}
+  index: 37
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 45.058346
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 7.7226233
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 17.78995
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &872499210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872499208}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.041503213, y: 0.69597536, z: 0.040357757, w: 0.71572834}
+  m_LocalPosition: {x: 1330.1462, y: 2.1687946, z: 195.41078}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &872580260
 GameObject:
   m_ObjectHideFlags: 0
@@ -253789,6 +254423,205 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890420812}
   m_Mesh: {fileID: 4300006, guid: c2b1bafd07e77b74db1ed4246cf7b10e, type: 3}
+--- !u!1 &890436488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 890436489}
+  - component: {fileID: 890436496}
+  - component: {fileID: 890436495}
+  - component: {fileID: 890436494}
+  - component: {fileID: 890436493}
+  - component: {fileID: 890436492}
+  - component: {fileID: 890436491}
+  - component: {fileID: 890436490}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] Hand Tracking left'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &890436489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806036018}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &890436490
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: aa70c70787230f248b33d8a0ce1a6c3d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_DirtyAABB: 0
+--- !u!114 &890436491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ovrMesh: {fileID: 0}
+  _ovrSkeleton: {fileID: 0}
+  _confidenceBehavior: 1
+  _systemGestureBehavior: 1
+  _systemGestureMaterial: {fileID: 2100000, guid: 9d107f2f043e1ed408b970f146718017,
+    type: 2}
+--- !u!114 &890436492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc5c234723e3a54d8dd09b131117743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshType: 4
+--- !u!114 &890436493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c16b381e28e8d479237771d234dbae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _confidenceBehavior: 1
+  _systemGestureBehavior: 1
+  _renderPhysicsCapsules: 0
+  _skeletonMaterial: {fileID: 2100000, guid: 9c05c5a6e4902ff4082cfb34e5b64b2d, type: 2}
+  _capsuleMaterial: {fileID: 0}
+  _systemGestureMaterial: {fileID: 2100000, guid: 38beab19e7c1f7947afac78fd60f90b0,
+    type: 2}
+--- !u!114 &890436494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skeletonType: 4
+  _updateRootPose: 0
+  _updateRootScale: 1
+  _enablePhysicsCapsules: 0
+  _applyBoneTranslations: 1
+--- !u!114 &890436495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandType: 0
+  _pointerPoseRoot: {fileID: 0}
+  m_showState: 3
+  RayHelper: {fileID: 0}
+--- !u!114 &890436496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890436488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Meta.XR.BuildingBlocks::Meta.XR.BuildingBlocks.BuildingBlock
+  blockId: 8b26b298-7bf4-490e-b245-a039c0184303
+  instanceId: 3d8b8053-45d0-4d44-ae10-1b3ed123e953
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &890559779
 GameObject:
   m_ObjectHideFlags: 0
@@ -280037,6 +280870,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1894988783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &995039356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995039358}
+  - component: {fileID: 995039357}
+  m_Layer: 0
+  m_Name: Waypoint26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &995039357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995039356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1245.5121, y: 0.75, z: 279.06268}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 1637063588}
+  previousWaypoint: {fileID: 1969595186}
+  interConnectionWaypoint: {fileID: 0}
+  index: 26
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 48.936848
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 26.722433
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 3.8273547
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &995039358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995039356}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.99964756, z: -0, w: 0.026547488}
+  m_LocalPosition: {x: 1245.5121, y: 0.75, z: 279.06268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995234824
 GameObject:
   m_ObjectHideFlags: 0
@@ -299208,11 +300103,11 @@ MonoBehaviour:
   radius: 1.5
   targetSpeed: 50
   wait: 0
-  desiredSpeedForNextWaypoint: 43.75603
+  desiredSpeedForNextWaypoint: 50
   desiredSpeedForInterConnectionWaypoint: 50
-  distanceToNextWaypoint: 8.342118
+  distanceToNextWaypoint: 7.5788484
   distanceToInterConnectionWaypoint: 0
-  angleToNextWaypoint: 22.478283
+  angleToNextWaypoint: 0
   angleToInterConnectionWaypoint: 0
   ignoreGizmos: 0
 --- !u!4 &1074241758
@@ -314757,6 +315652,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140805721}
   m_Mesh: {fileID: 4300000, guid: df810c017317f784da267a2c2b8a51f7, type: 3}
+--- !u!1 &1141120058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1141120060}
+  - component: {fileID: 1141120059}
+  m_Layer: 0
+  m_Name: Waypoint36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1141120059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141120058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1317.9585, y: 0.75, z: 195.06964}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 872499209}
+  previousWaypoint: {fileID: 1413319684}
+  interConnectionWaypoint: {fileID: 0}
+  index: 36
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 48.09521
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 12.27479
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 6.8572383
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1141120060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141120058}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.70786434, z: -0, w: 0.7063484}
+  m_LocalPosition: {x: 1317.9585, y: 0.75, z: 195.06964}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1141969779
 GameObject:
   m_ObjectHideFlags: 0
@@ -355326,6 +356283,7 @@ Transform:
   m_Children:
   - {fileID: 1027250448}
   - {fileID: 1930070630}
+  - {fileID: 550529895}
   m_Father: {fileID: 2133547983}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1316226263
@@ -367764,6 +368722,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368576218}
   m_Mesh: {fileID: 4300002, guid: 7c6120a9feb9d864d8fc18a7dcfb8e77, type: 3}
+--- !u!1 &1369353951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1369353953}
+  - component: {fileID: 1369353952}
+  m_Layer: 0
+  m_Name: Waypoint34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1369353952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369353951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1286.3792, y: 0.75, z: 194.81291}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 1413319684}
+  previousWaypoint: {fileID: 1877081581}
+  interConnectionWaypoint: {fileID: 0}
+  index: 34
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 49.265583
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 16.670835
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 2.6438985
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1369353953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369353951}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7172244, z: -0, w: 0.6968423}
+  m_LocalPosition: {x: 1286.3792, y: 0.75, z: 194.81291}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369506896
 GameObject:
   m_ObjectHideFlags: 0
@@ -378029,6 +379049,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 887236495}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1413319683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1413319685}
+  - component: {fileID: 1413319684}
+  m_Layer: 0
+  m_Name: Waypoint35
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1413319684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413319683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1303.0475, y: 0.75, z: 195.10161}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 1141120059}
+  previousWaypoint: {fileID: 1369353952}
+  interConnectionWaypoint: {fileID: 0}
+  index: 35
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 49.690266
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 14.911045
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 1.115047
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1413319685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413319683}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7009575, z: -0, w: 0.71320313}
+  m_LocalPosition: {x: 1303.0475, y: 0.75, z: 195.10161}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1413771759
 GameObject:
   m_ObjectHideFlags: 0
@@ -383956,11 +385038,11 @@ MonoBehaviour:
   radius: 1.5
   targetSpeed: 50
   wait: 0
-  desiredSpeedForNextWaypoint: 46.921215
+  desiredSpeedForNextWaypoint: 38.34654
   desiredSpeedForInterConnectionWaypoint: 50
-  distanceToNextWaypoint: 11.091884
+  distanceToNextWaypoint: 11.879655
   distanceToInterConnectionWaypoint: 0
-  angleToNextWaypoint: 11.083632
+  angleToNextWaypoint: 41.952465
   angleToInterConnectionWaypoint: 0
   ignoreGizmos: 0
 --- !u!4 &1437476498
@@ -398725,6 +399807,68 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1501965812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1501965814}
+  - component: {fileID: 1501965813}
+  m_Layer: 0
+  m_Name: Waypoint23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1501965813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501965812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1244.848, y: 0.75, z: 338.45398}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 615904323}
+  previousWaypoint: {fileID: 431189029}
+  interConnectionWaypoint: {fileID: 0}
+  index: 23
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 49.562653
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 18.332664
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 1.5744554
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1501965814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501965812}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9999756, z: -0, w: 0.006988287}
+  m_LocalPosition: {x: 1244.848, y: 0.75, z: 338.45398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1502052408
 GameObject:
   m_ObjectHideFlags: 0
@@ -413051,7 +414195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
-  waypointPosition: {x: 1280.7645, y: 0.75, z: 445.20108}
+  waypointPosition: {x: 1245.4, y: 0.75, z: 386.4}
   connectedLane: {fileID: 1706651782}
   nextWaypoint: {fileID: 431189029}
   previousWaypoint: {fileID: 543274790}
@@ -413062,11 +414206,11 @@ MonoBehaviour:
   radius: 1.5
   targetSpeed: 50
   wait: 0
-  desiredSpeedForNextWaypoint: 49.942894
+  desiredSpeedForNextWaypoint: 49.845257
   desiredSpeedForInterConnectionWaypoint: 50
-  distanceToNextWaypoint: 12.695995
+  distanceToNextWaypoint: 30.210577
   distanceToInterConnectionWaypoint: 0
-  angleToNextWaypoint: 0.20558423
+  angleToNextWaypoint: 0.55707794
   angleToInterConnectionWaypoint: 0
   ignoreGizmos: 0
 --- !u!4 &1562246428
@@ -413077,8 +414221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562246426}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7184945, z: -0, w: 0.6955327}
-  m_LocalPosition: {x: 1280.7645, y: 0.75, z: 445.20108}
+  m_LocalRotation: {x: -0, y: 0.9999649, z: -0, w: -0.00837866}
+  m_LocalPosition: {x: 1245.4, y: 0.75, z: 386.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -436959,6 +438103,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1508249358}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1637063587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637063589}
+  - component: {fileID: 1637063588}
+  m_Layer: 0
+  m_Name: Waypoint27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1637063588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637063587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1245.146, y: 0.75, z: 252.34276}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 2047172744}
+  previousWaypoint: {fileID: 995039357}
+  interConnectionWaypoint: {fileID: 0}
+  index: 27
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 49.986538
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 25.98127
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 0.048456643
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1637063589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637063587}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9999766, z: -0, w: -0.0068500033}
+  m_LocalPosition: {x: 1245.146, y: 0.75, z: 252.34276}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1637368408
 GameObject:
   m_ObjectHideFlags: 0
@@ -454563,6 +455769,23 @@ MonoBehaviour:
   - {fileID: 543274790}
   - {fileID: 1562246427}
   - {fileID: 431189029}
+  - {fileID: 1501965813}
+  - {fileID: 615904323}
+  - {fileID: 1969595186}
+  - {fileID: 995039357}
+  - {fileID: 1637063588}
+  - {fileID: 2047172744}
+  - {fileID: 2007443565}
+  - {fileID: 390707701}
+  - {fileID: 864354574}
+  - {fileID: 199281127}
+  - {fileID: 1877081581}
+  - {fileID: 1369353952}
+  - {fileID: 1413319684}
+  - {fileID: 1141120059}
+  - {fileID: 872499209}
+  - {fileID: 1095366}
+  - {fileID: 455172377}
   laneIndex: 4
   supportedLight: 1
   supportedMedium: 1
@@ -454610,6 +455833,23 @@ Transform:
   - {fileID: 543274791}
   - {fileID: 1562246428}
   - {fileID: 431189030}
+  - {fileID: 1501965814}
+  - {fileID: 615904324}
+  - {fileID: 1969595187}
+  - {fileID: 995039358}
+  - {fileID: 1637063589}
+  - {fileID: 2047172745}
+  - {fileID: 2007443566}
+  - {fileID: 390707702}
+  - {fileID: 864354575}
+  - {fileID: 199281128}
+  - {fileID: 1877081582}
+  - {fileID: 1369353953}
+  - {fileID: 1413319685}
+  - {fileID: 1141120060}
+  - {fileID: 872499210}
+  - {fileID: 1095367}
+  - {fileID: 455172378}
   m_Father: {fileID: 1496608618}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1707328178
@@ -464158,7 +465398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
-  waypointPosition: {x: 1256.7805, y: 0.75, z: 448.60913}
+  waypointPosition: {x: 1246.5, y: 0.75, z: 448.60913}
   connectedLane: {fileID: 1706651782}
   nextWaypoint: {fileID: 543274790}
   previousWaypoint: {fileID: 334155507}
@@ -464169,11 +465409,11 @@ MonoBehaviour:
   radius: 1.5
   targetSpeed: 50
   wait: 0
-  desiredSpeedForNextWaypoint: 43.547985
+  desiredSpeedForNextWaypoint: 48.975716
   desiredSpeedForInterConnectionWaypoint: 50
-  distanceToNextWaypoint: 9.669511
+  distanceToNextWaypoint: 26.41385
   distanceToInterConnectionWaypoint: 0
-  angleToNextWaypoint: 23.227251
+  angleToNextWaypoint: 3.6874301
   angleToInterConnectionWaypoint: 0
   ignoreGizmos: 0
 --- !u!4 &1743381084
@@ -464184,8 +465424,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743381082}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.90943694, z: -0, w: 0.41584185}
-  m_LocalPosition: {x: 1256.7805, y: 0.75, z: 448.60913}
+  m_LocalRotation: {x: -0, y: 0.9997421, z: -0, w: 0.022711428}
+  m_LocalPosition: {x: 1246.5, y: 0.75, z: 448.60913}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -497557,6 +498797,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1876801063}
   m_Mesh: {fileID: 4300000, guid: 321e07dd7686880459a18a56abfbd360, type: 3}
+--- !u!1 &1877081580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877081582}
+  - component: {fileID: 1877081581}
+  m_Layer: 0
+  m_Name: Waypoint33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1877081581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877081580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1270.4529, y: 0.75, z: 195.27213}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 1369353952}
+  previousWaypoint: {fileID: 199281127}
+  interConnectionWaypoint: {fileID: 0}
+  index: 33
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 48.89918
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 15.932889
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 3.9629416
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1877081582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877081580}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.74088997, z: -0, w: 0.67162645}
+  m_LocalPosition: {x: 1270.4529, y: 0.75, z: 195.27213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1877334745
 GameObject:
   m_ObjectHideFlags: 0
@@ -516616,6 +517918,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969544180}
   m_Mesh: {fileID: 4300020, guid: e4aafaf7056bfc14d88ac105dee3c9fa, type: 3}
+--- !u!1 &1969595185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1969595187}
+  - component: {fileID: 1969595186}
+  m_Layer: 0
+  m_Name: Waypoint25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1969595186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969595185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1244.2673, y: 0.75, z: 302.48175}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 995039357}
+  previousWaypoint: {fileID: 615904323}
+  interConnectionWaypoint: {fileID: 0}
+  index: 25
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 48.85437
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 23.452124
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 4.124263
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &1969595187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969595185}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9999555, z: -0, w: -0.009440535}
+  m_LocalPosition: {x: 1244.2673, y: 0.75, z: 302.48175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1970531543
 GameObject:
   m_ObjectHideFlags: 0
@@ -524365,6 +525729,68 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1330583182}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2007443564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2007443566}
+  - component: {fileID: 2007443565}
+  m_Layer: 0
+  m_Name: Waypoint29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2007443565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007443564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1245.2866, y: 0.75, z: 213.93678}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 390707701}
+  previousWaypoint: {fileID: 2047172744}
+  interConnectionWaypoint: {fileID: 0}
+  index: 29
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 45.75044
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 9.220487
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 15.298424
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &2007443566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007443564}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9997814, z: -0, w: 0.02090845}
+  m_LocalPosition: {x: 1245.2866, y: 0.75, z: 213.93678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2008353577
 GameObject:
@@ -533247,6 +534673,68 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 640852423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2047172743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047172745}
+  - component: {fileID: 2047172744}
+  m_Layer: 0
+  m_Name: Waypoint28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2047172744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047172743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0379910c344f047ad51cbbb88bad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RTC_Waypoint
+  waypointPosition: {x: 1244.7666, y: 0.75, z: 226.36426}
+  connectedLane: {fileID: 1706651782}
+  nextWaypoint: {fileID: 2007443565}
+  previousWaypoint: {fileID: 1637063588}
+  interConnectionWaypoint: {fileID: 0}
+  index: 28
+  firstWaypoint: 0
+  lastWaypoint: 0
+  radius: 1.5
+  targetSpeed: 50
+  wait: 0
+  desiredSpeedForNextWaypoint: 49.10201
+  desiredSpeedForInterConnectionWaypoint: 50
+  distanceToNextWaypoint: 12.43835
+  distanceToInterConnectionWaypoint: 0
+  angleToNextWaypoint: 3.232769
+  angleToInterConnectionWaypoint: 0
+  ignoreGizmos: 0
+--- !u!4 &2047172745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047172743}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.99997336, z: -0, w: -0.007301504}
+  m_LocalPosition: {x: 1244.7666, y: 0.75, z: 226.36426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706651783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2047943238
 GameObject:

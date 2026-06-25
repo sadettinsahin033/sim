@@ -44,10 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/senaryo_1.unity
     guid: 3dd94d2dcc671e249ad149adf79b86c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/senaryo_2.unity
     guid: e083391dfb4b1f642a1b6747e9cd6759
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/senaryo_3.unity
     guid: 5d4209ecd4537a5448b796ed87325413
   m_configObjects:
