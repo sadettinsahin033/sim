@@ -4,18 +4,78 @@ using UnityEngine.InputSystem.Controls;
 
 public class ArduinoMotorController : MonoBehaviour
 {
+    private enum ArduinoAxisSource
+    {
+        StickX,
+        StickY,
+        Z
+    }
+
     [Header("References")]
     [SerializeField] private Rigidbody rb;
 
     [Header("Force Fixed Local X Rotation")]
     [Tooltip("X'i -90 kalması gereken ana visual root objesi. Teker/gidon verme.")]
     [SerializeField] private Transform forceMinus90Target;
-
     [SerializeField] private bool forceLocalXRotation = true;
     [SerializeField] private float forcedLocalX = -90f;
 
     [Header("Input Mode")]
     [SerializeField] private bool useKeyboardInputForTest = true;
+
+    [Header("Arduino Axis Mapping")]
+    [Tooltip("Gaz Y ekseninden okunacak.")]
+    [SerializeField] private ArduinoAxisSource throttleAxisSource = ArduinoAxisSource.StickY;
+
+    [Tooltip("Sağ-sol direksiyon X ekseninden okunacak.")]
+    [SerializeField] private ArduinoAxisSource steeringAxisSource = ArduinoAxisSource.StickX;
+
+    [Tooltip("Fren genelde Z ekseni.")]
+    [SerializeField] private ArduinoAxisSource brakeAxisSource = ArduinoAxisSource.Z;
+
+    [Header("Throttle Y Start Calibration")]
+    [Tooltip("Oyun başladığında Y ekseninin o anki değerini 0 gaz kabul eder.")]
+    [SerializeField] private bool captureThrottleBaseOnStart = true;
+
+    [Tooltip("Başlangıç Y değerinden ne kadar artınca tam gaz olsun.")]
+    [SerializeField] private float throttleFullOffset = 0.6f;
+
+    [Tooltip("Başlangıç noktasındaki küçük titreşimleri yok sayar.")]
+    [SerializeField] private float throttleDeadZone = 0.02f;
+
+    [Tooltip("Gaz ters çalışırsa aç.")]
+    [SerializeField] private bool invertThrottleAxis = false;
+
+    [SerializeField] private float throttleSmoothSpeed = 12f;
+
+    [Header("Steering X Settings")]
+    [Tooltip("Direksiyon merkezi. Joystick X ortası genelde 0'dır.")]
+    [SerializeField] private float steeringCenter = 0f;
+
+    [SerializeField] private float steeringMin = -1f;
+    [SerializeField] private float steeringMax = 1f;
+
+    [Tooltip("Direksiyon ortasındaki küçük titreşimi yok sayar.")]
+    [SerializeField] private float steeringDeadZone = 0.02f;
+
+    [SerializeField] private float steeringSmoothSpeed = 25f;
+    [SerializeField] private bool invertSteer = false;
+
+    [Header("Brake Z Start Calibration")]
+    [Tooltip("Oyun başladığında Z ekseninin o anki değerini fren bırakılmış maksimum değer kabul eder.")]
+    [SerializeField] private bool captureBrakeBaseOnStart = true;
+
+    [Tooltip("Z bu değere yaklaşınca tam fren olur. Genelde 0.")]
+    [SerializeField] private float brakeFullRaw = 0f;
+
+    [Tooltip("Fren başlangıcındaki küçük titreşimi yok sayar.")]
+    [SerializeField] private float brakeDeadZone = 0.02f;
+
+    [Tooltip("Fren yumuşatma hızı.")]
+    [SerializeField] private float brakeSmoothSpeed = 15f;
+
+    [Tooltip("Fren ters çalışırsa aç.")]
+    [SerializeField] private bool invertBrake = false;
 
     [Header("Movement Direction")]
     [Tooltip("Motor gücü hangi LOCAL eksene uygulansın? Z için (0,0,1).")]
@@ -42,17 +102,9 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private float maxGroundedUpwardVelocity = 0.1f;
     [SerializeField] private Vector3 centerOfMassOffset = new Vector3(0f, -0.6f, 0f);
 
-    [Header("Steering Settings")]
+    [Header("Steering Movement")]
     [SerializeField] private float turnSpeed = 42f;
     [SerializeField] private float minSpeedToSteer = 0.05f;
-    [SerializeField] private bool invertSteer = false;
-
-    [Header("Arduino Steering Calibration")]
-    [SerializeField] private bool autoCalibrateSteering = true;
-    [SerializeField] private float steeringMin = -0.15f;
-    [SerializeField] private float steeringMax = 0.55f;
-    [SerializeField] private float steeringSmoothSpeed = 12f;
-    [SerializeField] private float zeroHoldTime = 0.06f;
 
     [Header("Keyboard Test")]
     [SerializeField] private float keyboardSteerSmooth = 10f;
@@ -65,7 +117,7 @@ public class ArduinoMotorController : MonoBehaviour
     [SerializeField] private Transform frontWheelSteerRoot;
 
     [SerializeField] private float visualSteerAngle = 28f;
-    [SerializeField] private float visualSteerSmooth = 20f;
+    [SerializeField] private float visualSteerSmooth = 30f;
 
     [Tooltip("Gidon hangi LOCAL eksende sağ-sol dönüyorsa onu yaz.")]
     [SerializeField] private Vector3 handlebarSteerAxis = Vector3.up;
@@ -96,9 +148,6 @@ public class ArduinoMotorController : MonoBehaviour
     [Tooltip("Teker ileri giderken local X ekseninde dönsün istiyorsan (1,0,0).")]
     [SerializeField] private Vector3 rearWheelSpinAxis = Vector3.right;
 
-    [Header("Brake")]
-    [SerializeField] private bool invertBrake = false;
-
     private float steerInput;
     private float throttleInput;
     private float reverseInput;
@@ -108,11 +157,13 @@ public class ArduinoMotorController : MonoBehaviour
     private float rawY;
     private float rawZ;
 
-    private float lastNonZeroSteer;
-    private float lastNonZeroSteerTime;
+    private float throttleBaseRaw;
+    private bool throttleBaseCaptured;
 
-    private AxisControl steeringAxis;
-    private AxisControl brakeAxis;
+    private float brakeReleasedRaw;
+    private bool brakeBaseCaptured;
+
+    private AxisControl zAxis;
 
     private Quaternion handlebarStartRotation;
     private Quaternion frontWheelSteerStartRotation;
@@ -170,9 +221,7 @@ public class ArduinoMotorController : MonoBehaviour
                 return;
             }
 
-            if (steeringAxis == null || brakeAxis == null)
-                CacheControls();
-
+            CacheControls();
             ReadArduinoInput();
         }
 
@@ -215,7 +264,7 @@ public class ArduinoMotorController : MonoBehaviour
             {
                 Debug.LogWarning(
                     "UYARI: FrontWheelSpinPivot, FrontWheelSteerRoot'un child'ı değil. " +
-                    "Ön teker sağ-sol dönmeyebilir. Hiyerarşi: FrontWheelSteerRoot > FrontWheelSpinPivot > FrontWheelMesh"
+                    "Hiyerarşi şu olmalı: FrontWheelSteerRoot > FrontWheelSpinPivot > FrontWheelMesh"
                 );
             }
         }
@@ -256,8 +305,7 @@ public class ArduinoMotorController : MonoBehaviour
         if (Joystick.current == null)
             return;
 
-        steeringAxis = Joystick.current.TryGetChildControl<AxisControl>("stick/x");
-        brakeAxis = Joystick.current.TryGetChildControl<AxisControl>("z");
+        zAxis = Joystick.current.TryGetChildControl<AxisControl>("z");
     }
 
     private void ReadKeyboardInput()
@@ -312,68 +360,140 @@ public class ArduinoMotorController : MonoBehaviour
 
     private void ReadArduinoInput()
     {
-        ReadArduinoSteering();
-        ReadArduinoThrottle();
-        ReadArduinoBrake();
+        ReadArduinoRawAxes();
+
+        ReadArduinoThrottleFromY();
+        ReadArduinoSteeringFromX();
+        ReadArduinoBrakeFromZ();
 
         reverseInput = 0f;
     }
 
-    private void ReadArduinoSteering()
+    private void ReadArduinoRawAxes()
     {
-        if (steeringAxis == null)
+        rawX = 0f;
+        rawY = 0f;
+        rawZ = 0f;
+
+        if (Joystick.current == null)
+            return;
+
+        if (Joystick.current.stick != null)
+        {
+            rawX = Joystick.current.stick.x.ReadUnprocessedValue();
+            rawY = Joystick.current.stick.y.ReadUnprocessedValue();
+        }
+
+        if (zAxis != null)
+            rawZ = zAxis.ReadUnprocessedValue();
+    }
+
+    private bool TryGetArduinoAxisValue(ArduinoAxisSource source, out float value)
+    {
+        value = 0f;
+
+        switch (source)
+        {
+            case ArduinoAxisSource.StickX:
+                value = rawX;
+                return true;
+
+            case ArduinoAxisSource.StickY:
+                value = rawY;
+                return true;
+
+            case ArduinoAxisSource.Z:
+                if (zAxis == null)
+                    return false;
+
+                value = rawZ;
+                return true;
+        }
+
+        return false;
+    }
+
+    private void ReadArduinoThrottleFromY()
+    {
+        if (!TryGetArduinoAxisValue(throttleAxisSource, out float rawThrottle))
+        {
+            throttleInput = 0f;
+            return;
+        }
+
+        if (invertThrottleAxis)
+            rawThrottle *= -1f;
+
+        if (captureThrottleBaseOnStart && !throttleBaseCaptured)
+        {
+            throttleBaseRaw = rawThrottle;
+            throttleBaseCaptured = true;
+            throttleInput = 0f;
+
+            Debug.Log("Gaz Y başlangıç değeri 0 kabul edildi: " + throttleBaseRaw);
+            return;
+        }
+
+        float deltaFromStart = rawThrottle - throttleBaseRaw;
+
+        float targetThrottle = 0f;
+
+        if (deltaFromStart > throttleDeadZone)
+        {
+            targetThrottle = Mathf.InverseLerp(
+                throttleDeadZone,
+                throttleFullOffset,
+                deltaFromStart
+            );
+
+            targetThrottle = Mathf.Clamp01(targetThrottle);
+        }
+
+        throttleInput = Mathf.Lerp(
+            throttleInput,
+            targetThrottle,
+            throttleSmoothSpeed * Time.fixedDeltaTime
+        );
+    }
+
+    private void ReadArduinoSteeringFromX()
+    {
+        if (!TryGetArduinoAxisValue(steeringAxisSource, out float rawSteer))
         {
             steerInput = 0f;
             return;
         }
 
-        rawX = steeringAxis.ReadUnprocessedValue();
-
-        if (autoCalibrateSteering)
-        {
-            if (rawX < steeringMin)
-                steeringMin = rawX;
-
-            if (rawX > steeringMax)
-                steeringMax = rawX;
-        }
+        float valueFromCenter = rawSteer - steeringCenter;
 
         float targetSteer = 0f;
 
-        if (rawX < 0f)
+        if (Mathf.Abs(valueFromCenter) > steeringDeadZone)
         {
-            float range = Mathf.Abs(steeringMin);
+            if (valueFromCenter < 0f)
+            {
+                float leftRange = Mathf.Abs(steeringCenter - steeringMin);
 
-            if (range < 0.0001f)
-                range = 0.0001f;
+                if (leftRange < 0.0001f)
+                    leftRange = 0.0001f;
 
-            targetSteer = rawX / range;
-        }
-        else if (rawX > 0f)
-        {
-            float range = Mathf.Abs(steeringMax);
+                targetSteer = valueFromCenter / leftRange;
+            }
+            else
+            {
+                float rightRange = Mathf.Abs(steeringMax - steeringCenter);
 
-            if (range < 0.0001f)
-                range = 0.0001f;
+                if (rightRange < 0.0001f)
+                    rightRange = 0.0001f;
 
-            targetSteer = rawX / range;
+                targetSteer = valueFromCenter / rightRange;
+            }
         }
 
         targetSteer = Mathf.Clamp(targetSteer, -1f, 1f);
 
         if (invertSteer)
             targetSteer *= -1f;
-
-        if (Mathf.Abs(targetSteer) > 0.0001f)
-        {
-            lastNonZeroSteer = targetSteer;
-            lastNonZeroSteerTime = Time.time;
-        }
-        else
-        {
-            if (Time.time - lastNonZeroSteerTime <= zeroHoldTime)
-                targetSteer = lastNonZeroSteer;
-        }
 
         steerInput = Mathf.Lerp(
             steerInput,
@@ -382,29 +502,62 @@ public class ArduinoMotorController : MonoBehaviour
         );
     }
 
-    private void ReadArduinoThrottle()
+    private void ReadArduinoBrakeFromZ()
     {
-        rawY = Joystick.current.stick.y.ReadUnprocessedValue();
-
-        // Y = 1 iken gaz yok, Y = 0'a yaklaştıkça gaz artar.
-        throttleInput = 1f - Mathf.Clamp01(rawY);
-        throttleInput = Mathf.Clamp01(throttleInput);
-    }
-
-    private void ReadArduinoBrake()
-    {
-        if (brakeAxis == null)
+        if (!TryGetArduinoAxisValue(brakeAxisSource, out float rawBrake))
         {
-            brakeInput = 0f;
+            brakeInput = Mathf.Lerp(
+                brakeInput,
+                0f,
+                brakeSmoothSpeed * Time.fixedDeltaTime
+            );
+
             return;
         }
 
-        rawZ = brakeAxis.ReadUnprocessedValue();
-
         if (invertBrake)
-            rawZ *= -1f;
+            rawBrake *= -1f;
 
-        brakeInput = Mathf.Clamp01((rawZ + 1f) / 2f);
+        if (captureBrakeBaseOnStart && !brakeBaseCaptured)
+        {
+            brakeReleasedRaw = rawBrake;
+            brakeBaseCaptured = true;
+            brakeInput = 0f;
+
+            Debug.Log("Fren Z başlangıç değeri maksimum / bırakılmış kabul edildi: " + brakeReleasedRaw);
+            return;
+        }
+
+        // İstenen fren mantığı:
+        // Oyun başındaki Z değeri => fren 0
+        // Z bu değerden aşağı indikçe => fren artar
+        // Z brakeFullRaw değerine yaklaşınca => tam fren
+        float normalizedBrake = Mathf.InverseLerp(
+            brakeReleasedRaw,
+            brakeFullRaw,
+            rawBrake
+        );
+
+        normalizedBrake = Mathf.Clamp01(normalizedBrake);
+
+        float targetBrake = 0f;
+
+        if (normalizedBrake > brakeDeadZone)
+        {
+            targetBrake = Mathf.InverseLerp(
+                brakeDeadZone,
+                1f,
+                normalizedBrake
+            );
+
+            targetBrake = Mathf.Clamp01(targetBrake);
+        }
+
+        brakeInput = Mathf.Lerp(
+            brakeInput,
+            targetBrake,
+            brakeSmoothSpeed * Time.fixedDeltaTime
+        );
     }
 
     private void ApplyThrottle()
@@ -452,8 +605,6 @@ public class ArduinoMotorController : MonoBehaviour
         float speedFactor = Mathf.InverseLerp(0f, maxSpeed, horizontalSpeed);
         float moveFactor = Mathf.Max(throttleInput, reverseInput);
 
-        // Gidon kırılır kırılmaz tank gibi dönmesin.
-        // Gaz/hız geldikçe daha doğal yön değiştirsin.
         float steeringPower = Mathf.Lerp(
             moveFactor * 0.45f,
             speedFactor,
@@ -664,7 +815,6 @@ public class ArduinoMotorController : MonoBehaviour
             360f *
             wheelSpinMultiplier;
 
-        // İleri giderken teker local X eksi yönde dönsün.
         frontWheelSpinAngle -= degreePerSecond * Time.deltaTime;
         rearWheelSpinAngle -= degreePerSecond * Time.deltaTime;
 
@@ -760,7 +910,46 @@ public class ArduinoMotorController : MonoBehaviour
         Gizmos.DrawLine(transform.position, transform.position + moveDirection.normalized * 2f);
     }
 
-    // TELEMETRY ACCESS
+    public void RecalibrateThrottleBase()
+    {
+        if (Joystick.current == null)
+            return;
+
+        ReadArduinoRawAxes();
+
+        if (!TryGetArduinoAxisValue(throttleAxisSource, out float rawThrottle))
+            return;
+
+        if (invertThrottleAxis)
+            rawThrottle *= -1f;
+
+        throttleBaseRaw = rawThrottle;
+        throttleBaseCaptured = true;
+        throttleInput = 0f;
+
+        Debug.Log("Gaz Y başlangıç değeri yeniden 0 kabul edildi: " + throttleBaseRaw);
+    }
+
+    public void RecalibrateBrakeBase()
+    {
+        if (Joystick.current == null)
+            return;
+
+        ReadArduinoRawAxes();
+
+        if (!TryGetArduinoAxisValue(brakeAxisSource, out float rawBrake))
+            return;
+
+        if (invertBrake)
+            rawBrake *= -1f;
+
+        brakeReleasedRaw = rawBrake;
+        brakeBaseCaptured = true;
+        brakeInput = 0f;
+
+        Debug.Log("Fren Z başlangıç değeri yeniden maksimum / bırakılmış kabul edildi: " + brakeReleasedRaw);
+    }
+
     public float SteerInput => steerInput;
     public float ThrottleInput => throttleInput;
     public float ReverseInput => reverseInput;
@@ -769,6 +958,39 @@ public class ArduinoMotorController : MonoBehaviour
     public float RawX => rawX;
     public float RawY => rawY;
     public float RawZ => rawZ;
+
+    public float ThrottleBaseRaw => throttleBaseRaw;
+    public float BrakeReleasedRaw => brakeReleasedRaw;
+
+    public float ThrottleDeltaFromStart
+    {
+        get
+        {
+            if (!TryGetArduinoAxisValue(throttleAxisSource, out float value))
+                return 0f;
+
+            if (invertThrottleAxis)
+                value *= -1f;
+
+            return value - throttleBaseRaw;
+        }
+    }
+
+    public float BrakeDeltaFromReleased
+    {
+        get
+        {
+            if (!TryGetArduinoAxisValue(brakeAxisSource, out float value))
+                return 0f;
+
+            if (invertBrake)
+                value *= -1f;
+
+            return brakeReleasedRaw - value;
+        }
+    }
+
+    public float BrakeNormalized => brakeInput;
 
     public float VisualSteerAngle => currentVisualSteerAngle;
     public bool IsGrounded => isGrounded;

@@ -3,6 +3,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MotorcycleTelemetryLogger : MonoBehaviour
 {
@@ -14,6 +15,13 @@ public class MotorcycleTelemetryLogger : MonoBehaviour
     [SerializeField] private bool logOnStart = true;
     [SerializeField] private float sampleRate = 20f;
     [SerializeField] private string fileNamePrefix = "motorcycle_telemetry";
+
+    [Header("Save Location")]
+    [SerializeField] private bool saveInsideAssetsFolder = true;
+    [SerializeField] private string assetsSubFolderName = "TelemetryLogs";
+
+    [Header("Controls")]
+    [SerializeField] private bool toggleWithLKey = true;
 
     [Header("Risk Thresholds")]
     [SerializeField] private float harshBrakeThreshold = 0.75f;
@@ -44,6 +52,12 @@ public class MotorcycleTelemetryLogger : MonoBehaviour
             rb = GetComponent<Rigidbody>();
 
         sampleInterval = 1f / Mathf.Max(1f, sampleRate);
+
+        if (motorController == null)
+            Debug.LogError("TelemetryLogger: ArduinoMotorController bulunamadý. Logger MotorRoot üzerinde olmalý veya referans atanmalý.");
+
+        if (rb == null)
+            Debug.LogError("TelemetryLogger: Rigidbody bulunamadý. Logger MotorRoot üzerinde olmalý veya RB referansý atanmalý.");
     }
 
     private void Start()
@@ -54,6 +68,14 @@ public class MotorcycleTelemetryLogger : MonoBehaviour
 
     private void Update()
     {
+        if (toggleWithLKey && Keyboard.current != null && Keyboard.current.lKey.wasPressedThisFrame)
+        {
+            if (isLogging)
+                StopLogging();
+            else
+                StartLogging();
+        }
+
         if (!isLogging)
             return;
 
@@ -79,44 +101,80 @@ public class MotorcycleTelemetryLogger : MonoBehaviour
     public void StartLogging()
     {
         if (isLogging)
+        {
+            Debug.LogWarning("TelemetryLogger: Zaten kayýt yapýyor.");
             return;
+        }
 
-        string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-        string fileName = $"{fileNamePrefix}_{timestamp}.csv";
+        if (motorController == null || rb == null)
+        {
+            Debug.LogError("TelemetryLogger: Kayýt baþlatýlamadý. MotorController veya Rigidbody eksik.");
+            return;
+        }
 
-        filePath = Path.Combine(Application.persistentDataPath, fileName);
+        try
+        {
+            string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            string fileName = $"{fileNamePrefix}_{timestamp}.csv";
 
-        writer = new StreamWriter(filePath, false, Encoding.UTF8);
+            string folderPath;
 
-        writer.WriteLine(
-            "time," +
-            "position_x,position_y,position_z," +
-            "speed_ms,speed_kmh,forward_speed,sideways_speed," +
-            "acceleration_ms2," +
-            "yaw,yaw_rate," +
-            "raw_steer_x,raw_throttle_y,raw_brake_z," +
-            "steer_input,handlebar_angle,steer_rate," +
-            "throttle,brake," +
-            "is_grounded," +
-            "harsh_brake,harsh_steer,high_side_slip,high_yaw_rate," +
-            "risk_score"
-        );
+            if (saveInsideAssetsFolder)
+            {
+                folderPath = Path.Combine(Application.dataPath, assetsSubFolderName);
+            }
+            else
+            {
+                folderPath = Path.Combine(Application.persistentDataPath, assetsSubFolderName);
+            }
 
-        float now = Time.time;
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
 
-        lastTime = now;
-        lastSpeed = GetSpeed();
-        lastSteerAngle = motorController != null ? motorController.VisualSteerAngle : 0f;
-        lastYaw = GetYaw();
+            filePath = Path.Combine(folderPath, fileName);
 
-        isLogging = true;
+            writer = new StreamWriter(filePath, false, Encoding.UTF8);
 
-        Debug.Log($"Telemetry logging started: {filePath}");
+            writer.WriteLine(
+                "time," +
+                "position_x,position_y,position_z," +
+                "speed_ms,speed_kmh,forward_speed,sideways_speed," +
+                "acceleration_ms2," +
+                "yaw,yaw_rate," +
+                "raw_steer_x,raw_throttle_y,raw_brake_z," +
+                "steer_input,handlebar_angle,steer_rate," +
+                "throttle,brake," +
+                "is_grounded," +
+                "harsh_brake,harsh_steer,high_side_slip,high_yaw_rate," +
+                "risk_score"
+            );
+
+            writer.Flush();
+
+            float now = Time.time;
+
+            lastTime = now;
+            lastSpeed = GetSpeed();
+            lastSteerAngle = motorController.VisualSteerAngle;
+            lastYaw = GetYaw();
+
+            isLogging = true;
+
+            Debug.Log("========================================");
+            Debug.Log($"TelemetryLogger BAÞLADI");
+            Debug.Log($"CSV yolu: {filePath}");
+            Debug.Log("L tuþu ile kaydý durdurup baþlatabilirsin.");
+            Debug.Log("========================================");
+        }
+        catch (Exception exception)
+        {
+            Debug.LogError($"TelemetryLogger: Dosya oluþturulamadý. Hata: {exception.Message}");
+        }
     }
 
     public void StopLogging()
     {
-        if (!isLogging)
+        if (!isLogging && writer == null)
             return;
 
         isLogging = false;
@@ -128,7 +186,10 @@ public class MotorcycleTelemetryLogger : MonoBehaviour
             writer = null;
         }
 
-        Debug.Log($"Telemetry logging stopped: {filePath}");
+        Debug.Log("========================================");
+        Debug.Log($"TelemetryLogger DURDU");
+        Debug.Log($"CSV yolu: {filePath}");
+        Debug.Log("========================================");
     }
 
     private void WriteSample()
@@ -170,7 +231,7 @@ public class MotorcycleTelemetryLogger : MonoBehaviour
         float throttle = motorController.ThrottleInput;
         float brake = motorController.BrakeInput;
 
-        bool isGrounded = motorController.IsGrounded;
+        bool grounded = motorController.IsGrounded;
 
         bool harshBrake = brake >= harshBrakeThreshold && speed > 1f;
         bool harshSteer = steerRate >= harshSteerRateThreshold && speed > 1f;
@@ -209,13 +270,15 @@ public class MotorcycleTelemetryLogger : MonoBehaviour
             Format(steerRate) + "," +
             Format(throttle) + "," +
             Format(brake) + "," +
-            BoolToInt(isGrounded) + "," +
+            BoolToInt(grounded) + "," +
             BoolToInt(harshBrake) + "," +
             BoolToInt(harshSteer) + "," +
             BoolToInt(highSideSlip) + "," +
             BoolToInt(highYawRate) + "," +
             Format(riskScore)
         );
+
+        writer.Flush();
 
         lastTime = now;
         lastSpeed = speed;
