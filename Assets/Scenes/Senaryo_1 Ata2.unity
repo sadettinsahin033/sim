@@ -12975,6 +12975,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59799434}
   m_Mesh: {fileID: 4300000, guid: 378f97cc4d494714383ed1930508aee5, type: 3}
+--- !u!1 &60352231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 60352232}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &60352232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60352231}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.99, z: 4.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4831006151976145466}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &60399363
 GameObject:
   m_ObjectHideFlags: 0
@@ -63432,6 +63463,7 @@ GameObject:
   - component: {fileID: 348194326}
   - component: {fileID: 348194327}
   - component: {fileID: 348194328}
+  - component: {fileID: 348194329}
   m_Layer: 0
   m_Name: LeftEyeAnchor
   m_TagString: MainCamera
@@ -63549,6 +63581,24 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &348194329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348194325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dd40a6d175d01498e0477360d6c070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.VR::OVREyeGaze
+  Eye: 0
+  ConfidenceThreshold: 0.5
+  ApplyPosition: 1
+  ApplyRotation: 1
+  ReferenceFrame: {fileID: 0}
+  TrackingMode: 0
 --- !u!1 &348269295
 GameObject:
   m_ObjectHideFlags: 0
@@ -76380,6 +76430,111 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e0ce21b0374be478b552db802230bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RTC_CarController
+--- !u!1 &416077729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416077733}
+  - component: {fileID: 416077732}
+  - component: {fileID: 416077731}
+  - component: {fileID: 416077730}
+  m_Layer: 0
+  m_Name: GazeSceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &416077730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416077729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87db702f9132054b8b19cf7c32114e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GazeSceneLogger
+  gazeProvider: {fileID: 416077732}
+  sceneContext: {fileID: 416077731}
+  drivingForwardReference: {fileID: 60352232}
+  noHitForwardHorizontalAngle: 35
+  maxDistance: 25
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  triggerInteraction: 2
+  preferSpecificAOIOverForwardView: 1
+  drawDebugRay: 1
+  confidenceThreshold: 0.3
+  originSmoothSpeed: 12
+  directionSmoothSpeed: 12
+  fixationThreshold: 0.2
+  irrelevantWarningThreshold: 2
+  startLoggingOnPlay: 1
+  sampleRateHz: 10
+  logFilePath: 1
+--- !u!114 &416077731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416077729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b588904572540c3498f4e951730b680b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GazeSceneContext
+  participantId: P001
+  sessionId: 
+  scenarioId: Scenario_01
+  scenarioName: Basic Ride
+  scenarioDifficulty: Easy
+  scenarioDifficultyLevel: 1
+  currentEventTag: None
+  currentEventDescription: Normal driving
+  currentEventSeverity: Low
+  expectedReaction: KeepForwardAttention
+--- !u!114 &416077732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416077729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b7c7631c57bcf4fbf7de99a65a457f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CombinedEyeGazeProvider
+  leftEyeTransform: {fileID: 348194326}
+  leftEyeGaze: {fileID: 348194329}
+  rightEyeTransform: {fileID: 1491363082}
+  rightEyeGaze: {fileID: 1491363085}
+  minimumConfidence: 0.3
+  useSingleEyeIfOtherInvalid: 1
+--- !u!4 &416077733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416077729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.51265, y: 0.09713, z: 12.04931}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &417101093
 GameObject:
   m_ObjectHideFlags: 0
@@ -224419,6 +224574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1253120908}
+  - component: {fileID: 1253120909}
   m_Layer: 0
   m_Name: city
   m_TagString: Untagged
@@ -224444,6 +224600,23 @@ Transform:
   - {fileID: 362103675}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1253120909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253120907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e5377b4ea9ac44c9fd46ff6f2b8226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GazeTarget
+  aoiType: 6
+  targetId: city
+  displayName: city
+  overrideRelevance: 0
+  relevanceOverride: 0
 --- !u!1 &1253913704
 GameObject:
   m_ObjectHideFlags: 0
@@ -226405,7 +226578,7 @@ MonoBehaviour:
   shouldBoundaryVisibilityBeSuppressed: 0
   requestBodyTrackingPermissionOnStartup: 0
   requestFaceTrackingPermissionOnStartup: 0
-  requestEyeTrackingPermissionOnStartup: 0
+  requestEyeTrackingPermissionOnStartup: 1
   requestScenePermissionOnStartup: 0
   requestRecordAudioPermissionOnStartup: 0
   requestPassthroughCameraAccessPermissionOnStartup: 0
@@ -267929,6 +268102,7 @@ GameObject:
   - component: {fileID: 1491363082}
   - component: {fileID: 1491363083}
   - component: {fileID: 1491363084}
+  - component: {fileID: 1491363085}
   m_Layer: 0
   m_Name: RightEyeAnchor
   m_TagString: Untagged
@@ -268046,6 +268220,24 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1491363085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491363081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dd40a6d175d01498e0477360d6c070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.VR::OVREyeGaze
+  Eye: 1
+  ConfidenceThreshold: 0.5
+  ApplyPosition: 1
+  ApplyRotation: 1
+  ReferenceFrame: {fileID: 0}
+  TrackingMode: 0
 --- !u!1 &1491401832
 GameObject:
   m_ObjectHideFlags: 0
@@ -387481,6 +387673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2042914421}
+  - component: {fileID: 2042914422}
   m_Layer: 0
   m_Name: "trafik_levhalar\u0131 (1)"
   m_TagString: Untagged
@@ -387535,6 +387728,23 @@ Transform:
   - {fileID: 1261765406}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2042914422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042914420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e5377b4ea9ac44c9fd46ff6f2b8226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GazeTarget
+  aoiType: 0
+  targetId: "trafik_levhalar\u0131 (1)"
+  displayName: "trafik_levhalar\u0131 (1)"
+  overrideRelevance: 0
+  relevanceOverride: 0
 --- !u!1 &2043340222
 GameObject:
   m_ObjectHideFlags: 0
@@ -419160,6 +419370,7 @@ Transform:
   m_Children:
   - {fileID: 8688148581060538650}
   - {fileID: 5379630716335340129}
+  - {fileID: 60352232}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &4839706593769395706
@@ -425435,6 +425646,7 @@ GameObject:
   - component: {fileID: 3667916925435380248}
   - component: {fileID: 8147692507934436779}
   - component: {fileID: 4503224937896904027}
+  - component: {fileID: 8147692507934436780}
   m_Layer: 0
   m_Name: Gidon
   m_TagString: Untagged
@@ -427286,8 +427498,35 @@ PrefabInstance:
         type: 3}
       insertIndex: 0
       addedObject: {fileID: 311922538}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6456363405161935073, guid: d37c84bfb8ca47345bab04e1a6c622c5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7971740274406834710}
   m_SourcePrefab: {fileID: 100100000, guid: d37c84bfb8ca47345bab04e1a6c622c5, type: 3}
+--- !u!1 &7971740274406834709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6456363405161935073, guid: d37c84bfb8ca47345bab04e1a6c622c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7971740274406834708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7971740274406834710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971740274406834709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e5377b4ea9ac44c9fd46ff6f2b8226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GazeTarget
+  aoiType: 5
+  targetId: TabletDisplay01
+  displayName: TabletDisplay01
+  overrideRelevance: 0
+  relevanceOverride: 0
 --- !u!1 &7973336480132071869
 GameObject:
   m_ObjectHideFlags: 0
@@ -427787,6 +428026,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7325837275133427965}
   m_Mesh: {fileID: 8552134717624371188, guid: cc5ac5d4f4f1d2a479428617a0fd83db, type: 3}
+--- !u!114 &8147692507934436780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7325837275133427965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e5377b4ea9ac44c9fd46ff6f2b8226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GazeTarget
+  aoiType: 4
+  targetId: Gidon
+  displayName: Gidon
+  overrideRelevance: 0
+  relevanceOverride: 0
 --- !u!224 &8151426706600609804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -430738,3 +430994,4 @@ SceneRoots:
   - {fileID: 2023008278}
   - {fileID: 67874971}
   - {fileID: 4831006151976145466}
+  - {fileID: 416077733}
