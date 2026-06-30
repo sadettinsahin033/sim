@@ -50,8 +50,13 @@ MonoBehaviour:
     zFailOperation: 0
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 3
+<<<<<<< HEAD
   m_DepthPrimingMode: 2
   m_CopyDepthMode: 2
+=======
+  m_DepthPrimingMode: 1
+  m_CopyDepthMode: 0
+>>>>>>> main
   m_DepthAttachmentFormat: 0
   m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
